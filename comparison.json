@@ -1,0 +1,4254 @@
+{
+  "aggregate_only": true,
+  "protocol": {
+    "run_id": "20261020T120637Z-34ecb1",
+    "scope": "Internal robustness evaluation of a previously inspected cohort; not fresh independent validation.",
+    "reference_version": "20261018T064051Z-6f7d0f",
+    "split_seeds": [
+      2026,
+      2027,
+      2028
+    ],
+    "horizon_minutes": 60
+  },
+  "summary": {
+    "models": {
+      "current": {
+        "event_recall": {
+          "values": [
+            0.8231292517006803,
+            0.8082191780821918,
+            0.7532467532467533
+          ],
+          "mean": 0.7948650610098751,
+          "min": 0.7532467532467533,
+          "max": 0.8231292517006803
+        },
+        "false_alerts_per_patient_day": {
+          "values": [
+            1.5320604160729552,
+            0.8484178963150004,
+            0.9258690982420762
+          ],
+          "mean": 1.102115803543344,
+          "min": 0.8484178963150004,
+          "max": 1.5320604160729552
+        },
+        "median_lead_minutes": {
+          "values": [
+            30.0,
+            15.0,
+            15.0
+          ],
+          "mean": 20.0,
+          "min": 15.0,
+          "max": 30.0
+        },
+        "mean_lead_minutes": {
+          "values": [
+            29.132231404958677,
+            27.050847457627118,
+            24.95689655172414
+          ],
+          "mean": 27.046658471436643,
+          "min": 24.95689655172414,
+          "max": 29.132231404958677
+        },
+        "caught_warned_30m_fraction": {
+          "values": [
+            0.5454545454545454,
+            0.47796610169491527,
+            0.3879310344827586
+          ],
+          "mean": 0.47045056054407314,
+          "min": 0.3879310344827586,
+          "max": 0.5454545454545454
+        },
+        "brier": {
+          "values": [
+            0.04739998172704694,
+            0.04794131848913024,
+            0.04712009582908873
+          ],
+          "mean": 0.04748713201508864,
+          "min": 0.04712009582908873,
+          "max": 0.04794131848913024
+        },
+        "average_precision": {
+          "values": [
+            0.45035193495606457,
+            0.5310533439219542,
+            0.46124902853798116
+          ],
+          "mean": 0.4808847691386666,
+          "min": 0.45035193495606457,
+          "max": 0.5310533439219542
+        }
+      },
+      "plus_meal_timing": {
+        "event_recall": {
+          "values": [
+            0.782312925170068,
+            0.7863013698630137,
+            0.762987012987013
+          ],
+          "mean": 0.7772004360066983,
+          "min": 0.762987012987013,
+          "max": 0.7863013698630137
+        },
+        "false_alerts_per_patient_day": {
+          "values": [
+            1.1125676831005984,
+            0.9090191746232148,
+            0.97216255315418
+          ],
+          "mean": 0.9979164702926644,
+          "min": 0.9090191746232148,
+          "max": 1.1125676831005984
+        },
+        "median_lead_minutes": {
+          "values": [
+            15.0,
+            30.0,
+            15.0
+          ],
+          "mean": 20.0,
+          "min": 15.0,
+          "max": 30.0
+        },
+        "mean_lead_minutes": {
+          "values": [
+            26.73913043478261,
+            27.909407665505228,
+            24.574468085106382
+          ],
+          "mean": 26.40766872846474,
+          "min": 24.574468085106382,
+          "max": 27.909407665505228
+        },
+        "caught_warned_30m_fraction": {
+          "values": [
+            0.4652173913043478,
+            0.5156794425087108,
+            0.39574468085106385
+          ],
+          "mean": 0.45888050488804083,
+          "min": 0.39574468085106385,
+          "max": 0.5156794425087108
+        },
+        "brier": {
+          "values": [
+            0.04735847976042771,
+            0.04814346110761419,
+            0.04757578302227047
+          ],
+          "mean": 0.04769257463010412,
+          "min": 0.04735847976042771,
+          "max": 0.04814346110761419
+        },
+        "average_precision": {
+          "values": [
+            0.45171979984365396,
+            0.5185530752226113,
+            0.450277173897103
+          ],
+          "mean": 0.47351668298778943,
+          "min": 0.450277173897103,
+          "max": 0.5185530752226113
+        }
+      },
+      "plus_premeal_glucose": {
+        "event_recall": {
+          "values": [
+            0.8367346938775511,
+            0.8027397260273973,
+            0.724025974025974
+          ],
+          "mean": 0.7878334646436409,
+          "min": 0.724025974025974,
+          "max": 0.8367346938775511
+        },
+        "false_alerts_per_patient_day": {
+          "values": [
+            1.500142490738102,
+            0.863568215892054,
+            0.8332821884178685
+          ],
+          "mean": 1.0656642983493414,
+          "min": 0.8332821884178685,
+          "max": 1.500142490738102
+        },
+        "median_lead_minutes": {
+          "values": [
+            30.0,
+            30.0,
+            15.0
+          ],
+          "mean": 25.0,
+          "min": 15.0,
+          "max": 30.0
+        },
+        "mean_lead_minutes": {
+          "values": [
+            29.146341463414632,
+            27.542662116040955,
+            24.484304932735427
+          ],
+          "mean": 27.05776950406367,
+          "min": 24.484304932735427,
+          "max": 29.146341463414632
+        },
+        "caught_warned_30m_fraction": {
+          "values": [
+            0.5447154471544715,
+            0.5119453924914675,
+            0.3811659192825112
+          ],
+          "mean": 0.47927558630948336,
+          "min": 0.3811659192825112,
+          "max": 0.5447154471544715
+        },
+        "brier": {
+          "values": [
+            0.0470940666448781,
+            0.04790035488884645,
+            0.04698935449587034
+          ],
+          "mean": 0.047327925343198296,
+          "min": 0.04698935449587034,
+          "max": 0.04790035488884645
+        },
+        "average_precision": {
+          "values": [
+            0.45249969576100785,
+            0.5228905790343128,
+            0.4590694817675753
+          ],
+          "mean": 0.478153252187632,
+          "min": 0.45249969576100785,
+          "max": 0.5228905790343128
+        }
+      },
+      "trend_baseline": {
+        "event_recall": {
+          "values": [
+            0.8061224489795918,
+            0.7945205479452054,
+            0.8311688311688312
+          ],
+          "mean": 0.8106039426978762,
+          "min": 0.7945205479452054,
+          "max": 0.8311688311688312
+        },
+        "false_alerts_per_patient_day": {
+          "values": [
+            1.427187232829866,
+            0.9544701333543755,
+            1.132085397395993
+          ],
+          "mean": 1.1712475878600783,
+          "min": 0.9544701333543755,
+          "max": 1.427187232829866
+        },
+        "median_lead_minutes": {
+          "values": [
+            15.0,
+            15.0,
+            15.0
+          ],
+          "mean": 15.0,
+          "min": 15.0,
+          "max": 15.0
+        },
+        "mean_lead_minutes": {
+          "values": [
+            25.759493670886076,
+            25.448275862068964,
+            22.79296875
+          ],
+          "mean": 24.666912760985014,
+          "min": 22.79296875,
+          "max": 25.759493670886076
+        },
+        "caught_warned_30m_fraction": {
+          "values": [
+            0.4810126582278481,
+            0.4689655172413793,
+            0.375
+          ],
+          "mean": 0.4416593918230758,
+          "min": 0.375,
+          "max": 0.4810126582278481
+        },
+        "brier": {
+          "values": [
+            0.05136056024278398,
+            0.05122558673340108,
+            0.051977952013745464
+          ],
+          "mean": 0.05152136632997684,
+          "min": 0.05122558673340108,
+          "max": 0.051977952013745464
+        },
+        "average_precision": {
+          "values": [
+            0.38833647047980246,
+            0.4633671295134446,
+            0.3772421096272656
+          ],
+          "mean": 0.40964856987350423,
+          "min": 0.3772421096272656,
+          "max": 0.4633671295134446
+        }
+      },
+      "tuned_current": {
+        "event_recall": {
+          "values": [
+            0.826530612244898,
+            0.821917808219178,
+            0.7694805194805194
+          ],
+          "mean": 0.8059763133148653,
+          "min": 0.7694805194805194,
+          "max": 0.826530612244898
+        },
+        "false_alerts_per_patient_day": {
+          "values": [
+            1.390709603875748,
+            0.8484178963150004,
+            0.997413528560782
+          ],
+          "mean": 1.0788470095838434,
+          "min": 0.8484178963150004,
+          "max": 1.390709603875748
+        },
+        "median_lead_minutes": {
+          "values": [
+            30.0,
+            15.0,
+            15.0
+          ],
+          "mean": 20.0,
+          "min": 15.0,
+          "max": 30.0
+        },
+        "mean_lead_minutes": {
+          "values": [
+            27.77777777777778,
+            26.4,
+            25.253164556962027
+          ],
+          "mean": 26.4769807782466,
+          "min": 25.253164556962027,
+          "max": 27.77777777777778
+        },
+        "caught_warned_30m_fraction": {
+          "values": [
+            0.5185185185185185,
+            0.45666666666666667,
+            0.43037974683544306
+          ],
+          "mean": 0.46852164400687607,
+          "min": 0.43037974683544306,
+          "max": 0.5185185185185185
+        },
+        "brier": {
+          "values": [
+            0.04718286892563039,
+            0.04744288687546123,
+            0.04758135293572739
+          ],
+          "mean": 0.047402369578939674,
+          "min": 0.04718286892563039,
+          "max": 0.04758135293572739
+        },
+        "average_precision": {
+          "values": [
+            0.45547064076637606,
+            0.5334748590364261,
+            0.4538808224611703
+          ],
+          "mean": 0.4809421074213242,
+          "min": 0.4538808224611703,
+          "max": 0.5334748590364261
+        }
+      },
+      "tuned_plus_meal_timing": {
+        "event_recall": {
+          "values": [
+            0.8435374149659864,
+            0.8191780821917808,
+            0.7954545454545454
+          ],
+          "mean": 0.8193900142041043,
+          "min": 0.7954545454545454,
+          "max": 0.8435374149659864
+        },
+        "false_alerts_per_patient_day": {
+          "values": [
+            1.3359931604445712,
+            0.844630316420737,
+            1.0984174301871903
+          ],
+          "mean": 1.0930136356841662,
+          "min": 0.844630316420737,
+          "max": 1.3359931604445712
+        },
+        "median_lead_minutes": {
+          "values": [
+            30.0,
+            15.0,
+            15.0
+          ],
+          "mean": 20.0,
+          "min": 15.0,
+          "max": 30.0
+        },
+        "mean_lead_minutes": {
+          "values": [
+            28.366935483870968,
+            26.839464882943144,
+            25.285714285714285
+          ],
+          "mean": 26.83070488417613,
+          "min": 25.285714285714285,
+          "max": 28.366935483870968
+        },
+        "caught_warned_30m_fraction": {
+          "values": [
+            0.5161290322580645,
+            0.47157190635451507,
+            0.4204081632653061
+          ],
+          "mean": 0.4693697006259619,
+          "min": 0.4204081632653061,
+          "max": 0.5161290322580645
+        },
+        "brier": {
+          "values": [
+            0.04657079889855956,
+            0.04764404058699056,
+            0.04735298293850362
+          ],
+          "mean": 0.047189274141351246,
+          "min": 0.04657079889855956,
+          "max": 0.04764404058699056
+        },
+        "average_precision": {
+          "values": [
+            0.4609964345893494,
+            0.5274168411788918,
+            0.45451141318674304
+          ],
+          "mean": 0.48097489631832807,
+          "min": 0.45451141318674304,
+          "max": 0.5274168411788918
+        }
+      },
+      "tuned_plus_premeal_glucose": {
+        "event_recall": {
+          "values": [
+            0.8061224489795918,
+            0.8164383561643835,
+            0.7727272727272727
+          ],
+          "mean": 0.798429359290416,
+          "min": 0.7727272727272727,
+          "max": 0.8164383561643835
+        },
+        "false_alerts_per_patient_day": {
+          "values": [
+            1.1080079794813338,
+            0.8787185354691076,
+            1.0479154793739862
+          ],
+          "mean": 1.011547331441476,
+          "min": 0.8787185354691076,
+          "max": 1.1080079794813338
+        },
+        "median_lead_minutes": {
+          "values": [
+            15.0,
+            15.0,
+            15.0
+          ],
+          "mean": 15.0,
+          "min": 15.0,
+          "max": 15.0
+        },
+        "mean_lead_minutes": {
+          "values": [
+            27.531645569620252,
+            26.72818791946309,
+            25.27310924369748
+          ],
+          "mean": 26.510980910926943,
+          "min": 25.27310924369748,
+          "max": 27.531645569620252
+        },
+        "caught_warned_30m_fraction": {
+          "values": [
+            0.46835443037974683,
+            0.4697986577181208,
+            0.42436974789915966
+          ],
+          "mean": 0.4541742786656758,
+          "min": 0.42436974789915966,
+          "max": 0.4697986577181208
+        },
+        "brier": {
+          "values": [
+            0.04638472782057684,
+            0.04713846979625995,
+            0.04727148534892672
+          ],
+          "mean": 0.04693156098858784,
+          "min": 0.04638472782057684,
+          "max": 0.04727148534892672
+        },
+        "average_precision": {
+          "values": [
+            0.4643778987191894,
+            0.538821533587008,
+            0.4611771778902848
+          ],
+          "mean": 0.4881255367321608,
+          "min": 0.4611771778902848,
+          "max": 0.538821533587008
+        }
+      }
+    },
+    "paired_differences": {
+      "plus_meal_timing": {
+        "event_recall": [
+          -0.04081632653061229,
+          -0.021917808219178103,
+          0.009740259740259716
+        ],
+        "false_alerts_per_patient_day": [
+          -0.4194927329723568,
+          0.06060127830821438,
+          0.04629345491210379
+        ],
+        "median_lead_minutes": [
+          -15.0,
+          15.0,
+          0.0
+        ],
+        "mean_lead_minutes": [
+          -2.393100970176068,
+          0.85856020787811,
+          -0.38242846661775687
+        ],
+        "caught_warned_30m_fraction": [
+          -0.08023715415019761,
+          0.037713340813795515,
+          0.007813646368305227
+        ],
+        "brier": [
+          -4.150196661922845e-05,
+          0.000202142618483947,
+          0.0004556871931817377
+        ],
+        "average_precision": [
+          0.0013678648875893873,
+          -0.012500268699342953,
+          -0.010971854640878187
+        ]
+      },
+      "plus_premeal_glucose": {
+        "event_recall": [
+          0.013605442176870763,
+          -0.005479452054794498,
+          -0.02922077922077926
+        ],
+        "false_alerts_per_patient_day": [
+          -0.03191792533485316,
+          0.015150319577053595,
+          -0.0925869098242077
+        ],
+        "median_lead_minutes": [
+          0.0,
+          15.0,
+          0.0
+        ],
+        "mean_lead_minutes": [
+          0.014110058455955254,
+          0.491814658413837,
+          -0.47259161898871227
+        ],
+        "caught_warned_30m_fraction": [
+          -0.0007390983000739038,
+          0.033979290796552264,
+          -0.006765115200247418
+        ],
+        "brier": [
+          -0.00030591508216883806,
+          -4.096360028379292e-05,
+          -0.0001307413332183871
+        ],
+        "average_precision": [
+          0.0021477608049432773,
+          -0.00816276488764145,
+          -0.0021795467704058824
+        ]
+      },
+      "trend_baseline": {
+        "event_recall": [
+          -0.017006802721088454,
+          -0.013698630136986356,
+          0.07792207792207795
+        ],
+        "false_alerts_per_patient_day": [
+          -0.10487318324308914,
+          0.10605223703937505,
+          0.20621629915391682
+        ],
+        "median_lead_minutes": [
+          -15.0,
+          0.0,
+          0.0
+        ],
+        "mean_lead_minutes": [
+          -3.372737734072601,
+          -1.6025715955581532,
+          -2.163927801724139
+        ],
+        "caught_warned_30m_fraction": [
+          -0.0644418872266973,
+          -0.009000584453535965,
+          -0.012931034482758619
+        ],
+        "brier": [
+          0.003960578515737043,
+          0.0032842682442708396,
+          0.004857856184656735
+        ],
+        "average_precision": [
+          -0.062015464476262105,
+          -0.06768621440850964,
+          -0.08400691891071554
+        ]
+      },
+      "tuned_current": {
+        "event_recall": [
+          0.003401360544217691,
+          0.013698630136986245,
+          0.016233766233766156
+        ],
+        "false_alerts_per_patient_day": [
+          -0.14135081219720713,
+          0.0,
+          0.07154443031870583
+        ],
+        "median_lead_minutes": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean_lead_minutes": [
+          -1.3544536271808987,
+          -0.650847457627119,
+          0.2962680052378879
+        ],
+        "caught_warned_30m_fraction": [
+          -0.026936026936026924,
+          -0.021299435028248603,
+          0.04244871235268444
+        ],
+        "brier": [
+          -0.00021711280141654965,
+          -0.000498431613669012,
+          0.0004612571066386628
+        ],
+        "average_precision": [
+          0.005118705810311486,
+          0.0024215151144718616,
+          -0.007368206076810879
+        ]
+      },
+      "tuned_plus_meal_timing": {
+        "event_recall": [
+          0.020408163265306145,
+          0.010958904109588996,
+          0.04220779220779214
+        ],
+        "false_alerts_per_patient_day": [
+          -0.196067255628384,
+          -0.003787579894263371,
+          0.1725483319451141
+        ],
+        "median_lead_minutes": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean_lead_minutes": [
+          -0.7652959210877093,
+          -0.2113825746839737,
+          0.3288177339901459
+        ],
+        "caught_warned_30m_fraction": [
+          -0.029325513196480912,
+          -0.0063941953404001994,
+          0.03247712878254749
+        ],
+        "brier": [
+          -0.0008291828284873806,
+          -0.00029727790213968097,
+          0.00023288710941488794
+        ],
+        "average_precision": [
+          0.010644499633284843,
+          -0.0036365027430624863,
+          -0.006737615351238124
+        ]
+      },
+      "tuned_plus_premeal_glucose": {
+        "event_recall": [
+          -0.017006802721088454,
+          0.008219178082191747,
+          0.01948051948051943
+        ],
+        "false_alerts_per_patient_day": [
+          -0.4240524365916214,
+          0.03030063915410719,
+          0.12204638113191002
+        ],
+        "median_lead_minutes": [
+          -15.0,
+          0.0,
+          0.0
+        ],
+        "mean_lead_minutes": [
+          -1.6005858353384248,
+          -0.3226595381640287,
+          0.316212691973341
+        ],
+        "caught_warned_30m_fraction": [
+          -0.07710011507479858,
+          -0.008167443976794475,
+          0.036438713416401036
+        ],
+        "brier": [
+          -0.0010152539064700941,
+          -0.0008028486928702908,
+          0.00015138951983799387
+        ],
+        "average_precision": [
+          0.014025963763124816,
+          0.007768189665053771,
+          -7.185064769638094e-05
+        ]
+      }
+    },
+    "aggregation": "Unweighted mean and min/max across runs. Patients overlap between runs; these are descriptive ranges, not independent confidence intervals. Lead-time summaries average run summaries."
+  },
+  "recommended_settings": {
+    "name": "shorter",
+    "learning_rate": 0.05,
+    "max_iter": 140,
+    "max_leaf_nodes": 15,
+    "min_samples_leaf": 80,
+    "l2_regularization": 10
+  },
+  "runs": [
+    {
+      "seed": 2026,
+      "models": {
+        "current": {
+          "feature_count": 54,
+          "threshold": 0.28,
+          "threshold_group": {
+            "event_recall": 0.8428571428571429,
+            "false_alerts_per_patient_day": 0.9838239726715564,
+            "median_lead_minutes": 30.0,
+            "event_count": 140,
+            "caught_events": 118,
+            "alerts": 220,
+            "false_alerts": 102,
+            "monitored_days": 103.67708333333333,
+            "threshold": 0.28,
+            "windows": 7246,
+            "positive_windows": 528,
+            "brier": 0.04532790052243465,
+            "average_precision": 0.5696932156560951,
+            "roc_auc": 0.9289614852003212,
+            "calibration_bins": [
+              {
+                "mean_probability": 0.014015528432993205,
+                "observed_frequency": 0.02183336008990207,
+                "count": 6229
+              },
+              {
+                "mean_probability": 0.14427344388668373,
+                "observed_frequency": 0.19943019943019943,
+                "count": 351
+              },
+              {
+                "mean_probability": 0.24921328716008692,
+                "observed_frequency": 0.28921568627450983,
+                "count": 204
+              },
+              {
+                "mean_probability": 0.3449425169728838,
+                "observed_frequency": 0.4326241134751773,
+                "count": 141
+              },
+              {
+                "mean_probability": 0.45127117482951423,
+                "observed_frequency": 0.46788990825688076,
+                "count": 109
+              },
+              {
+                "mean_probability": 0.550426753736883,
+                "observed_frequency": 0.6125,
+                "count": 80
+              },
+              {
+                "mean_probability": 0.6436465935307722,
+                "observed_frequency": 0.6065573770491803,
+                "count": 61
+              },
+              {
+                "mean_probability": 0.7464897706243027,
+                "observed_frequency": 0.9,
+                "count": 50
+              },
+              {
+                "mean_probability": 0.8465277729401276,
+                "observed_frequency": 0.9523809523809523,
+                "count": 21
+              }
+            ],
+            "patient_bootstrap_95ci": {
+              "event_recall": [
+                0.7419031622842581,
+                0.8859952425452383
+              ],
+              "false_alerts_per_patient_day": [
+                0.5605122912631518,
+                1.4514620248481953
+              ]
+            },
+            "mean_lead_minutes": 30.635593220338983,
+            "caught_warned_30m_fraction": 0.5932203389830508
+          },
+          "evaluation": {
+            "event_recall": 0.8231292517006803,
+            "false_alerts_per_patient_day": 1.5320604160729552,
+            "median_lead_minutes": 30.0,
+            "event_count": 294,
+            "caught_events": 242,
+            "alerts": 578,
+            "false_alerts": 336,
+            "monitored_days": 219.3125,
+            "threshold": 0.28,
+            "windows": 16379,
+            "positive_windows": 1104,
+            "brier": 0.04739998172704694,
+            "average_precision": 0.45035193495606457,
+            "roc_auc": 0.9020195569154866,
+            "calibration_bins": [
+              {
+                "mean_probability": 0.017130671194942885,
+                "observed_frequency": 0.02288513562915844,
+                "count": 13677
+              },
+              {
+                "mean_probability": 0.14263597503214745,
+                "observed_frequency": 0.15265700483091788,
+                "count": 1035
+              },
+              {
+                "mean_probability": 0.2464650977698184,
+                "observed_frequency": 0.21936758893280633,
+                "count": 506
+              },
+              {
+                "mean_probability": 0.34756879803300417,
+                "observed_frequency": 0.29315068493150687,
+                "count": 365
+              },
+              {
+                "mean_probability": 0.44857926263694886,
+                "observed_frequency": 0.4078014184397163,
+                "count": 282
+              },
+              {
+                "mean_probability": 0.5454080605836618,
+                "observed_frequency": 0.4603960396039604,
+                "count": 202
+              },
+              {
+                "mean_probability": 0.6457687025929626,
+                "observed_frequency": 0.5629139072847682,
+                "count": 151
+              },
+              {
+                "mean_probability": 0.7460097700723424,
+                "observed_frequency": 0.7291666666666666,
+                "count": 96
+              },
+              {
+                "mean_probability": 0.8415678959601574,
+                "observed_frequency": 0.7868852459016393,
+                "count": 61
+              },
+              {
+                "mean_probability": 0.9257483336420305,
+                "observed_frequency": 1.0,
+                "count": 4
+              }
+            ],
+            "patient_bootstrap_95ci": {
+              "event_recall": [
+                0.7653008946868596,
+                0.8715617835586955
+              ],
+              "false_alerts_per_patient_day": [
+                1.2431866152594453,
+                1.8333880645206337
+              ]
+            },
+            "mean_lead_minutes": 29.132231404958677,
+            "caught_warned_30m_fraction": 0.5454545454545454
+          },
+          "model_sha256": "a1e95e88e1bd52342df6e25afa379af16bf040ecf74df2a1b249168210e1cdc7"
+        },
+        "plus_meal_timing": {
+          "feature_count": 72,
+          "threshold": 0.36000000000000004,
+          "threshold_group": {
+            "event_recall": 0.8214285714285714,
+            "false_alerts_per_patient_day": 0.7330453129709635,
+            "median_lead_minutes": 15.0,
+            "event_count": 140,
+            "caught_events": 115,
+            "alerts": 191,
+            "false_alerts": 76,
+            "monitored_days": 103.67708333333333,
+            "threshold": 0.36000000000000004,
+            "windows": 7246,
+            "positive_windows": 528,
+            "brier": 0.04566973231565972,
+            "average_precision": 0.5619505694961441,
+            "roc_auc": 0.9286447479408555,
+            "calibration_bins": [
+              {
+                "mean_probability": 0.013430291837901731,
+                "observed_frequency": 0.022094140249759846,
+                "count": 6246
+              },
+              {
+                "mean_probability": 0.144237140962263,
+                "observed_frequency": 0.20461095100864554,
+                "count": 347
+              },
+              {
+                "mean_probability": 0.2496416119729896,
+                "observed_frequency": 0.31794871794871793,
+                "count": 195
+              },
+              {
+                "mean_probability": 0.3465363360549097,
+                "observed_frequency": 0.41007194244604317,
+                "count": 139
+              },
+              {
+                "mean_probability": 0.44365021661880255,
+                "observed_frequency": 0.4649122807017544,
+                "count": 114
+              },
+              {
+                "mean_probability": 0.5435547909605984,
+                "observed_frequency": 0.625,
+                "count": 80
+              },
+              {
+                "mean_probability": 0.6487984094852758,
+                "observed_frequency": 0.6491228070175439,
+                "count": 57
+              },
+              {
+                "mean_probability": 0.7496600763283633,
+                "observed_frequency": 0.8478260869565217,
+                "count": 46
+              },
+              {
+                "mean_probability": 0.8453693946925023,
+                "observed_frequency": 0.9523809523809523,
+                "count": 21
+              },
+              {
+                "mean_probability": 0.90438278012137,
+                "observed_frequency": 1.0,
+                "count": 1
+              }
+            ],
+            "patient_bootstrap_95ci": {
+              "event_recall": [
+                0.6389137931034483,
+                0.8940656565656565
+              ],
+              "false_alerts_per_patient_day": [
+                0.410284522861455,
+                1.0930740801450751
+              ]
+            },
+            "mean_lead_minutes": 26.47826086956522,
+            "caught_warned_30m_fraction": 0.46956521739130436
+          },
+          "evaluation": {
+            "event_recall": 0.782312925170068,
+            "false_alerts_per_patient_day": 1.1125676831005984,
+            "median_lead_minutes": 15.0,
+            "event_count": 294,
+            "caught_events": 230,
+            "alerts": 474,
+            "false_alerts": 244,
+            "monitored_days": 219.3125,
+            "threshold": 0.36000000000000004,
+            "windows": 16379,
+            "positive_windows": 1104,
+            "brier": 0.04735847976042771,
+            "average_precision": 0.45171979984365396,
+            "roc_auc": 0.9043895728077042,
+            "calibration_bins": [
+              {
+                "mean_probability": 0.016761302424567286,
+                "observed_frequency": 0.022950105309027524,
+                "count": 13769
+              },
+              {
+                "mean_probability": 0.1433795615889017,
+                "observed_frequency": 0.1629327902240326,
+                "count": 982
+              },
+              {
+                "mean_probability": 0.24516928520339448,
+                "observed_frequency": 0.23076923076923078,
+                "count": 494
+              },
+              {
+                "mean_probability": 0.34669459011265313,
+                "observed_frequency": 0.2994011976047904,
+                "count": 334
+              },
+              {
+                "mean_probability": 0.4492000698089141,
+                "observed_frequency": 0.3885135135135135,
+                "count": 296
+              },
+              {
+                "mean_probability": 0.5444475054634703,
+                "observed_frequency": 0.46568627450980393,
+                "count": 204
+              },
+              {
+                "mean_probability": 0.6477741137841289,
+                "observed_frequency": 0.6180555555555556,
+                "count": 144
+              },
+              {
+                "mean_probability": 0.7475637651783495,
+                "observed_frequency": 0.717391304347826,
+                "count": 92
+              },
+              {
+                "mean_probability": 0.8452601220287702,
+                "observed_frequency": 0.7666666666666667,
+                "count": 60
+              },
+              {
+                "mean_probability": 0.9215388852327935,
+                "observed_frequency": 0.75,
+                "count": 4
+              }
+            ],
+            "patient_bootstrap_95ci": {
+              "event_recall": [
+                0.6948786860768944,
+                0.85
+              ],
+              "false_alerts_per_patient_day": [
+                0.885684943850572,
+                1.382719663971424
+              ]
+            },
+            "mean_lead_minutes": 26.73913043478261,
+            "caught_warned_30m_fraction": 0.4652173913043478
+          },
+          "model_sha256": "6640093f314594b87c69ccd1b269ba8a4d48bf49afa62e121420737fd61b33b3"
+        },
+        "plus_premeal_glucose": {
+          "feature_count": 60,
+          "threshold": 0.28,
+          "threshold_group": {
+            "event_recall": 0.8571428571428571,
+            "false_alerts_per_patient_day": 0.9259519742791119,
+            "median_lead_minutes": 30.0,
+            "event_count": 140,
+            "caught_events": 120,
+            "alerts": 216,
+            "false_alerts": 96,
+            "monitored_days": 103.67708333333333,
+            "threshold": 0.28,
+            "windows": 7246,
+            "positive_windows": 528,
+            "brier": 0.04548421647366197,
+            "average_precision": 0.5699782139727771,
+            "roc_auc": 0.9277685401950436,
+            "calibration_bins": [
+              {
+                "mean_probability": 0.013843337794177759,
+                "observed_frequency": 0.021362030195952456,
+                "count": 6226
+              },
+              {
+                "mean_probability": 0.14313689188919135,
+                "observed_frequency": 0.21153846153846154,
+                "count": 364
+              },
+              {
+                "mean_probability": 0.24790004684568367,
+                "observed_frequency": 0.28019323671497587,
+                "count": 207
+              },
+              {
+                "mean_probability": 0.3500301385925285,
+                "observed_frequency": 0.4647887323943662,
+                "count": 142
+              },
+              {
+                "mean_probability": 0.4470785110576464,
+                "observed_frequency": 0.46464646464646464,
+                "count": 99
+              },
+              {
+                "mean_probability": 0.5497246799578867,
+                "observed_frequency": 0.5777777777777777,
+                "count": 90
+              },
+              {
+                "mean_probability": 0.6518549098615857,
+                "observed_frequency": 0.7058823529411765,
+                "count": 51
+              },
+              {
+                "mean_probability": 0.749500291651239,
+                "observed_frequency": 0.8541666666666666,
+                "count": 48
+              },
+              {
+                "mean_probability": 0.8395386343654545,
+                "observed_frequency": 1.0,
+                "count": 18
+              },
+              {
+                "mean_probability": 0.9334705544215965,
+                "observed_frequency": 1.0,
+                "count": 1
+              }
+            ],
+            "patient_bootstrap_95ci": {
+              "event_recall": [
+                0.7981651376146789,
+                0.8940333024976873
+              ],
+              "false_alerts_per_patient_day": [
+                0.5661420601833603,
+                1.3308613475675148
+              ]
+            },
+            "mean_lead_minutes": 30.0,
+            "caught_warned_30m_fraction": 0.5666666666666667
+          },
+          "evaluation": {
+            "event_recall": 0.8367346938775511,
+            "false_alerts_per_patient_day": 1.500142490738102,
+            "median_lead_minutes": 30.0,
+            "event_count": 294,
+            "caught_events": 246,
+            "alerts": 575,
+            "false_alerts": 329,
+            "monitored_days": 219.3125,
+            "threshold": 0.28,
+            "windows": 16379,
+            "positive_windows": 1104,
+            "brier": 0.0470940666448781,
+            "average_precision": 0.45249969576100785,
+            "roc_auc": 0.9047162527574183,
+            "calibration_bins": [
+              {
+                "mean_probability": 0.016654197548203825,
+                "observed_frequency": 0.022565147765322462,
+                "count": 13738
+              },
+              {
+                "mean_probability": 0.1425749398977916,
+                "observed_frequency": 0.15701668302257116,
+                "count": 1019
+              },
+              {
+                "mean_probability": 0.24600370390677648,
+                "observed_frequency": 0.2168421052631579,
+                "count": 475
+              },
+              {
+                "mean_probability": 0.34849596596485743,
+                "observed_frequency": 0.3025936599423631,
+                "count": 347
+              },
+              {
+                "mean_probability": 0.4492028012304601,
+                "observed_frequency": 0.44680851063829785,
+                "count": 282
+              },
+              {
+                "mean_probability": 0.5481011633625781,
+                "observed_frequency": 0.46153846153846156,
+                "count": 221
+              },
+              {
+                "mean_probability": 0.6465722634914788,
+                "observed_frequency": 0.5684931506849316,
+                "count": 146
+              },
+              {
+                "mean_probability": 0.7447898838803445,
+                "observed_frequency": 0.7469879518072289,
+                "count": 83
+              },
+              {
+                "mean_probability": 0.8380677525584636,
+                "observed_frequency": 0.8305084745762712,
+                "count": 59
+              },
+              {
+                "mean_probability": 0.9156172484652271,
+                "observed_frequency": 0.4444444444444444,
+                "count": 9
+              }
+            ],
+            "patient_bootstrap_95ci": {
+              "event_recall": [
+                0.77972873495528,
+                0.8833642520612485
+              ],
+              "false_alerts_per_patient_day": [
+                1.210982750030533,
+                1.8163072098133823
+              ]
+            },
+            "mean_lead_minutes": 29.146341463414632,
+            "caught_warned_30m_fraction": 0.5447154471544715
+          },
+          "model_sha256": "1df22bbd79ede49b4333afc4f89fa915a2660f7627c4c1b3f62bd7bdefa12300"
+        },
+        "trend_baseline": {
+          "feature_count": 5,
+          "threshold": 0.30000000000000004,
+          "threshold_group": {
+            "event_recall": 0.85,
+            "false_alerts_per_patient_day": 0.9548879734753342,
+            "median_lead_minutes": 15.0,
+            "event_count": 140,
+            "caught_events": 119,
+            "alerts": 218,
+            "false_alerts": 99,
+            "monitored_days": 103.67708333333333,
+            "threshold": 0.30000000000000004,
+            "windows": 7246,
+            "positive_windows": 528,
+            "brier": 0.05131784195013124,
+            "average_precision": 0.4541153857725924,
+            "roc_auc": 0.8881511509107148,
+            "calibration_bins": [
+              {
+                "mean_probability": 0.01821922464068009,
+                "observed_frequency": 0.020268006700167505,
+                "count": 5970
+              },
+              {
+                "mean_probability": 0.14398556355246236,
+                "observed_frequency": 0.22058823529411764,
+                "count": 612
+              },
+              {
+                "mean_probability": 0.24305834350170424,
+                "observed_frequency": 0.3154121863799283,
+                "count": 279
+              },
+              {
+                "mean_probability": 0.34576820256398616,
+                "observed_frequency": 0.34507042253521125,
+                "count": 142
+              },
+              {
+                "mean_probability": 0.45134670352709555,
+                "observed_frequency": 0.40816326530612246,
+                "count": 98
+              },
+              {
+                "mean_probability": 0.5396156190088256,
+                "observed_frequency": 0.48936170212765956,
+                "count": 47
+              },
+              {
+                "mean_probability": 0.647281271731918,
+                "observed_frequency": 0.5454545454545454,
+                "count": 33
+              },
+              {
+                "mean_probability": 0.7460665093973229,
+                "observed_frequency": 0.8235294117647058,
+                "count": 17
+              },
+              {
+                "mean_probability": 0.8436520531869552,
+                "observed_frequency": 0.7391304347826086,
+                "count": 23
+              },
+              {
+                "mean_probability": 0.9405944301175162,
+                "observed_frequency": 0.92,
+                "count": 25
+              }
+            ],
+            "patient_bootstrap_95ci": {
+              "event_recall": [
+                0.7873603723404256,
+                0.9034090909090909
+              ],
+              "false_alerts_per_patient_day": [
+                0.7600170902123745,
+                1.1508389247876474
+              ]
+            },
+            "mean_lead_minutes": 23.69747899159664,
+            "caught_warned_30m_fraction": 0.3949579831932773
+          },
+          "evaluation": {
+            "event_recall": 0.8061224489795918,
+            "false_alerts_per_patient_day": 1.427187232829866,
+            "median_lead_minutes": 15.0,
+            "event_count": 294,
+            "caught_events": 237,
+            "alerts": 550,
+            "false_alerts": 313,
+            "monitored_days": 219.3125,
+            "threshold": 0.30000000000000004,
+            "windows": 16379,
+            "positive_windows": 1104,
+            "brier": 0.05136056024278398,
+            "average_precision": 0.38833647047980246,
+            "roc_auc": 0.8661523043715458,
+            "calibration_bins": [
+              {
+                "mean_probability": 0.02084052389920637,
+                "observed_frequency": 0.027309356812416058,
+                "count": 13402
+              },
+              {
+                "mean_probability": 0.14232939250500948,
+                "observed_frequency": 0.13462922966162708,
+                "count": 1389
+              },
+              {
+                "mean_probability": 0.24276674122061034,
+                "observed_frequency": 0.21746575342465754,
+                "count": 584
+              },
+              {
+                "mean_probability": 0.34590839896246184,
+                "observed_frequency": 0.3194444444444444,
+                "count": 360
+              },
+              {
+                "mean_probability": 0.446108961851757,
+                "observed_frequency": 0.3431372549019608,
+                "count": 204
+              },
+              {
+                "mean_probability": 0.5519056141926657,
+                "observed_frequency": 0.3716216216216216,
+                "count": 148
+              },
+              {
+                "mean_probability": 0.647300733785117,
+                "observed_frequency": 0.5178571428571429,
+                "count": 112
+              },
+              {
+                "mean_probability": 0.7514116217754886,
+                "observed_frequency": 0.6385542168674698,
+                "count": 83
+              },
+              {
+                "mean_probability": 0.8449514080459334,
+                "observed_frequency": 0.6181818181818182,
+                "count": 55
+              },
+              {
+                "mean_probability": 0.9364923471612285,
+                "observed_frequency": 0.9285714285714286,
+                "count": 42
+              }
+            ],
+            "patient_bootstrap_95ci": {
+              "event_recall": [
+                0.7549809350132626,
+                0.8588901518226841
+              ],
+              "false_alerts_per_patient_day": [
+                1.2097431592138375,
+                1.6758361303330154
+              ]
+            },
+            "mean_lead_minutes": 25.759493670886076,
+            "caught_warned_30m_fraction": 0.4810126582278481
+          },
+          "model_sha256": "3a82b2c774a53dd094997887ac8a2cd6015d2c767fbdf86f8edaf15ae2fcc4fc"
+        },
+        "tuned_current": {
+          "feature_count": 54,
+          "threshold": 0.32,
+          "selected_settings": {
+            "name": "shorter",
+            "learning_rate": 0.05,
+            "max_iter": 140,
+            "max_leaf_nodes": 15,
+            "min_samples_leaf": 80,
+            "l2_regularization": 10
+          },
+          "threshold_group": {
+            "event_recall": 0.8857142857142857,
+            "false_alerts_per_patient_day": 0.9645333065407415,
+            "median_lead_minutes": 30.0,
+            "event_count": 140,
+            "caught_events": 124,
+            "alerts": 224,
+            "false_alerts": 100,
+            "monitored_days": 103.67708333333333,
+            "threshold": 0.32,
+            "windows": 7246,
+            "positive_windows": 528,
+            "brier": 0.045689211062652696,
+            "average_precision": 0.5627977515378104,
+            "roc_auc": 0.9274506752550813,
+            "calibration_bins": [
+              {
+                "mean_probability": 0.01403497911914382,
+                "observed_frequency": 0.0211802748585287,
+                "count": 6185
+              },
+              {
+                "mean_probability": 0.142347982244206,
+                "observed_frequency": 0.1988472622478386,
+                "count": 347
+              },
+              {
+                "mean_probability": 0.24921666400623005,
+                "observed_frequency": 0.25118483412322273,
+                "count": 211
+              },
+              {
+                "mean_probability": 0.34951086907036816,
+                "observed_frequency": 0.4,
+                "count": 150
+              },
+              {
+                "mean_probability": 0.450445535259272,
+                "observed_frequency": 0.4596774193548387,
+                "count": 124
+              },
+              {
+                "mean_probability": 0.5472963464601474,
+                "observed_frequency": 0.5876288659793815,
+                "count": 97
+              },
+              {
+                "mean_probability": 0.6531592354223673,
+                "observed_frequency": 0.6190476190476191,
+                "count": 63
+              },
+              {
+                "mean_probability": 0.7437038965034859,
+                "observed_frequency": 0.8571428571428571,
+                "count": 49
+              },
+              {
+                "mean_probability": 0.8336676873240133,
+                "observed_frequency": 1.0,
+                "count": 20
+              }
+            ],
+            "patient_bootstrap_95ci": {
+              "event_recall": [
+                0.8325980392156863,
+                0.9137519417872618
+              ],
+              "false_alerts_per_patient_day": [
+                0.5952047532358413,
+                1.4178014789753057
+              ]
+            },
+            "mean_lead_minutes": 28.18548387096774,
+            "caught_warned_30m_fraction": 0.5080645161290323
+          },
+          "evaluation": {
+            "event_recall": 0.826530612244898,
+            "false_alerts_per_patient_day": 1.390709603875748,
+            "median_lead_minutes": 30.0,
+            "event_count": 294,
+            "caught_events": 243,
+            "alerts": 548,
+            "false_alerts": 305,
+            "monitored_days": 219.3125,
+            "threshold": 0.32,
+            "windows": 16379,
+            "positive_windows": 1104,
+            "brier": 0.04718286892563039,
+            "average_precision": 0.45547064076637606,
+            "roc_auc": 0.9070546917621386,
+            "calibration_bins": [
+              {
+                "mean_probability": 0.016324092387048815,
+                "observed_frequency": 0.022631655302480777,
+                "count": 13786
+              },
+              {
+                "mean_probability": 0.1441558661190644,
+                "observed_frequency": 0.15755627009646303,
+                "count": 933
+              },
+              {
+                "mean_probability": 0.24425041269810507,
+                "observed_frequency": 0.23678646934460887,
+                "count": 473
+              },
+              {
+                "mean_probability": 0.3464106889643267,
+                "observed_frequency": 0.2878787878787879,
+                "count": 330
+              },
+              {
+                "mean_probability": 0.448071279400497,
+                "observed_frequency": 0.37542662116040953,
+                "count": 293
+              },
+              {
+                "mean_probability": 0.5488484318851509,
+                "observed_frequency": 0.4698275862068966,
+                "count": 232
+              },
+              {
+                "mean_probability": 0.6490086730451842,
+                "observed_frequency": 0.6140350877192983,
+                "count": 171
+              },
+              {
+                "mean_probability": 0.7475216845118906,
+                "observed_frequency": 0.6697247706422018,
+                "count": 109
+              },
+              {
+                "mean_probability": 0.8360984069628885,
+                "observed_frequency": 0.78,
+                "count": 50
+              },
+              {
+                "mean_probability": 0.9066089212471666,
+                "observed_frequency": 1.0,
+                "count": 2
+              }
+            ],
+            "patient_bootstrap_95ci": {
+              "event_recall": [
+                0.7708560010043521,
+                0.8732763532763532
+              ],
+              "false_alerts_per_patient_day": [
+                1.1342820532684992,
+                1.6864123842680883
+              ]
+            },
+            "mean_lead_minutes": 27.77777777777778,
+            "caught_warned_30m_fraction": 0.5185185185185185
+          },
+          "model_sha256": "96092b96f7be6e2d3c56b16a706663dbb15e3485b8a710b90cbf607f603c2f4b"
+        },
+        "tuned_plus_meal_timing": {
+          "feature_count": 72,
+          "threshold": 0.30000000000000004,
+          "selected_settings": {
+            "name": "conservative",
+            "learning_rate": 0.05,
+            "max_iter": 280,
+            "max_leaf_nodes": 7,
+            "min_samples_leaf": 160,
+            "l2_regularization": 30
+          },
+          "threshold_group": {
+            "event_recall": 0.8571428571428571,
+            "false_alerts_per_patient_day": 0.9934693057369638,
+            "median_lead_minutes": 30.0,
+            "event_count": 140,
+            "caught_events": 120,
+            "alerts": 223,
+            "false_alerts": 103,
+            "monitored_days": 103.67708333333333,
+            "threshold": 0.30000000000000004,
+            "windows": 7246,
+            "positive_windows": 528,
+            "brier": 0.04590242786824847,
+            "average_precision": 0.5553033878588218,
+            "roc_auc": 0.9265602305430007,
+            "calibration_bins": [
+              {
+                "mean_probability": 0.013635446512755422,
+                "observed_frequency": 0.021392954801351134,
+                "count": 6217
+              },
+              {
+                "mean_probability": 0.14273769898112315,
+                "observed_frequency": 0.2219020172910663,
+                "count": 347
+              },
+              {
+                "mean_probability": 0.24367637870044262,
+                "observed_frequency": 0.2537313432835821,
+                "count": 201
+              },
+              {
+                "mean_probability": 0.34839718615424176,
+                "observed_frequency": 0.3933333333333333,
+                "count": 150
+              },
+              {
+                "mean_probability": 0.4457594010606629,
+                "observed_frequency": 0.45689655172413796,
+                "count": 116
+              },
+              {
+                "mean_probability": 0.5480583154968114,
+                "observed_frequency": 0.6463414634146342,
+                "count": 82
+              },
+              {
+                "mean_probability": 0.6508031578898525,
+                "observed_frequency": 0.6764705882352942,
+                "count": 68
+              },
+              {
+                "mean_probability": 0.7456099645294384,
+                "observed_frequency": 0.8333333333333334,
+                "count": 48
+              },
+              {
+                "mean_probability": 0.831740648228583,
+                "observed_frequency": 0.9411764705882353,
+                "count": 17
+              }
+            ],
+            "patient_bootstrap_95ci": {
+              "event_recall": [
+                0.7978606287595051,
+                0.8936170212765957
+              ],
+              "false_alerts_per_patient_day": [
+                0.5776277514362455,
+                1.4933011509809413
+              ]
+            },
+            "mean_lead_minutes": 29.5,
+            "caught_warned_30m_fraction": 0.55
+          },
+          "evaluation": {
+            "event_recall": 0.8435374149659864,
+            "false_alerts_per_patient_day": 1.3359931604445712,
+            "median_lead_minutes": 30.0,
+            "event_count": 294,
+            "caught_events": 248,
+            "alerts": 541,
+            "false_alerts": 293,
+            "monitored_days": 219.3125,
+            "threshold": 0.30000000000000004,
+            "windows": 16379,
+            "positive_windows": 1104,
+            "brier": 0.04657079889855956,
+            "average_precision": 0.4609964345893494,
+            "roc_auc": 0.9093114459546005,
+            "calibration_bins": [
+              {
+                "mean_probability": 0.015972283701006056,
+                "observed_frequency": 0.022937103289094058,
+                "count": 13864
+              },
+              {
+                "mean_probability": 0.14228727726364365,
+                "observed_frequency": 0.15236051502145923,
+                "count": 932
+              },
+              {
+                "mean_probability": 0.2474848504016361,
+                "observed_frequency": 0.261758691206544,
+                "count": 489
+              },
+              {
+                "mean_probability": 0.3489265381605295,
+                "observed_frequency": 0.3125,
+                "count": 336
+              },
+              {
+                "mean_probability": 0.44589413483024914,
+                "observed_frequency": 0.41379310344827586,
+                "count": 290
+              },
+              {
+                "mean_probability": 0.5456500437365712,
+                "observed_frequency": 0.53125,
+                "count": 192
+              },
+              {
+                "mean_probability": 0.6453569303503984,
+                "observed_frequency": 0.644927536231884,
+                "count": 138
+              },
+              {
+                "mean_probability": 0.7485426321129506,
+                "observed_frequency": 0.7111111111111111,
+                "count": 90
+              },
+              {
+                "mean_probability": 0.8334074081070323,
+                "observed_frequency": 0.7391304347826086,
+                "count": 46
+              },
+              {
+                "mean_probability": 0.9275442535890541,
+                "observed_frequency": 1.0,
+                "count": 2
+              }
+            ],
+            "patient_bootstrap_95ci": {
+              "event_recall": [
+                0.7996428571428572,
+                0.8833422901232199
+              ],
+              "false_alerts_per_patient_day": [
+                1.073430450694504,
+                1.6174528961716468
+              ]
+            },
+            "mean_lead_minutes": 28.366935483870968,
+            "caught_warned_30m_fraction": 0.5161290322580645
+          },
+          "model_sha256": "ed1c2ee7feb59510cc1a65a5bbaab826df8afaa9a351b0348378d7042fafc60b"
+        },
+        "tuned_plus_premeal_glucose": {
+          "feature_count": 60,
+          "threshold": 0.34,
+          "selected_settings": {
+            "name": "conservative",
+            "learning_rate": 0.05,
+            "max_iter": 280,
+            "max_leaf_nodes": 7,
+            "min_samples_leaf": 160,
+            "l2_regularization": 30
+          },
+          "threshold_group": {
+            "event_recall": 0.8571428571428571,
+            "false_alerts_per_patient_day": 0.8294986436250377,
+            "median_lead_minutes": 22.5,
+            "event_count": 140,
+            "caught_events": 120,
+            "alerts": 206,
+            "false_alerts": 86,
+            "monitored_days": 103.67708333333333,
+            "threshold": 0.34,
+            "windows": 7246,
+            "positive_windows": 528,
+            "brier": 0.04535387932486358,
+            "average_precision": 0.573738246517716,
+            "roc_auc": 0.9288473075500465,
+            "calibration_bins": [
+              {
+                "mean_probability": 0.01389592618050247,
+                "observed_frequency": 0.02118440057775638,
+                "count": 6231
+              },
+              {
+                "mean_probability": 0.14059031682645498,
+                "observed_frequency": 0.21159420289855072,
+                "count": 345
+              },
+              {
+                "mean_probability": 0.2447038274263825,
+                "observed_frequency": 0.3165829145728643,
+                "count": 199
+              },
+              {
+                "mean_probability": 0.3510661384811465,
+                "observed_frequency": 0.36645962732919257,
+                "count": 161
+              },
+              {
+                "mean_probability": 0.44966413647216363,
+                "observed_frequency": 0.4583333333333333,
+                "count": 96
+              },
+              {
+                "mean_probability": 0.547252667235807,
+                "observed_frequency": 0.6451612903225806,
+                "count": 93
+              },
+              {
+                "mean_probability": 0.6469517097027083,
+                "observed_frequency": 0.6842105263157895,
+                "count": 57
+              },
+              {
+                "mean_probability": 0.742519068870546,
+                "observed_frequency": 0.8775510204081632,
+                "count": 49
+              },
+              {
+                "mean_probability": 0.8309269420489381,
+                "observed_frequency": 1.0,
+                "count": 14
+              },
+              {
+                "mean_probability": 0.9216640884599201,
+                "observed_frequency": 1.0,
+                "count": 1
+              }
+            ],
+            "patient_bootstrap_95ci": {
+              "event_recall": [
+                0.7932003432003432,
+                0.8870967741935484
+              ],
+              "false_alerts_per_patient_day": [
+                0.48382444403937824,
+                1.2217789307178768
+              ]
+            },
+            "mean_lead_minutes": 27.875,
+            "caught_warned_30m_fraction": 0.5
+          },
+          "evaluation": {
+            "event_recall": 0.8061224489795918,
+            "false_alerts_per_patient_day": 1.1080079794813338,
+            "median_lead_minutes": 15.0,
+            "event_count": 294,
+            "caught_events": 237,
+            "alerts": 480,
+            "false_alerts": 243,
+            "monitored_days": 219.3125,
+            "threshold": 0.34,
+            "windows": 16379,
+            "positive_windows": 1104,
+            "brier": 0.04638472782057684,
+            "average_precision": 0.4643778987191894,
+            "roc_auc": 0.9081524704096398,
+            "calibration_bins": [
+              {
+                "mean_probability": 0.016518997741293666,
+                "observed_frequency": 0.02287652450025258,
+                "count": 13857
+              },
+              {
+                "mean_probability": 0.1435865206760502,
+                "observed_frequency": 0.16435432230522945,
+                "count": 937
+              },
+              {
+                "mean_probability": 0.24747869265640604,
+                "observed_frequency": 0.225,
+                "count": 480
+              },
+              {
+                "mean_probability": 0.34589592468464286,
+                "observed_frequency": 0.32409972299168976,
+                "count": 361
+              },
+              {
+                "mean_probability": 0.4483536663744802,
+                "observed_frequency": 0.38783269961977185,
+                "count": 263
+              },
+              {
+                "mean_probability": 0.5473522874599976,
+                "observed_frequency": 0.5714285714285714,
+                "count": 203
+              },
+              {
+                "mean_probability": 0.6458425665620741,
+                "observed_frequency": 0.6126760563380281,
+                "count": 142
+              },
+              {
+                "mean_probability": 0.7446866958146702,
+                "observed_frequency": 0.7578947368421053,
+                "count": 95
+              },
+              {
+                "mean_probability": 0.8374574907262007,
+                "observed_frequency": 0.7435897435897436,
+                "count": 39
+              },
+              {
+                "mean_probability": 0.9271802321922847,
+                "observed_frequency": 1.0,
+                "count": 2
+              }
+            ],
+            "patient_bootstrap_95ci": {
+              "event_recall": [
+                0.7545775357935068,
+                0.8488423663835225
+              ],
+              "false_alerts_per_patient_day": [
+                0.8692427128661069,
+                1.3775843204170277
+              ]
+            },
+            "mean_lead_minutes": 27.531645569620252,
+            "caught_warned_30m_fraction": 0.46835443037974683
+          },
+          "model_sha256": "9d131fce12527a54f8bc94227db10919fb13ac26bb0fcac18e5ee6d14e2241eb"
+        }
+      }
+    },
+    {
+      "seed": 2027,
+      "models": {
+        "current": {
+          "feature_count": 54,
+          "threshold": 0.32,
+          "threshold_group": {
+            "event_recall": 0.77734375,
+            "false_alerts_per_patient_day": 0.9292570783254014,
+            "median_lead_minutes": 15.0,
+            "event_count": 256,
+            "caught_events": 199,
+            "alerts": 319,
+            "false_alerts": 120,
+            "monitored_days": 129.13541666666666,
+            "threshold": 0.32,
+            "windows": 8826,
+            "positive_windows": 958,
+            "brier": 0.0671024298795895,
+            "average_precision": 0.6001514750468573,
+            "roc_auc": 0.9077967571399914,
+            "calibration_bins": [
+              {
+                "mean_probability": 0.02117800205904164,
+                "observed_frequency": 0.030857142857142857,
+                "count": 7000
+              },
+              {
+                "mean_probability": 0.14345107530621928,
+                "observed_frequency": 0.22279792746113988,
+                "count": 772
+              },
+              {
+                "mean_probability": 0.24326929388428548,
+                "observed_frequency": 0.3819951338199513,
+                "count": 411
+              },
+              {
+                "mean_probability": 0.3484264068577031,
+                "observed_frequency": 0.4954545454545455,
+                "count": 220
+              },
+              {
+                "mean_probability": 0.44809382074390747,
+                "observed_frequency": 0.6179775280898876,
+                "count": 178
+              },
+              {
+                "mean_probability": 0.5435838711869116,
+                "observed_frequency": 0.6442307692307693,
+                "count": 104
+              },
+              {
+                "mean_probability": 0.6476054677465761,
+                "observed_frequency": 0.8505747126436781,
+                "count": 87
+              },
+              {
+                "mean_probability": 0.7431388372521429,
+                "observed_frequency": 0.975609756097561,
+                "count": 41
+              },
+              {
+                "mean_probability": 0.8337178433506616,
+                "observed_frequency": 1.0,
+                "count": 13
+              }
+            ],
+            "patient_bootstrap_95ci": {
+              "event_recall": [
+                0.6976620452137053,
+                0.8393982119110942
+              ],
+              "false_alerts_per_patient_day": [
+                0.6090742891617775,
+                1.20392684697368
+              ]
+            },
+            "mean_lead_minutes": 27.36180904522613,
+            "caught_warned_30m_fraction": 0.47738693467336685
+          },
+          "evaluation": {
+            "event_recall": 0.8082191780821918,
+            "false_alerts_per_patient_day": 0.8484178963150004,
+            "median_lead_minutes": 15.0,
+            "event_count": 365,
+            "caught_events": 295,
+            "alerts": 519,
+            "false_alerts": 224,
+            "monitored_days": 264.0208333333333,
+            "threshold": 0.32,
+            "windows": 18771,
+            "positive_windows": 1390,
+            "brier": 0.04794131848913024,
+            "average_precision": 0.5310533439219542,
+            "roc_auc": 0.9161955356030462,
+            "calibration_bins": [
+              {
+                "mean_probability": 0.0188506572709179,
+                "observed_frequency": 0.019776714513556618,
+                "count": 15675
+              },
+              {
+                "mean_probability": 0.14091694802160404,
+                "observed_frequency": 0.19069767441860466,
+                "count": 1290
+              },
+              {
+                "mean_probability": 0.24575399496119693,
+                "observed_frequency": 0.31176470588235294,
+                "count": 680
+              },
+              {
+                "mean_probability": 0.3460467914142405,
+                "observed_frequency": 0.3979591836734694,
+                "count": 392
+              },
+              {
+                "mean_probability": 0.4436339990014483,
+                "observed_frequency": 0.5194805194805194,
+                "count": 308
+              },
+              {
+                "mean_probability": 0.5474127476297183,
+                "observed_frequency": 0.6203208556149733,
+                "count": 187
+              },
+              {
+                "mean_probability": 0.6448661165138105,
+                "observed_frequency": 0.722972972972973,
+                "count": 148
+              },
+              {
+                "mean_probability": 0.7461513433323378,
+                "observed_frequency": 0.8823529411764706,
+                "count": 68
+              },
+              {
+                "mean_probability": 0.8244277739602583,
+                "observed_frequency": 1.0,
+                "count": 23
+              }
+            ],
+            "patient_bootstrap_95ci": {
+              "event_recall": [
+                0.749419334753057,
+                0.8602132414211044
+              ],
+              "false_alerts_per_patient_day": [
+                0.6607804732118945,
+                1.022697350189008
+              ]
+            },
+            "mean_lead_minutes": 27.050847457627118,
+            "caught_warned_30m_fraction": 0.47796610169491527
+          },
+          "model_sha256": "1a37fd45c49e5928be2381bd6d39c9760ed83e8a761e8396f4b29978244890cc"
+        },
+        "plus_meal_timing": {
+          "feature_count": 72,
+          "threshold": 0.34,
+          "threshold_group": {
+            "event_recall": 0.76953125,
+            "false_alerts_per_patient_day": 0.8750504154230863,
+            "median_lead_minutes": 15.0,
+            "event_count": 256,
+            "caught_events": 197,
+            "alerts": 310,
+            "false_alerts": 113,
+            "monitored_days": 129.13541666666666,
+            "threshold": 0.34,
+            "windows": 8826,
+            "positive_windows": 958,
+            "brier": 0.06589996317458661,
+            "average_precision": 0.5998361488121478,
+            "roc_auc": 0.9087034185140411,
+            "calibration_bins": [
+              {
+                "mean_probability": 0.019984299302133784,
+                "observed_frequency": 0.02965191233347658,
+                "count": 6981
+              },
+              {
+                "mean_probability": 0.14295411082177523,
+                "observed_frequency": 0.21643835616438356,
+                "count": 730
+              },
+              {
+                "mean_probability": 0.2455896129108497,
+                "observed_frequency": 0.3545232273838631,
+                "count": 409
+              },
+              {
+                "mean_probability": 0.34389594322668077,
+                "observed_frequency": 0.4805194805194805,
+                "count": 231
+              },
+              {
+                "mean_probability": 0.45023177915532925,
+                "observed_frequency": 0.5965909090909091,
+                "count": 176
+              },
+              {
+                "mean_probability": 0.5488073426847779,
+                "observed_frequency": 0.7007874015748031,
+                "count": 127
+              },
+              {
+                "mean_probability": 0.645913858574989,
+                "observed_frequency": 0.7560975609756098,
+                "count": 82
+              },
+              {
+                "mean_probability": 0.7458507089586541,
+                "observed_frequency": 0.8524590163934426,
+                "count": 61
+              },
+              {
+                "mean_probability": 0.8448732139035663,
+                "observed_frequency": 1.0,
+                "count": 24
+              },
+              {
+                "mean_probability": 0.9258944826228479,
+                "observed_frequency": 1.0,
+                "count": 5
+              }
+            ],
+            "patient_bootstrap_95ci": {
+              "event_recall": [
+                0.6875,
+                0.8505236867547534
+              ],
+              "false_alerts_per_patient_day": [
+                0.6143252672175981,
+                1.1160533704989468
+              ]
+            },
+            "mean_lead_minutes": 28.17258883248731,
+            "caught_warned_30m_fraction": 0.48223350253807107
+          },
+          "evaluation": {
+            "event_recall": 0.7863013698630137,
+            "false_alerts_per_patient_day": 0.9090191746232148,
+            "median_lead_minutes": 30.0,
+            "event_count": 365,
+            "caught_events": 287,
+            "alerts": 527,
+            "false_alerts": 240,
+            "monitored_days": 264.0208333333333,
+            "threshold": 0.34,
+            "windows": 18771,
+            "positive_windows": 1390,
+            "brier": 0.04814346110761419,
+            "average_precision": 0.5185530752226113,
+            "roc_auc": 0.9143430828089385,
+            "calibration_bins": [
+              {
+                "mean_probability": 0.01799107703364057,
+                "observed_frequency": 0.019327677489315558,
+                "count": 15677
+              },
+              {
+                "mean_probability": 0.14249003910656222,
+                "observed_frequency": 0.19619205298013245,
+                "count": 1208
+              },
+              {
+                "mean_probability": 0.24677957826036254,
+                "observed_frequency": 0.3076923076923077,
+                "count": 663
+              },
+              {
+                "mean_probability": 0.3485466992175956,
+                "observed_frequency": 0.3931203931203931,
+                "count": 407
+              },
+              {
+                "mean_probability": 0.4489507714328014,
+                "observed_frequency": 0.4666666666666667,
+                "count": 285
+              },
+              {
+                "mean_probability": 0.5483422404736955,
+                "observed_frequency": 0.5645933014354066,
+                "count": 209
+              },
+              {
+                "mean_probability": 0.6479241300109533,
+                "observed_frequency": 0.6410256410256411,
+                "count": 156
+              },
+              {
+                "mean_probability": 0.747813293763965,
+                "observed_frequency": 0.7477477477477478,
+                "count": 111
+              },
+              {
+                "mean_probability": 0.8404345661971208,
+                "observed_frequency": 0.9433962264150944,
+                "count": 53
+              },
+              {
+                "mean_probability": 0.9143081790355807,
+                "observed_frequency": 1.0,
+                "count": 2
+              }
+            ],
+            "patient_bootstrap_95ci": {
+              "event_recall": [
+                0.7335844331372238,
+                0.8312536960378474
+              ],
+              "false_alerts_per_patient_day": [
+                0.7229133168655253,
+                1.089804065268987
+              ]
+            },
+            "mean_lead_minutes": 27.909407665505228,
+            "caught_warned_30m_fraction": 0.5156794425087108
+          },
+          "model_sha256": "bbbb315fe0382f21eca26ffb073fb81a6c1f7fac514424c1ef1c604a9b13b070"
+        },
+        "plus_premeal_glucose": {
+          "feature_count": 60,
+          "threshold": 0.34,
+          "threshold_group": {
+            "event_recall": 0.7734375,
+            "false_alerts_per_patient_day": 0.9292570783254014,
+            "median_lead_minutes": 15.0,
+            "event_count": 256,
+            "caught_events": 198,
+            "alerts": 318,
+            "false_alerts": 120,
+            "monitored_days": 129.13541666666666,
+            "threshold": 0.34,
+            "windows": 8826,
+            "positive_windows": 958,
+            "brier": 0.06676870142491485,
+            "average_precision": 0.5891472855276783,
+            "roc_auc": 0.9064370304173348,
+            "calibration_bins": [
+              {
+                "mean_probability": 0.019852048610812432,
+                "observed_frequency": 0.030723063732494997,
+                "count": 6998
+              },
+              {
+                "mean_probability": 0.14321460004896716,
+                "observed_frequency": 0.2298050139275766,
+                "count": 718
+              },
+              {
+                "mean_probability": 0.2453546379921094,
+                "observed_frequency": 0.35766423357664234,
+                "count": 411
+              },
+              {
+                "mean_probability": 0.34457936634803005,
+                "observed_frequency": 0.45,
+                "count": 220
+              },
+              {
+                "mean_probability": 0.44807020644998075,
+                "observed_frequency": 0.5588235294117647,
+                "count": 170
+              },
+              {
+                "mean_probability": 0.5464727685764659,
+                "observed_frequency": 0.6879432624113475,
+                "count": 141
+              },
+              {
+                "mean_probability": 0.6513192396350477,
+                "observed_frequency": 0.7590361445783133,
+                "count": 83
+              },
+              {
+                "mean_probability": 0.7490108377982183,
+                "observed_frequency": 0.864406779661017,
+                "count": 59
+              },
+              {
+                "mean_probability": 0.8408704262857717,
+                "observed_frequency": 1.0,
+                "count": 18
+              },
+              {
+                "mean_probability": 0.9172877318233166,
+                "observed_frequency": 1.0,
+                "count": 8
+              }
+            ],
+            "patient_bootstrap_95ci": {
+              "event_recall": [
+                0.6824490647381962,
+                0.8284818481848185
+              ],
+              "false_alerts_per_patient_day": [
+                0.6175811793022223,
+                1.2209636266989
+              ]
+            },
+            "mean_lead_minutes": 27.727272727272727,
+            "caught_warned_30m_fraction": 0.47474747474747475
+          },
+          "evaluation": {
+            "event_recall": 0.8027397260273973,
+            "false_alerts_per_patient_day": 0.863568215892054,
+            "median_lead_minutes": 30.0,
+            "event_count": 365,
+            "caught_events": 293,
+            "alerts": 521,
+            "false_alerts": 228,
+            "monitored_days": 264.0208333333333,
+            "threshold": 0.34,
+            "windows": 18771,
+            "positive_windows": 1390,
+            "brier": 0.04790035488884645,
+            "average_precision": 0.5228905790343128,
+            "roc_auc": 0.9153319447887982,
+            "calibration_bins": [
+              {
+                "mean_probability": 0.01729983759875394,
+                "observed_frequency": 0.020171810372255808,
+                "count": 15715
+              },
+              {
+                "mean_probability": 0.1430818363568029,
+                "observed_frequency": 0.19656019656019655,
+                "count": 1221
+              },
+              {
+                "mean_probability": 0.24514033246864286,
+                "observed_frequency": 0.2932692307692308,
+                "count": 624
+              },
+              {
+                "mean_probability": 0.34918469486515397,
+                "observed_frequency": 0.39466666666666667,
+                "count": 375
+              },
+              {
+                "mean_probability": 0.4491946680269677,
+                "observed_frequency": 0.4750830564784053,
+                "count": 301
+              },
+              {
+                "mean_probability": 0.5479196463168112,
+                "observed_frequency": 0.5666666666666667,
+                "count": 210
+              },
+              {
+                "mean_probability": 0.6439437294986302,
+                "observed_frequency": 0.6624203821656051,
+                "count": 157
+              },
+              {
+                "mean_probability": 0.7454437893894034,
+                "observed_frequency": 0.7631578947368421,
+                "count": 114
+              },
+              {
+                "mean_probability": 0.8401613676830887,
+                "observed_frequency": 0.9,
+                "count": 50
+              },
+              {
+                "mean_probability": 0.9206546296182301,
+                "observed_frequency": 1.0,
+                "count": 4
+              }
+            ],
+            "patient_bootstrap_95ci": {
+              "event_recall": [
+                0.7458650793650794,
+                0.853063973063973
+              ],
+              "false_alerts_per_patient_day": [
+                0.6782036245883846,
+                1.033657938032464
+              ]
+            },
+            "mean_lead_minutes": 27.542662116040955,
+            "caught_warned_30m_fraction": 0.5119453924914675
+          },
+          "model_sha256": "6a2613362bf541257f8aa2375ef159f5b19b433ba49b19019387cb945b2f2dfa"
+        },
+        "trend_baseline": {
+          "feature_count": 5,
+          "threshold": 0.34,
+          "threshold_group": {
+            "event_recall": 0.765625,
+            "false_alerts_per_patient_day": 0.9524885052835365,
+            "median_lead_minutes": 15.0,
+            "event_count": 256,
+            "caught_events": 196,
+            "alerts": 319,
+            "false_alerts": 123,
+            "monitored_days": 129.13541666666666,
+            "threshold": 0.34,
+            "windows": 8826,
+            "positive_windows": 958,
+            "brier": 0.07373352760304608,
+            "average_precision": 0.4878762339786816,
+            "roc_auc": 0.8715731543324987,
+            "calibration_bins": [
+              {
+                "mean_probability": 0.02780202291559674,
+                "observed_frequency": 0.03746654772524532,
+                "count": 6726
+              },
+              {
+                "mean_probability": 0.14113852098368126,
+                "observed_frequency": 0.20596727622714148,
+                "count": 1039
+              },
+              {
+                "mean_probability": 0.24438123153720645,
+                "observed_frequency": 0.31690140845070425,
+                "count": 426
+              },
+              {
+                "mean_probability": 0.34525833897266056,
+                "observed_frequency": 0.4232558139534884,
+                "count": 215
+              },
+              {
+                "mean_probability": 0.4453114735011787,
+                "observed_frequency": 0.5379310344827586,
+                "count": 145
+              },
+              {
+                "mean_probability": 0.5503291160109881,
+                "observed_frequency": 0.5769230769230769,
+                "count": 104
+              },
+              {
+                "mean_probability": 0.6471221040708837,
+                "observed_frequency": 0.71875,
+                "count": 64
+              },
+              {
+                "mean_probability": 0.7446548917185856,
+                "observed_frequency": 0.6923076923076923,
+                "count": 39
+              },
+              {
+                "mean_probability": 0.8506729013105848,
+                "observed_frequency": 0.7674418604651163,
+                "count": 43
+              },
+              {
+                "mean_probability": 0.9303813674803694,
+                "observed_frequency": 0.88,
+                "count": 25
+              }
+            ],
+            "patient_bootstrap_95ci": {
+              "event_recall": [
+                0.7194607140011157,
+                0.8247576530612245
+              ],
+              "false_alerts_per_patient_day": [
+                0.6214972017930995,
+                1.3620349776217988
+              ]
+            },
+            "mean_lead_minutes": 24.107142857142858,
+            "caught_warned_30m_fraction": 0.4336734693877551
+          },
+          "evaluation": {
+            "event_recall": 0.7945205479452054,
+            "false_alerts_per_patient_day": 0.9544701333543755,
+            "median_lead_minutes": 15.0,
+            "event_count": 365,
+            "caught_events": 290,
+            "alerts": 542,
+            "false_alerts": 252,
+            "monitored_days": 264.0208333333333,
+            "threshold": 0.34,
+            "windows": 18771,
+            "positive_windows": 1390,
+            "brier": 0.05122558673340108,
+            "average_precision": 0.4633671295134446,
+            "roc_auc": 0.8864177537781063,
+            "calibration_bins": [
+              {
+                "mean_probability": 0.024555910635145492,
+                "observed_frequency": 0.021359223300970873,
+                "count": 14935
+              },
+              {
+                "mean_probability": 0.1424131206643436,
+                "observed_frequency": 0.1434065934065934,
+                "count": 1820
+              },
+              {
+                "mean_probability": 0.2434802517974546,
+                "observed_frequency": 0.2680652680652681,
+                "count": 858
+              },
+              {
+                "mean_probability": 0.3445177007012278,
+                "observed_frequency": 0.37193763919821826,
+                "count": 449
+              },
+              {
+                "mean_probability": 0.4483246636233875,
+                "observed_frequency": 0.45491803278688525,
+                "count": 244
+              },
+              {
+                "mean_probability": 0.5483479306919863,
+                "observed_frequency": 0.515527950310559,
+                "count": 161
+              },
+              {
+                "mean_probability": 0.6473668435723703,
+                "observed_frequency": 0.6518518518518519,
+                "count": 135
+              },
+              {
+                "mean_probability": 0.743359435086685,
+                "observed_frequency": 0.725,
+                "count": 80
+              },
+              {
+                "mean_probability": 0.8439224947448891,
+                "observed_frequency": 0.7719298245614035,
+                "count": 57
+              },
+              {
+                "mean_probability": 0.9422987204166346,
+                "observed_frequency": 0.90625,
+                "count": 32
+              }
+            ],
+            "patient_bootstrap_95ci": {
+              "event_recall": [
+                0.7303432327166504,
+                0.8714576962283385
+              ],
+              "false_alerts_per_patient_day": [
+                0.7777732279296833,
+                1.1319804119125478
+              ]
+            },
+            "mean_lead_minutes": 25.448275862068964,
+            "caught_warned_30m_fraction": 0.4689655172413793
+          },
+          "model_sha256": "2e25a7e3ce1ad1e8822ff861f3e5934cb659def6dc1e647169db525799f4539a"
+        },
+        "tuned_current": {
+          "feature_count": 54,
+          "threshold": 0.36000000000000004,
+          "selected_settings": {
+            "name": "shorter",
+            "learning_rate": 0.05,
+            "max_iter": 140,
+            "max_leaf_nodes": 15,
+            "min_samples_leaf": 80,
+            "l2_regularization": 10
+          },
+          "threshold_group": {
+            "event_recall": 0.8125,
+            "false_alerts_per_patient_day": 0.9370008873114464,
+            "median_lead_minutes": 15.0,
+            "event_count": 256,
+            "caught_events": 208,
+            "alerts": 329,
+            "false_alerts": 121,
+            "monitored_days": 129.13541666666666,
+            "threshold": 0.36000000000000004,
+            "windows": 8826,
+            "positive_windows": 958,
+            "brier": 0.06513530029833471,
+            "average_precision": 0.6036714473735372,
+            "roc_auc": 0.9123360341246431,
+            "calibration_bins": [
+              {
+                "mean_probability": 0.018824849880949852,
+                "observed_frequency": 0.028780068728522335,
+                "count": 6984
+              },
+              {
+                "mean_probability": 0.14368944364129965,
+                "observed_frequency": 0.2264957264957265,
+                "count": 702
+              },
+              {
+                "mean_probability": 0.24659259403337666,
+                "observed_frequency": 0.32727272727272727,
+                "count": 385
+              },
+              {
+                "mean_probability": 0.34968225129975256,
+                "observed_frequency": 0.4879032258064516,
+                "count": 248
+              },
+              {
+                "mean_probability": 0.45162378199594777,
+                "observed_frequency": 0.6101694915254238,
+                "count": 177
+              },
+              {
+                "mean_probability": 0.5484834916163344,
+                "observed_frequency": 0.5915492957746479,
+                "count": 142
+              },
+              {
+                "mean_probability": 0.6431630028936863,
+                "observed_frequency": 0.7816091954022989,
+                "count": 87
+              },
+              {
+                "mean_probability": 0.7447386191436055,
+                "observed_frequency": 0.8765432098765432,
+                "count": 81
+              },
+              {
+                "mean_probability": 0.821605243228922,
+                "observed_frequency": 1.0,
+                "count": 20
+              }
+            ],
+            "patient_bootstrap_95ci": {
+              "event_recall": [
+                0.7330316091954022,
+                0.876709065679926
+              ],
+              "false_alerts_per_patient_day": [
+                0.6157341295976115,
+                1.2647850134513612
+              ]
+            },
+            "mean_lead_minutes": 27.04326923076923,
+            "caught_warned_30m_fraction": 0.47115384615384615
+          },
+          "evaluation": {
+            "event_recall": 0.821917808219178,
+            "false_alerts_per_patient_day": 0.8484178963150004,
+            "median_lead_minutes": 15.0,
+            "event_count": 365,
+            "caught_events": 300,
+            "alerts": 524,
+            "false_alerts": 224,
+            "monitored_days": 264.0208333333333,
+            "threshold": 0.36000000000000004,
+            "windows": 18771,
+            "positive_windows": 1390,
+            "brier": 0.04744288687546123,
+            "average_precision": 0.5334748590364261,
+            "roc_auc": 0.9176721749003192,
+            "calibration_bins": [
+              {
+                "mean_probability": 0.01712981397533846,
+                "observed_frequency": 0.02023158162616109,
+                "count": 15718
+              },
+              {
+                "mean_probability": 0.142643894201182,
+                "observed_frequency": 0.1788135593220339,
+                "count": 1180
+              },
+              {
+                "mean_probability": 0.24604018618049567,
+                "observed_frequency": 0.3094098883572568,
+                "count": 627
+              },
+              {
+                "mean_probability": 0.3447853388898289,
+                "observed_frequency": 0.3838120104438642,
+                "count": 383
+              },
+              {
+                "mean_probability": 0.44781533236667415,
+                "observed_frequency": 0.4935483870967742,
+                "count": 310
+              },
+              {
+                "mean_probability": 0.5491364586486275,
+                "observed_frequency": 0.5294117647058824,
+                "count": 238
+              },
+              {
+                "mean_probability": 0.6488825880120659,
+                "observed_frequency": 0.6724137931034483,
+                "count": 174
+              },
+              {
+                "mean_probability": 0.7470528439020778,
+                "observed_frequency": 0.8608695652173913,
+                "count": 115
+              },
+              {
+                "mean_probability": 0.8296702301333159,
+                "observed_frequency": 0.9615384615384616,
+                "count": 26
+              }
+            ],
+            "patient_bootstrap_95ci": {
+              "event_recall": [
+                0.7801043956043956,
+                0.8632105943152455
+              ],
+              "false_alerts_per_patient_day": [
+                0.6728154096491494,
+                1.028528688951291
+              ]
+            },
+            "mean_lead_minutes": 26.4,
+            "caught_warned_30m_fraction": 0.45666666666666667
+          },
+          "model_sha256": "c80dc9c29fbcd3acf33f1edb4e0f51cd24adfc16be6e96476e62c1ad94d203ed"
+        },
+        "tuned_plus_meal_timing": {
+          "feature_count": 72,
+          "threshold": 0.36000000000000004,
+          "selected_settings": {
+            "name": "shorter",
+            "learning_rate": 0.05,
+            "max_iter": 140,
+            "max_leaf_nodes": 15,
+            "min_samples_leaf": 80,
+            "l2_regularization": 10
+          },
+          "threshold_group": {
+            "event_recall": 0.80078125,
+            "false_alerts_per_patient_day": 0.9447446962974914,
+            "median_lead_minutes": 15.0,
+            "event_count": 256,
+            "caught_events": 205,
+            "alerts": 327,
+            "false_alerts": 122,
+            "monitored_days": 129.13541666666666,
+            "threshold": 0.36000000000000004,
+            "windows": 8826,
+            "positive_windows": 958,
+            "brier": 0.0651342992452986,
+            "average_precision": 0.603460922783617,
+            "roc_auc": 0.91247838818586,
+            "calibration_bins": [
+              {
+                "mean_probability": 0.018836216300242594,
+                "observed_frequency": 0.02905982905982906,
+                "count": 7020
+              },
+              {
+                "mean_probability": 0.14329740151555825,
+                "observed_frequency": 0.2199108469539376,
+                "count": 673
+              },
+              {
+                "mean_probability": 0.24847614992987582,
+                "observed_frequency": 0.3577023498694517,
+                "count": 383
+              },
+              {
+                "mean_probability": 0.34616016343702904,
+                "observed_frequency": 0.46963562753036436,
+                "count": 247
+              },
+              {
+                "mean_probability": 0.4494700853504874,
+                "observed_frequency": 0.5964912280701754,
+                "count": 171
+              },
+              {
+                "mean_probability": 0.5425960096556584,
+                "observed_frequency": 0.6484375,
+                "count": 128
+              },
+              {
+                "mean_probability": 0.6506985476482182,
+                "observed_frequency": 0.7578947368421053,
+                "count": 95
+              },
+              {
+                "mean_probability": 0.7450084326888075,
+                "observed_frequency": 0.8554216867469879,
+                "count": 83
+              },
+              {
+                "mean_probability": 0.8331233235724186,
+                "observed_frequency": 0.9615384615384616,
+                "count": 26
+              }
+            ],
+            "patient_bootstrap_95ci": {
+              "event_recall": [
+                0.6893795620437957,
+                0.8745324803149606
+              ],
+              "false_alerts_per_patient_day": [
+                0.6699029023639486,
+                1.2835224607806126
+              ]
+            },
+            "mean_lead_minutes": 26.853658536585368,
+            "caught_warned_30m_fraction": 0.45365853658536587
+          },
+          "evaluation": {
+            "event_recall": 0.8191780821917808,
+            "false_alerts_per_patient_day": 0.844630316420737,
+            "median_lead_minutes": 15.0,
+            "event_count": 365,
+            "caught_events": 299,
+            "alerts": 522,
+            "false_alerts": 223,
+            "monitored_days": 264.0208333333333,
+            "threshold": 0.36000000000000004,
+            "windows": 18771,
+            "positive_windows": 1390,
+            "brier": 0.04764404058699056,
+            "average_precision": 0.5274168411788918,
+            "roc_auc": 0.9174544145823667,
+            "calibration_bins": [
+              {
+                "mean_probability": 0.01709909636783836,
+                "observed_frequency": 0.019700350653490597,
+                "count": 15685
+              },
+              {
+                "mean_probability": 0.14256055228253606,
+                "observed_frequency": 0.17927631578947367,
+                "count": 1216
+              },
+              {
+                "mean_probability": 0.2461342007819977,
+                "observed_frequency": 0.3253588516746411,
+                "count": 627
+              },
+              {
+                "mean_probability": 0.34665785229025436,
+                "observed_frequency": 0.3770053475935829,
+                "count": 374
+              },
+              {
+                "mean_probability": 0.44594832645793253,
+                "observed_frequency": 0.4713804713804714,
+                "count": 297
+              },
+              {
+                "mean_probability": 0.545687425634545,
+                "observed_frequency": 0.5378151260504201,
+                "count": 238
+              },
+              {
+                "mean_probability": 0.6431953057467992,
+                "observed_frequency": 0.6705202312138728,
+                "count": 173
+              },
+              {
+                "mean_probability": 0.7409094653395352,
+                "observed_frequency": 0.8064516129032258,
+                "count": 124
+              },
+              {
+                "mean_probability": 0.8327874727853805,
+                "observed_frequency": 0.918918918918919,
+                "count": 37
+              }
+            ],
+            "patient_bootstrap_95ci": {
+              "event_recall": [
+                0.762432964638847,
+                0.8771526418786693
+              ],
+              "false_alerts_per_patient_day": [
+                0.6800530362033418,
+                1.01156545835076
+              ]
+            },
+            "mean_lead_minutes": 26.839464882943144,
+            "caught_warned_30m_fraction": 0.47157190635451507
+          },
+          "model_sha256": "1717eeb581382c288be045493cf72be42e4102b93bb38374620a50300a79370e"
+        },
+        "tuned_plus_premeal_glucose": {
+          "feature_count": 60,
+          "threshold": 0.36000000000000004,
+          "selected_settings": {
+            "name": "shorter",
+            "learning_rate": 0.05,
+            "max_iter": 140,
+            "max_leaf_nodes": 15,
+            "min_samples_leaf": 80,
+            "l2_regularization": 10
+          },
+          "threshold_group": {
+            "event_recall": 0.78515625,
+            "false_alerts_per_patient_day": 0.9447446962974914,
+            "median_lead_minutes": 15.0,
+            "event_count": 256,
+            "caught_events": 201,
+            "alerts": 323,
+            "false_alerts": 122,
+            "monitored_days": 129.13541666666666,
+            "threshold": 0.36000000000000004,
+            "windows": 8826,
+            "positive_windows": 958,
+            "brier": 0.06436808930816425,
+            "average_precision": 0.6140082294841945,
+            "roc_auc": 0.9133119488257714,
+            "calibration_bins": [
+              {
+                "mean_probability": 0.01884542350038728,
+                "observed_frequency": 0.028400171257314113,
+                "count": 7007
+              },
+              {
+                "mean_probability": 0.14329202252056242,
+                "observed_frequency": 0.23401162790697674,
+                "count": 688
+              },
+              {
+                "mean_probability": 0.24561657037397616,
+                "observed_frequency": 0.33884297520661155,
+                "count": 363
+              },
+              {
+                "mean_probability": 0.3456993676911646,
+                "observed_frequency": 0.4349593495934959,
+                "count": 246
+              },
+              {
+                "mean_probability": 0.446406701827947,
+                "observed_frequency": 0.5977011494252874,
+                "count": 174
+              },
+              {
+                "mean_probability": 0.5489045830644764,
+                "observed_frequency": 0.6180555555555556,
+                "count": 144
+              },
+              {
+                "mean_probability": 0.650978176869986,
+                "observed_frequency": 0.7978723404255319,
+                "count": 94
+              },
+              {
+                "mean_probability": 0.7471853793266048,
+                "observed_frequency": 0.8918918918918919,
+                "count": 74
+              },
+              {
+                "mean_probability": 0.8300435807751365,
+                "observed_frequency": 0.9444444444444444,
+                "count": 36
+              }
+            ],
+            "patient_bootstrap_95ci": {
+              "event_recall": [
+                0.7113030837769034,
+                0.8425287356321839
+              ],
+              "false_alerts_per_patient_day": [
+                0.6709359550057759,
+                1.246832843292087
+              ]
+            },
+            "mean_lead_minutes": 27.238805970149254,
+            "caught_warned_30m_fraction": 0.48756218905472637
+          },
+          "evaluation": {
+            "event_recall": 0.8164383561643835,
+            "false_alerts_per_patient_day": 0.8787185354691076,
+            "median_lead_minutes": 15.0,
+            "event_count": 365,
+            "caught_events": 298,
+            "alerts": 530,
+            "false_alerts": 232,
+            "monitored_days": 264.0208333333333,
+            "threshold": 0.36000000000000004,
+            "windows": 18771,
+            "positive_windows": 1390,
+            "brier": 0.04713846979625995,
+            "average_precision": 0.538821533587008,
+            "roc_auc": 0.9189768328022122,
+            "calibration_bins": [
+              {
+                "mean_probability": 0.01711182700835447,
+                "observed_frequency": 0.01970286297264554,
+                "count": 15683
+              },
+              {
+                "mean_probability": 0.14316863088401194,
+                "observed_frequency": 0.1791044776119403,
+                "count": 1206
+              },
+              {
+                "mean_probability": 0.2465741414547652,
+                "observed_frequency": 0.2973421926910299,
+                "count": 602
+              },
+              {
+                "mean_probability": 0.3448479893602487,
+                "observed_frequency": 0.3953488372093023,
+                "count": 387
+              },
+              {
+                "mean_probability": 0.44614125271339955,
+                "observed_frequency": 0.47157190635451507,
+                "count": 299
+              },
+              {
+                "mean_probability": 0.5504609228855488,
+                "observed_frequency": 0.5082644628099173,
+                "count": 242
+              },
+              {
+                "mean_probability": 0.6462578817984618,
+                "observed_frequency": 0.7120418848167539,
+                "count": 191
+              },
+              {
+                "mean_probability": 0.7427125383447929,
+                "observed_frequency": 0.7815126050420168,
+                "count": 119
+              },
+              {
+                "mean_probability": 0.835059660582868,
+                "observed_frequency": 0.9523809523809523,
+                "count": 42
+              }
+            ],
+            "patient_bootstrap_95ci": {
+              "event_recall": [
+                0.7648517892796806,
+                0.8533267516037382
+              ],
+              "false_alerts_per_patient_day": [
+                0.710087091625967,
+                1.062908766239912
+              ]
+            },
+            "mean_lead_minutes": 26.72818791946309,
+            "caught_warned_30m_fraction": 0.4697986577181208
+          },
+          "model_sha256": "40f5fbbc6b4fa75c586b8443a756006a89e5eb29940a35be097af934013e2e35"
+        }
+      }
+    },
+    {
+      "seed": 2028,
+      "models": {
+        "current": {
+          "feature_count": 54,
+          "threshold": 0.52,
+          "threshold_group": {
+            "event_recall": 0.8322981366459627,
+            "false_alerts_per_patient_day": 0.9919453258481816,
+            "median_lead_minutes": 15.0,
+            "event_count": 161,
+            "caught_events": 134,
+            "alerts": 261,
+            "false_alerts": 127,
+            "monitored_days": 128.03125,
+            "threshold": 0.52,
+            "windows": 9153,
+            "positive_windows": 614,
+            "brier": 0.049240946356581196,
+            "average_precision": 0.45848238127481716,
+            "roc_auc": 0.9044159524053842,
+            "calibration_bins": [
+              {
+                "mean_probability": 0.02370538059584283,
+                "observed_frequency": 0.01294405292679419,
+                "count": 6953
+              },
+              {
+                "mean_probability": 0.14225157450973686,
+                "observed_frequency": 0.08365508365508366,
+                "count": 777
+              },
+              {
+                "mean_probability": 0.24705294022951121,
+                "observed_frequency": 0.14659685863874344,
+                "count": 382
+              },
+              {
+                "mean_probability": 0.34819843757613783,
+                "observed_frequency": 0.2265625,
+                "count": 256
+              },
+              {
+                "mean_probability": 0.4458613067060013,
+                "observed_frequency": 0.28820960698689957,
+                "count": 229
+              },
+              {
+                "mean_probability": 0.5501135412170107,
+                "observed_frequency": 0.36065573770491804,
+                "count": 183
+              },
+              {
+                "mean_probability": 0.6496012351880374,
+                "observed_frequency": 0.4966887417218543,
+                "count": 151
+              },
+              {
+                "mean_probability": 0.7491551983737151,
+                "observed_frequency": 0.5751633986928104,
+                "count": 153
+              },
+              {
+                "mean_probability": 0.8354784382253136,
+                "observed_frequency": 0.7301587301587301,
+                "count": 63
+              },
+              {
+                "mean_probability": 0.9094308123308368,
+                "observed_frequency": 0.6666666666666666,
+                "count": 6
+              }
+            ],
+            "patient_bootstrap_95ci": {
+              "event_recall": [
+                0.7896659023910907,
+                0.876302835741038
+              ],
+              "false_alerts_per_patient_day": [
+                0.763590173414454,
+                1.2902833548387096
+              ]
+            },
+            "mean_lead_minutes": 25.970149253731343,
+            "caught_warned_30m_fraction": 0.43283582089552236
+          },
+          "evaluation": {
+            "event_recall": 0.7532467532467533,
+            "false_alerts_per_patient_day": 0.9258690982420762,
+            "median_lead_minutes": 15.0,
+            "event_count": 308,
+            "caught_events": 232,
+            "alerts": 452,
+            "false_alerts": 220,
+            "monitored_days": 237.61458333333334,
+            "threshold": 0.52,
+            "windows": 18687,
+            "positive_windows": 1181,
+            "brier": 0.04712009582908873,
+            "average_precision": 0.46124902853798116,
+            "roc_auc": 0.9014142290442962,
+            "calibration_bins": [
+              {
+                "mean_probability": 0.02269721960307217,
+                "observed_frequency": 0.013626251390433816,
+                "count": 14384
+              },
+              {
+                "mean_probability": 0.14194990092538523,
+                "observed_frequency": 0.0917661847894406,
+                "count": 1591
+              },
+              {
+                "mean_probability": 0.24601915937342825,
+                "observed_frequency": 0.19754601226993865,
+                "count": 815
+              },
+              {
+                "mean_probability": 0.3472404431446302,
+                "observed_frequency": 0.18563922942206654,
+                "count": 571
+              },
+              {
+                "mean_probability": 0.44793109419948196,
+                "observed_frequency": 0.279445727482679,
+                "count": 433
+              },
+              {
+                "mean_probability": 0.5476040871513275,
+                "observed_frequency": 0.31076923076923074,
+                "count": 325
+              },
+              {
+                "mean_probability": 0.6498792763077303,
+                "observed_frequency": 0.5396825396825397,
+                "count": 252
+              },
+              {
+                "mean_probability": 0.7440606548163156,
+                "observed_frequency": 0.595,
+                "count": 200
+              },
+              {
+                "mean_probability": 0.8450241679002188,
+                "observed_frequency": 0.7920792079207921,
+                "count": 101
+              },
+              {
+                "mean_probability": 0.925970798306413,
+                "observed_frequency": 1.0,
+                "count": 15
+              }
+            ],
+            "patient_bootstrap_95ci": {
+              "event_recall": [
+                0.6803807947019868,
+                0.8197221692718262
+              ],
+              "false_alerts_per_patient_day": [
+                0.6867268161676348,
+                1.1495009303553871
+              ]
+            },
+            "mean_lead_minutes": 24.95689655172414,
+            "caught_warned_30m_fraction": 0.3879310344827586
+          },
+          "model_sha256": "6e9e3d54936888ac65934d5286c8ed106da37977c7d52892c7d61c2fac70dba4"
+        },
+        "plus_meal_timing": {
+          "feature_count": 72,
+          "threshold": 0.52,
+          "threshold_group": {
+            "event_recall": 0.7950310559006211,
+            "false_alerts_per_patient_day": 0.9841347327312667,
+            "median_lead_minutes": 15.0,
+            "event_count": 161,
+            "caught_events": 128,
+            "alerts": 254,
+            "false_alerts": 126,
+            "monitored_days": 128.03125,
+            "threshold": 0.52,
+            "windows": 9153,
+            "positive_windows": 614,
+            "brier": 0.05043748671303442,
+            "average_precision": 0.4331050850417386,
+            "roc_auc": 0.9005124218330687,
+            "calibration_bins": [
+              {
+                "mean_probability": 0.024259548407114175,
+                "observed_frequency": 0.013157894736842105,
+                "count": 6916
+              },
+              {
+                "mean_probability": 0.1413141446766187,
+                "observed_frequency": 0.09022556390977443,
+                "count": 798
+              },
+              {
+                "mean_probability": 0.24587612295822317,
+                "observed_frequency": 0.1496437054631829,
+                "count": 421
+              },
+              {
+                "mean_probability": 0.3451962208584679,
+                "observed_frequency": 0.2441860465116279,
+                "count": 258
+              },
+              {
+                "mean_probability": 0.44872899079637757,
+                "observed_frequency": 0.28205128205128205,
+                "count": 234
+              },
+              {
+                "mean_probability": 0.5533156824444884,
+                "observed_frequency": 0.378698224852071,
+                "count": 169
+              },
+              {
+                "mean_probability": 0.6479520418103272,
+                "observed_frequency": 0.48322147651006714,
+                "count": 149
+              },
+              {
+                "mean_probability": 0.7473732866960585,
+                "observed_frequency": 0.5625,
+                "count": 144
+              },
+              {
+                "mean_probability": 0.8415256133311343,
+                "observed_frequency": 0.639344262295082,
+                "count": 61
+              },
+              {
+                "mean_probability": 0.9293338156456613,
+                "observed_frequency": 1.0,
+                "count": 3
+              }
+            ],
+            "patient_bootstrap_95ci": {
+              "event_recall": [
+                0.7169065656565656,
+                0.8499899507587177
+              ],
+              "false_alerts_per_patient_day": [
+                0.7651647830825159,
+                1.2434946369275606
+              ]
+            },
+            "mean_lead_minutes": 25.4296875,
+            "caught_warned_30m_fraction": 0.4375
+          },
+          "evaluation": {
+            "event_recall": 0.762987012987013,
+            "false_alerts_per_patient_day": 0.97216255315418,
+            "median_lead_minutes": 15.0,
+            "event_count": 308,
+            "caught_events": 235,
+            "alerts": 466,
+            "false_alerts": 231,
+            "monitored_days": 237.61458333333334,
+            "threshold": 0.52,
+            "windows": 18687,
+            "positive_windows": 1181,
+            "brier": 0.04757578302227047,
+            "average_precision": 0.450277173897103,
+            "roc_auc": 0.8986879834014572,
+            "calibration_bins": [
+              {
+                "mean_probability": 0.023652088715838918,
+                "observed_frequency": 0.014041215508208173,
+                "count": 14315
+              },
+              {
+                "mean_probability": 0.14221289014365465,
+                "observed_frequency": 0.08698296836982969,
+                "count": 1644
+              },
+              {
+                "mean_probability": 0.24745515616211086,
+                "observed_frequency": 0.18867924528301888,
+                "count": 848
+              },
+              {
+                "mean_probability": 0.3490133930949537,
+                "observed_frequency": 0.20426287744227353,
+                "count": 563
+              },
+              {
+                "mean_probability": 0.44950112390223107,
+                "observed_frequency": 0.2517985611510791,
+                "count": 417
+              },
+              {
+                "mean_probability": 0.5475169766025484,
+                "observed_frequency": 0.3449367088607595,
+                "count": 316
+              },
+              {
+                "mean_probability": 0.6474889200461688,
+                "observed_frequency": 0.4891304347826087,
+                "count": 276
+              },
+              {
+                "mean_probability": 0.7445666564759574,
+                "observed_frequency": 0.6387434554973822,
+                "count": 191
+              },
+              {
+                "mean_probability": 0.8444510674286153,
+                "observed_frequency": 0.7628865979381443,
+                "count": 97
+              },
+              {
+                "mean_probability": 0.9188089740330125,
+                "observed_frequency": 0.85,
+                "count": 20
+              }
+            ],
+            "patient_bootstrap_95ci": {
+              "event_recall": [
+                0.6960383256319652,
+                0.8236277421208927
+              ],
+              "false_alerts_per_patient_day": [
+                0.7361732196931277,
+                1.1855653185779762
+              ]
+            },
+            "mean_lead_minutes": 24.574468085106382,
+            "caught_warned_30m_fraction": 0.39574468085106385
+          },
+          "model_sha256": "35996d5aa81b81a408f4e45b89a5f6ddc79fb4bfac7ea2837560e728b533764e"
+        },
+        "plus_premeal_glucose": {
+          "feature_count": 60,
+          "threshold": 0.54,
+          "threshold_group": {
+            "event_recall": 0.7639751552795031,
+            "false_alerts_per_patient_day": 0.9607029533805224,
+            "median_lead_minutes": 15.0,
+            "event_count": 161,
+            "caught_events": 123,
+            "alerts": 246,
+            "false_alerts": 123,
+            "monitored_days": 128.03125,
+            "threshold": 0.54,
+            "windows": 9153,
+            "positive_windows": 614,
+            "brier": 0.05004759167713982,
+            "average_precision": 0.4523385761903566,
+            "roc_auc": 0.9023675811270992,
+            "calibration_bins": [
+              {
+                "mean_probability": 0.023977934309879243,
+                "observed_frequency": 0.013560300057703404,
+                "count": 6932
+              },
+              {
+                "mean_probability": 0.14204130248419256,
+                "observed_frequency": 0.08735332464146023,
+                "count": 767
+              },
+              {
+                "mean_probability": 0.24447711856128013,
+                "observed_frequency": 0.11948051948051948,
+                "count": 385
+              },
+              {
+                "mean_probability": 0.34840968459725863,
+                "observed_frequency": 0.22509225092250923,
+                "count": 271
+              },
+              {
+                "mean_probability": 0.4461581611172437,
+                "observed_frequency": 0.2956521739130435,
+                "count": 230
+              },
+              {
+                "mean_probability": 0.5516953668334467,
+                "observed_frequency": 0.3387096774193548,
+                "count": 186
+              },
+              {
+                "mean_probability": 0.6483716918590272,
+                "observed_frequency": 0.49710982658959535,
+                "count": 173
+              },
+              {
+                "mean_probability": 0.7449230111020962,
+                "observed_frequency": 0.5955882352941176,
+                "count": 136
+              },
+              {
+                "mean_probability": 0.8417366034396341,
+                "observed_frequency": 0.6428571428571429,
+                "count": 70
+              },
+              {
+                "mean_probability": 0.9032440492060859,
+                "observed_frequency": 1.0,
+                "count": 3
+              }
+            ],
+            "patient_bootstrap_95ci": {
+              "event_recall": [
+                0.7031818181818181,
+                0.8227272727272726
+              ],
+              "false_alerts_per_patient_day": [
+                0.7389325220240198,
+                1.158941302890454
+              ]
+            },
+            "mean_lead_minutes": 25.73170731707317,
+            "caught_warned_30m_fraction": 0.43902439024390244
+          },
+          "evaluation": {
+            "event_recall": 0.724025974025974,
+            "false_alerts_per_patient_day": 0.8332821884178685,
+            "median_lead_minutes": 15.0,
+            "event_count": 308,
+            "caught_events": 223,
+            "alerts": 421,
+            "false_alerts": 198,
+            "monitored_days": 237.61458333333334,
+            "threshold": 0.54,
+            "windows": 18687,
+            "positive_windows": 1181,
+            "brier": 0.04698935449587034,
+            "average_precision": 0.4590694817675753,
+            "roc_auc": 0.901473964218679,
+            "calibration_bins": [
+              {
+                "mean_probability": 0.023405349366663105,
+                "observed_frequency": 0.014032650225772839,
+                "count": 14395
+              },
+              {
+                "mean_probability": 0.14168622068265355,
+                "observed_frequency": 0.09488139825218476,
+                "count": 1602
+              },
+              {
+                "mean_probability": 0.24806437839118256,
+                "observed_frequency": 0.1794871794871795,
+                "count": 819
+              },
+              {
+                "mean_probability": 0.34580446851290697,
+                "observed_frequency": 0.19168173598553345,
+                "count": 553
+              },
+              {
+                "mean_probability": 0.44587846441200024,
+                "observed_frequency": 0.2677725118483412,
+                "count": 422
+              },
+              {
+                "mean_probability": 0.545331409875005,
+                "observed_frequency": 0.359375,
+                "count": 320
+              },
+              {
+                "mean_probability": 0.649601690099876,
+                "observed_frequency": 0.45454545454545453,
+                "count": 264
+              },
+              {
+                "mean_probability": 0.7443016639794762,
+                "observed_frequency": 0.6884422110552764,
+                "count": 199
+              },
+              {
+                "mean_probability": 0.8455219853025683,
+                "observed_frequency": 0.7755102040816326,
+                "count": 98
+              },
+              {
+                "mean_probability": 0.9274163846138853,
+                "observed_frequency": 0.8666666666666667,
+                "count": 15
+              }
+            ],
+            "patient_bootstrap_95ci": {
+              "event_recall": [
+                0.6543256534013296,
+                0.7870767031824725
+              ],
+              "false_alerts_per_patient_day": [
+                0.6129287717226231,
+                1.057910736769288
+              ]
+            },
+            "mean_lead_minutes": 24.484304932735427,
+            "caught_warned_30m_fraction": 0.3811659192825112
+          },
+          "model_sha256": "17afadc460c18ee1709c78ef4142143500b9133bf2d3d75da2f1899e52917d71"
+        },
+        "trend_baseline": {
+          "feature_count": 5,
+          "threshold": 0.44,
+          "threshold_group": {
+            "event_recall": 0.7701863354037267,
+            "false_alerts_per_patient_day": 0.9919453258481816,
+            "median_lead_minutes": 15.0,
+            "event_count": 161,
+            "caught_events": 124,
+            "alerts": 251,
+            "false_alerts": 127,
+            "monitored_days": 128.03125,
+            "threshold": 0.44,
+            "windows": 9153,
+            "positive_windows": 614,
+            "brier": 0.049894525678333274,
+            "average_precision": 0.4187929848774389,
+            "roc_auc": 0.8929233678927838,
+            "calibration_bins": [
+              {
+                "mean_probability": 0.02729028650062696,
+                "observed_frequency": 0.012694145758661887,
+                "count": 6696
+              },
+              {
+                "mean_probability": 0.14227679932810244,
+                "observed_frequency": 0.0873320537428023,
+                "count": 1042
+              },
+              {
+                "mean_probability": 0.2454223028684817,
+                "observed_frequency": 0.1684981684981685,
+                "count": 546
+              },
+              {
+                "mean_probability": 0.3474660495733995,
+                "observed_frequency": 0.2826086956521739,
+                "count": 322
+              },
+              {
+                "mean_probability": 0.44583986179008467,
+                "observed_frequency": 0.36666666666666664,
+                "count": 210
+              },
+              {
+                "mean_probability": 0.5443939639111638,
+                "observed_frequency": 0.45161290322580644,
+                "count": 124
+              },
+              {
+                "mean_probability": 0.6551242665815205,
+                "observed_frequency": 0.4772727272727273,
+                "count": 88
+              },
+              {
+                "mean_probability": 0.7462865043924639,
+                "observed_frequency": 0.7068965517241379,
+                "count": 58
+              },
+              {
+                "mean_probability": 0.8473080661933884,
+                "observed_frequency": 0.5121951219512195,
+                "count": 41
+              },
+              {
+                "mean_probability": 0.9291611338342095,
+                "observed_frequency": 0.6923076923076923,
+                "count": 26
+              }
+            ],
+            "patient_bootstrap_95ci": {
+              "event_recall": [
+                0.7145437262357415,
+                0.8737263125194159
+              ],
+              "false_alerts_per_patient_day": [
+                0.7174519250622627,
+                1.3856680095191725
+              ]
+            },
+            "mean_lead_minutes": 24.919354838709676,
+            "caught_warned_30m_fraction": 0.43548387096774194
+          },
+          "evaluation": {
+            "event_recall": 0.8311688311688312,
+            "false_alerts_per_patient_day": 1.132085397395993,
+            "median_lead_minutes": 15.0,
+            "event_count": 308,
+            "caught_events": 256,
+            "alerts": 525,
+            "false_alerts": 269,
+            "monitored_days": 237.61458333333334,
+            "threshold": 0.44,
+            "windows": 18687,
+            "positive_windows": 1181,
+            "brier": 0.051977952013745464,
+            "average_precision": 0.3772421096272656,
+            "roc_auc": 0.856883784758737,
+            "calibration_bins": [
+              {
+                "mean_probability": 0.02762597675745365,
+                "observed_frequency": 0.0194090382387022,
+                "count": 13808
+              },
+              {
+                "mean_probability": 0.14270213860006797,
+                "observed_frequency": 0.09020368574199807,
+                "count": 2062
+              },
+              {
+                "mean_probability": 0.245846528080091,
+                "observed_frequency": 0.1442831215970962,
+                "count": 1102
+              },
+              {
+                "mean_probability": 0.3455622867900077,
+                "observed_frequency": 0.2231139646869984,
+                "count": 623
+              },
+              {
+                "mean_probability": 0.44742115639493696,
+                "observed_frequency": 0.272264631043257,
+                "count": 393
+              },
+              {
+                "mean_probability": 0.5453189618976545,
+                "observed_frequency": 0.2883895131086142,
+                "count": 267
+              },
+              {
+                "mean_probability": 0.6489623642112207,
+                "observed_frequency": 0.4186046511627907,
+                "count": 172
+              },
+              {
+                "mean_probability": 0.7502400641497571,
+                "observed_frequency": 0.5327868852459017,
+                "count": 122
+              },
+              {
+                "mean_probability": 0.8467102848004329,
+                "observed_frequency": 0.7066666666666667,
+                "count": 75
+              },
+              {
+                "mean_probability": 0.939094624981334,
+                "observed_frequency": 0.873015873015873,
+                "count": 63
+              }
+            ],
+            "patient_bootstrap_95ci": {
+              "event_recall": [
+                0.7812225942756916,
+                0.8836525291828794
+              ],
+              "false_alerts_per_patient_day": [
+                0.878714871939053,
+                1.3665728621057969
+              ]
+            },
+            "mean_lead_minutes": 22.79296875,
+            "caught_warned_30m_fraction": 0.375
+          },
+          "model_sha256": "ce1773b9330b44b261ca3242cd69e5c191fa8feddc6e506257aaae761df6c737"
+        },
+        "tuned_current": {
+          "feature_count": 54,
+          "threshold": 0.52,
+          "selected_settings": {
+            "name": "conservative",
+            "learning_rate": 0.05,
+            "max_iter": 280,
+            "max_leaf_nodes": 7,
+            "min_samples_leaf": 160,
+            "l2_regularization": 30
+          },
+          "threshold_group": {
+            "event_recall": 0.8571428571428571,
+            "false_alerts_per_patient_day": 0.9450817671466927,
+            "median_lead_minutes": 15.0,
+            "event_count": 161,
+            "caught_events": 138,
+            "alerts": 259,
+            "false_alerts": 121,
+            "monitored_days": 128.03125,
+            "threshold": 0.52,
+            "windows": 9153,
+            "positive_windows": 614,
+            "brier": 0.049398356047925,
+            "average_precision": 0.43888563488707333,
+            "roc_auc": 0.9065999344643261,
+            "calibration_bins": [
+              {
+                "mean_probability": 0.024682832646480964,
+                "observed_frequency": 0.012864493996569469,
+                "count": 6996
+              },
+              {
+                "mean_probability": 0.1412865343076375,
+                "observed_frequency": 0.08104395604395605,
+                "count": 728
+              },
+              {
+                "mean_probability": 0.24480207143009358,
+                "observed_frequency": 0.16458852867830423,
+                "count": 401
+              },
+              {
+                "mean_probability": 0.3433469431977596,
+                "observed_frequency": 0.22426470588235295,
+                "count": 272
+              },
+              {
+                "mean_probability": 0.4470335840000508,
+                "observed_frequency": 0.3211009174311927,
+                "count": 218
+              },
+              {
+                "mean_probability": 0.5516208881169589,
+                "observed_frequency": 0.3829787234042553,
+                "count": 188
+              },
+              {
+                "mean_probability": 0.6515281398270603,
+                "observed_frequency": 0.5512820512820513,
+                "count": 156
+              },
+              {
+                "mean_probability": 0.7462336709270617,
+                "observed_frequency": 0.5149253731343284,
+                "count": 134
+              },
+              {
+                "mean_probability": 0.8431435860345772,
+                "observed_frequency": 0.6964285714285714,
+                "count": 56
+              },
+              {
+                "mean_probability": 0.9110041434389599,
+                "observed_frequency": 0.5,
+                "count": 4
+              }
+            ],
+            "patient_bootstrap_95ci": {
+              "event_recall": [
+                0.8229484198742789,
+                0.9202386363636363
+              ],
+              "false_alerts_per_patient_day": [
+                0.7069005890414689,
+                1.2563953715564906
+              ]
+            },
+            "mean_lead_minutes": 25.76086956521739,
+            "caught_warned_30m_fraction": 0.4420289855072464
+          },
+          "evaluation": {
+            "event_recall": 0.7694805194805194,
+            "false_alerts_per_patient_day": 0.997413528560782,
+            "median_lead_minutes": 15.0,
+            "event_count": 308,
+            "caught_events": 237,
+            "alerts": 474,
+            "false_alerts": 237,
+            "monitored_days": 237.61458333333334,
+            "threshold": 0.52,
+            "windows": 18687,
+            "positive_windows": 1181,
+            "brier": 0.04758135293572739,
+            "average_precision": 0.4538808224611703,
+            "roc_auc": 0.8977586540306055,
+            "calibration_bins": [
+              {
+                "mean_probability": 0.023487045519353787,
+                "observed_frequency": 0.014953271028037384,
+                "count": 14445
+              },
+              {
+                "mean_probability": 0.14198623267374558,
+                "observed_frequency": 0.09929980903882878,
+                "count": 1571
+              },
+              {
+                "mean_probability": 0.2455355582318193,
+                "observed_frequency": 0.15063291139240506,
+                "count": 790
+              },
+              {
+                "mean_probability": 0.34853162637695945,
+                "observed_frequency": 0.22419928825622776,
+                "count": 562
+              },
+              {
+                "mean_probability": 0.4488715373239035,
+                "observed_frequency": 0.25906735751295334,
+                "count": 386
+              },
+              {
+                "mean_probability": 0.5459248080575204,
+                "observed_frequency": 0.3241590214067278,
+                "count": 327
+              },
+              {
+                "mean_probability": 0.6475536667164417,
+                "observed_frequency": 0.48226950354609927,
+                "count": 282
+              },
+              {
+                "mean_probability": 0.7461588717566439,
+                "observed_frequency": 0.6345177664974619,
+                "count": 197
+              },
+              {
+                "mean_probability": 0.8411945249801107,
+                "observed_frequency": 0.7522123893805309,
+                "count": 113
+              },
+              {
+                "mean_probability": 0.920146689821707,
+                "observed_frequency": 0.8571428571428571,
+                "count": 14
+              }
+            ],
+            "patient_bootstrap_95ci": {
+              "event_recall": [
+                0.7005001221842093,
+                0.8294220151828847
+              ],
+              "false_alerts_per_patient_day": [
+                0.7602793640698802,
+                1.225776948300438
+              ]
+            },
+            "mean_lead_minutes": 25.253164556962027,
+            "caught_warned_30m_fraction": 0.43037974683544306
+          },
+          "model_sha256": "ad40eb3754e9a616c794676ad95ad4159793737b43ad1941bb99e3ce15d72c56"
+        },
+        "tuned_plus_meal_timing": {
+          "feature_count": 72,
+          "threshold": 0.5,
+          "selected_settings": {
+            "name": "conservative",
+            "learning_rate": 0.05,
+            "max_iter": 280,
+            "max_leaf_nodes": 7,
+            "min_samples_leaf": 160,
+            "l2_regularization": 30
+          },
+          "threshold_group": {
+            "event_recall": 0.8509316770186336,
+            "false_alerts_per_patient_day": 0.9997559189650964,
+            "median_lead_minutes": 15.0,
+            "event_count": 161,
+            "caught_events": 137,
+            "alerts": 265,
+            "false_alerts": 128,
+            "monitored_days": 128.03125,
+            "threshold": 0.5,
+            "windows": 9153,
+            "positive_windows": 614,
+            "brier": 0.04961227166944187,
+            "average_precision": 0.43320376117069775,
+            "roc_auc": 0.9054478150261323,
+            "calibration_bins": [
+              {
+                "mean_probability": 0.02493209481591208,
+                "observed_frequency": 0.013033514752219994,
+                "count": 6982
+              },
+              {
+                "mean_probability": 0.1406180547890981,
+                "observed_frequency": 0.08502024291497975,
+                "count": 741
+              },
+              {
+                "mean_probability": 0.24515364786877958,
+                "observed_frequency": 0.16464891041162227,
+                "count": 413
+              },
+              {
+                "mean_probability": 0.3470348287916605,
+                "observed_frequency": 0.22336769759450173,
+                "count": 291
+              },
+              {
+                "mean_probability": 0.45077451575625427,
+                "observed_frequency": 0.32038834951456313,
+                "count": 206
+              },
+              {
+                "mean_probability": 0.553168403075613,
+                "observed_frequency": 0.4186046511627907,
+                "count": 172
+              },
+              {
+                "mean_probability": 0.648961952401677,
+                "observed_frequency": 0.5095541401273885,
+                "count": 157
+              },
+              {
+                "mean_probability": 0.7462573951400195,
+                "observed_frequency": 0.549618320610687,
+                "count": 131
+              },
+              {
+                "mean_probability": 0.8413390188211414,
+                "observed_frequency": 0.625,
+                "count": 56
+              },
+              {
+                "mean_probability": 0.9080694472952706,
+                "observed_frequency": 0.5,
+                "count": 4
+              }
+            ],
+            "patient_bootstrap_95ci": {
+              "event_recall": [
+                0.8150507665581623,
+                0.9218637504090761
+              ],
+              "false_alerts_per_patient_day": [
+                0.7525415532435759,
+                1.334399393538437
+              ]
+            },
+            "mean_lead_minutes": 26.496350364963504,
+            "caught_warned_30m_fraction": 0.45985401459854014
+          },
+          "evaluation": {
+            "event_recall": 0.7954545454545454,
+            "false_alerts_per_patient_day": 1.0984174301871903,
+            "median_lead_minutes": 15.0,
+            "event_count": 308,
+            "caught_events": 245,
+            "alerts": 506,
+            "false_alerts": 261,
+            "monitored_days": 237.61458333333334,
+            "threshold": 0.5,
+            "windows": 18687,
+            "positive_windows": 1181,
+            "brier": 0.04735298293850362,
+            "average_precision": 0.45451141318674304,
+            "roc_auc": 0.8984279781950651,
+            "calibration_bins": [
+              {
+                "mean_probability": 0.023824202404539734,
+                "observed_frequency": 0.014746607587925783,
+                "count": 14444
+              },
+              {
+                "mean_probability": 0.1416291672892713,
+                "observed_frequency": 0.10204081632653061,
+                "count": 1568
+              },
+              {
+                "mean_probability": 0.24723629897395552,
+                "observed_frequency": 0.14925373134328357,
+                "count": 804
+              },
+              {
+                "mean_probability": 0.3478240112764505,
+                "observed_frequency": 0.2072072072072072,
+                "count": 555
+              },
+              {
+                "mean_probability": 0.4475389033440489,
+                "observed_frequency": 0.2717948717948718,
+                "count": 390
+              },
+              {
+                "mean_probability": 0.5474907947969245,
+                "observed_frequency": 0.3148148148148148,
+                "count": 324
+              },
+              {
+                "mean_probability": 0.6472799514642524,
+                "observed_frequency": 0.49466192170818507,
+                "count": 281
+              },
+              {
+                "mean_probability": 0.745432233379579,
+                "observed_frequency": 0.656084656084656,
+                "count": 189
+              },
+              {
+                "mean_probability": 0.8411886042849954,
+                "observed_frequency": 0.7711864406779662,
+                "count": 118
+              },
+              {
+                "mean_probability": 0.9209922113701982,
+                "observed_frequency": 0.7857142857142857,
+                "count": 14
+              }
+            ],
+            "patient_bootstrap_95ci": {
+              "event_recall": [
+                0.729374772147284,
+                0.8512926818014027
+              ],
+              "false_alerts_per_patient_day": [
+                0.8378671115756443,
+                1.339493552637909
+              ]
+            },
+            "mean_lead_minutes": 25.285714285714285,
+            "caught_warned_30m_fraction": 0.4204081632653061
+          },
+          "model_sha256": "2678924cb2f4a6c6a6459fc73533413ab6ceb5ebd6c6f11a669a80b0b8fcead8"
+        },
+        "tuned_plus_premeal_glucose": {
+          "feature_count": 60,
+          "threshold": 0.52,
+          "selected_settings": {
+            "name": "conservative",
+            "learning_rate": 0.05,
+            "max_iter": 280,
+            "max_leaf_nodes": 7,
+            "min_samples_leaf": 160,
+            "l2_regularization": 30
+          },
+          "threshold_group": {
+            "event_recall": 0.8322981366459627,
+            "false_alerts_per_patient_day": 0.9997559189650964,
+            "median_lead_minutes": 15.0,
+            "event_count": 161,
+            "caught_events": 134,
+            "alerts": 262,
+            "false_alerts": 128,
+            "monitored_days": 128.03125,
+            "threshold": 0.52,
+            "windows": 9153,
+            "positive_windows": 614,
+            "brier": 0.049012703157031885,
+            "average_precision": 0.44769193560907916,
+            "roc_auc": 0.9071447617427302,
+            "calibration_bins": [
+              {
+                "mean_probability": 0.024015192364875943,
+                "observed_frequency": 0.013112884834663626,
+                "count": 7016
+              },
+              {
+                "mean_probability": 0.1405846115716221,
+                "observed_frequency": 0.08321579689703808,
+                "count": 709
+              },
+              {
+                "mean_probability": 0.246223010055744,
+                "observed_frequency": 0.13022113022113022,
+                "count": 407
+              },
+              {
+                "mean_probability": 0.35137537154481635,
+                "observed_frequency": 0.2440944881889764,
+                "count": 254
+              },
+              {
+                "mean_probability": 0.4480733395564846,
+                "observed_frequency": 0.3598130841121495,
+                "count": 214
+              },
+              {
+                "mean_probability": 0.5518271106008616,
+                "observed_frequency": 0.32608695652173914,
+                "count": 184
+              },
+              {
+                "mean_probability": 0.6476932338737083,
+                "observed_frequency": 0.5253164556962026,
+                "count": 158
+              },
+              {
+                "mean_probability": 0.7452658866181162,
+                "observed_frequency": 0.5971223021582733,
+                "count": 139
+              },
+              {
+                "mean_probability": 0.8398144170169202,
+                "observed_frequency": 0.6363636363636364,
+                "count": 66
+              },
+              {
+                "mean_probability": 0.9130901655904534,
+                "observed_frequency": 0.5,
+                "count": 6
+              }
+            ],
+            "patient_bootstrap_95ci": {
+              "event_recall": [
+                0.8028922376579547,
+                0.8898877952755906
+              ],
+              "false_alerts_per_patient_day": [
+                0.7672295203172493,
+                1.3131319581475562
+              ]
+            },
+            "mean_lead_minutes": 26.417910447761194,
+            "caught_warned_30m_fraction": 0.4626865671641791
+          },
+          "evaluation": {
+            "event_recall": 0.7727272727272727,
+            "false_alerts_per_patient_day": 1.0479154793739862,
+            "median_lead_minutes": 15.0,
+            "event_count": 308,
+            "caught_events": 238,
+            "alerts": 487,
+            "false_alerts": 249,
+            "monitored_days": 237.61458333333334,
+            "threshold": 0.52,
+            "windows": 18687,
+            "positive_windows": 1181,
+            "brier": 0.04727148534892672,
+            "average_precision": 0.4611771778902848,
+            "roc_auc": 0.9003547398724212,
+            "calibration_bins": [
+              {
+                "mean_probability": 0.02323303144795328,
+                "observed_frequency": 0.01451378809869376,
+                "count": 14469
+              },
+              {
+                "mean_probability": 0.142806431234499,
+                "observed_frequency": 0.09486166007905138,
+                "count": 1518
+              },
+              {
+                "mean_probability": 0.24720050516898004,
+                "observed_frequency": 0.15940224159402241,
+                "count": 803
+              },
+              {
+                "mean_probability": 0.34717866128823127,
+                "observed_frequency": 0.20441988950276244,
+                "count": 543
+              },
+              {
+                "mean_probability": 0.4466867474043742,
+                "observed_frequency": 0.25879396984924624,
+                "count": 398
+              },
+              {
+                "mean_probability": 0.549235754486253,
+                "observed_frequency": 0.3392330383480826,
+                "count": 339
+              },
+              {
+                "mean_probability": 0.6471940774621937,
+                "observed_frequency": 0.4789272030651341,
+                "count": 261
+              },
+              {
+                "mean_probability": 0.7447941199385226,
+                "observed_frequency": 0.6113744075829384,
+                "count": 211
+              },
+              {
+                "mean_probability": 0.8434254500209449,
+                "observed_frequency": 0.7936507936507936,
+                "count": 126
+              },
+              {
+                "mean_probability": 0.9205637136272373,
+                "observed_frequency": 0.8421052631578947,
+                "count": 19
+              }
+            ],
+            "patient_bootstrap_95ci": {
+              "event_recall": [
+                0.6983260073260074,
+                0.8355494966442952
+              ],
+              "false_alerts_per_patient_day": [
+                0.816349125292812,
+                1.2831747335345947
+              ]
+            },
+            "mean_lead_minutes": 25.27310924369748,
+            "caught_warned_30m_fraction": 0.42436974789915966
+          },
+          "model_sha256": "1abb12dba670ab7c4efda4c9e2c0913210e7eddf110b67ddde5f3d7dc0eb7a43"
+        }
+      }
+    }
+  ]
+}

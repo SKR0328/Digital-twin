@@ -1,0 +1,2305 @@
+{
+  "schema": "nutrition-lookup-v1",
+  "weight_basis": "cooked/as-served; user assumption",
+  "source": {
+    "dataset": "USDA FNDDS 2019-2020 references plus 10 project reference additions",
+    "documentation": "https://www.ars.usda.gov/ARSUserFiles/80400530/pdf/fndds/2019_2020_FNDDS_Doc.pdf",
+    "nutrient_basis": "per 100 g edible portion",
+    "components": [
+      {
+        "dataset": "USDA FNDDS 2019-2020, October 2022 FoodData Central release",
+        "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_survey_food_json_2022-10-28.zip",
+        "source_json_sha256": "d6f0249b985e345c72f98f2c96e1f4e27694a447b348034c63684540f2bde28d",
+        "documentation": "https://www.ars.usda.gov/ARSUserFiles/80400530/pdf/fndds/2019_2020_FNDDS_Doc.pdf",
+        "nutrient_basis": "per 100 g edible portion",
+        "license": "US government public-domain data; attribution preserved"
+      },
+      {
+        "dataset": "Project reference additions",
+        "source_status": "unspecified",
+        "url": null,
+        "license": "unspecified; no USDA attribution for these additions"
+      }
+    ]
+  },
+  "assumptions": [
+    "Plain milk: whole cow's milk",
+    "Plain yogurt: whole-milk plain yogurt",
+    "Plain bread: white bread",
+    "Plain noodles: cooked generic noodles",
+    "Fresh fruit: as-served fruit profile, not cooked fruit",
+    "Cooked/as-served grams treated as edible grams; bones/shells unresolved",
+    "Generic food matches are estimates, not measured patient nutrition",
+    "Plain cucumber and Hangzhou cabbage entries treated as raw under project instruction; not an independently reviewed preparation annotation.",
+    "Buckwheat bread entries use a buckwheat steamed bun default based on the inspected Chinese description; individual entries may vary.",
+    "Ten added per-100g reference profiles have unspecified sources; they are estimates and carry no USDA attribution."
+  ],
+  "references": {
+    "2340762": {
+      "fdc_id": 2340762,
+      "description": "Milk, whole",
+      "nutrients_per_100g": {
+        "protein_g": 3.27,
+        "fat_g": 3.2,
+        "carbs_g": 4.63,
+        "energy_kcal": 61.0,
+        "fibre_g": 0.0
+      },
+      "portions": [
+        {
+          "description": "1 cup",
+          "gram_weight": 244
+        },
+        {
+          "description": "Guideline amount per cup of hot cereal",
+          "gram_weight": 61
+        },
+        {
+          "description": "Guideline amount per fl oz of beverage",
+          "gram_weight": 2.5
+        },
+        {
+          "description": "1 individual school container",
+          "gram_weight": 244
+        },
+        {
+          "description": "1 fl oz",
+          "gram_weight": 30.5
+        },
+        {
+          "description": "Quantity not specified",
+          "gram_weight": 244
+        }
+      ],
+      "url": "https://fdc.nal.usda.gov/food-details/2340762/nutrients"
+    },
+    "2340784": {
+      "fdc_id": 2340784,
+      "description": "Soy milk",
+      "nutrients_per_100g": {
+        "protein_g": 3.41,
+        "fat_g": 2.05,
+        "carbs_g": 5.22,
+        "energy_kcal": 53.0,
+        "fibre_g": 0.0
+      },
+      "portions": [
+        {
+          "description": "1 fl oz",
+          "gram_weight": 30.5
+        },
+        {
+          "description": "Guideline amount per fl oz of beverage",
+          "gram_weight": 2.5
+        },
+        {
+          "description": "Quantity not specified",
+          "gram_weight": 244
+        },
+        {
+          "description": "1 cup",
+          "gram_weight": 244
+        },
+        {
+          "description": "Guideline amount per cup of hot cereal",
+          "gram_weight": 61
+        }
+      ],
+      "url": "https://fdc.nal.usda.gov/food-details/2340784/nutrients"
+    },
+    "2340799": {
+      "fdc_id": 2340799,
+      "description": "Yogurt, whole milk, plain",
+      "nutrients_per_100g": {
+        "protein_g": 3.47,
+        "fat_g": 3.25,
+        "carbs_g": 4.66,
+        "energy_kcal": 61.0,
+        "fibre_g": 0.0
+      },
+      "portions": [
+        {
+          "description": "1 container, NFS",
+          "gram_weight": 170
+        },
+        {
+          "description": "1 4 oz container",
+          "gram_weight": 113
+        },
+        {
+          "description": "1 6 oz container",
+          "gram_weight": 170
+        },
+        {
+          "description": "1 cup",
+          "gram_weight": 245
+        },
+        {
+          "description": "Quantity not specified",
+          "gram_weight": 170
+        }
+      ],
+      "url": "https://fdc.nal.usda.gov/food-details/2340799/nutrients"
+    },
+    "2341227": {
+      "fdc_id": 2341227,
+      "description": "Beef, NFS",
+      "nutrients_per_100g": {
+        "protein_g": 27.1,
+        "fat_g": 13.0,
+        "carbs_g": 0.0,
+        "energy_kcal": 231,
+        "fibre_g": 0.0
+      },
+      "portions": [
+        {
+          "description": "1 piece/slice, any size",
+          "gram_weight": 30
+        },
+        {
+          "description": "1 cup",
+          "gram_weight": 135
+        },
+        {
+          "description": "1 cubic inch",
+          "gram_weight": 17
+        },
+        {
+          "description": "1 oz yields",
+          "gram_weight": 20
+        },
+        {
+          "description": "Quantity not specified",
+          "gram_weight": 60
+        }
+      ],
+      "url": "https://fdc.nal.usda.gov/food-details/2341227/nutrients"
+    },
+    "2341267": {
+      "fdc_id": 2341267,
+      "description": "Pork, NFS",
+      "nutrients_per_100g": {
+        "protein_g": 27.1,
+        "fat_g": 8.67,
+        "carbs_g": 0.0,
+        "energy_kcal": 192,
+        "fibre_g": 0.0
+      },
+      "portions": [
+        {
+          "description": "1 slice, any size",
+          "gram_weight": 30
+        },
+        {
+          "description": "1 cup",
+          "gram_weight": 135
+        },
+        {
+          "description": "Quantity not specified",
+          "gram_weight": 60
+        },
+        {
+          "description": "1 cubic inch",
+          "gram_weight": 17
+        },
+        {
+          "description": "1 oz yields",
+          "gram_weight": 20
+        }
+      ],
+      "url": "https://fdc.nal.usda.gov/food-details/2341267/nutrients"
+    },
+    "2341335": {
+      "fdc_id": 2341335,
+      "description": "Chicken, NS as to part and cooking method, NS as to skin eaten",
+      "nutrients_per_100g": {
+        "protein_g": 26.8,
+        "fat_g": 6.36,
+        "carbs_g": 0.0,
+        "energy_kcal": 164,
+        "fibre_g": 0.0
+      },
+      "portions": [
+        {
+          "description": "1 slice",
+          "gram_weight": 60
+        },
+        {
+          "description": "Quantity not specified",
+          "gram_weight": 85
+        },
+        {
+          "description": "1 piece",
+          "gram_weight": 60
+        },
+        {
+          "description": "1 oz, cooked",
+          "gram_weight": 28.35
+        },
+        {
+          "description": "1 cup, cooked, diced",
+          "gram_weight": 135
+        }
+      ],
+      "url": "https://fdc.nal.usda.gov/food-details/2341335/nutrients"
+    },
+    "2341546": {
+      "fdc_id": 2341546,
+      "description": "Duck, cooked, skin eaten",
+      "nutrients_per_100g": {
+        "protein_g": 18.9,
+        "fat_g": 28.2,
+        "carbs_g": 0.0,
+        "energy_kcal": 336,
+        "fibre_g": 0.0
+      },
+      "portions": [
+        {
+          "description": "1 cup, cooked, diced",
+          "gram_weight": 140
+        },
+        {
+          "description": "1 wing (yield after cooking, bone removed)",
+          "gram_weight": 50
+        },
+        {
+          "description": "Quantity not specified",
+          "gram_weight": 85
+        },
+        {
+          "description": "1 breast",
+          "gram_weight": 120
+        },
+        {
+          "description": "1/2 duck (yield after cooking, bone removed)",
+          "gram_weight": 380
+        },
+        {
+          "description": "1 leg (drumstick and thigh) (yield after cooking, bone removed)",
+          "gram_weight": 90
+        }
+      ],
+      "url": "https://fdc.nal.usda.gov/food-details/2341546/nutrients"
+    },
+    "2341642": {
+      "fdc_id": 2341642,
+      "description": "Fish, NS as to type, fried",
+      "nutrients_per_100g": {
+        "protein_g": 16.0,
+        "fat_g": 17.2,
+        "carbs_g": 11.7,
+        "energy_kcal": 269,
+        "fibre_g": 0.5
+      },
+      "portions": [
+        {
+          "description": "1 whole fish, any size",
+          "gram_weight": 270
+        },
+        {
+          "description": "1 oz yields",
+          "gram_weight": 20
+        },
+        {
+          "description": "1 large fillet",
+          "gram_weight": 135
+        },
+        {
+          "description": "1 cup",
+          "gram_weight": 135
+        },
+        {
+          "description": "1 small/regular fillet",
+          "gram_weight": 90
+        },
+        {
+          "description": "1 cubic inch",
+          "gram_weight": 17
+        },
+        {
+          "description": "Quantity not specified",
+          "gram_weight": 90
+        }
+      ],
+      "url": "https://fdc.nal.usda.gov/food-details/2341642/nutrients"
+    },
+    "2341643": {
+      "fdc_id": 2341643,
+      "description": "Fish, NS as to type, steamed",
+      "nutrients_per_100g": {
+        "protein_g": 23.4,
+        "fat_g": 8.11,
+        "carbs_g": 0.0,
+        "energy_kcal": 171,
+        "fibre_g": 0.0
+      },
+      "portions": [
+        {
+          "description": "1 cup",
+          "gram_weight": 135
+        },
+        {
+          "description": "Quantity not specified",
+          "gram_weight": 90
+        },
+        {
+          "description": "1 cubic inch",
+          "gram_weight": 17
+        },
+        {
+          "description": "1 oz yields",
+          "gram_weight": 20
+        },
+        {
+          "description": "1 large fillet",
+          "gram_weight": 135
+        },
+        {
+          "description": "1 whole fish, any size",
+          "gram_weight": 270
+        },
+        {
+          "description": "1 small/regular fillet",
+          "gram_weight": 90
+        }
+      ],
+      "url": "https://fdc.nal.usda.gov/food-details/2341643/nutrients"
+    },
+    "2341778": {
+      "fdc_id": 2341778,
+      "description": "Shrimp, steamed or boiled",
+      "nutrients_per_100g": {
+        "protein_g": 17.2,
+        "fat_g": 1.28,
+        "carbs_g": 1.15,
+        "energy_kcal": 90.0,
+        "fibre_g": 0.0
+      },
+      "portions": [
+        {
+          "description": "1 small/medium shrimp",
+          "gram_weight": 10
+        },
+        {
+          "description": "1 tiny shrimp",
+          "gram_weight": 5
+        },
+        {
+          "description": "1 cup",
+          "gram_weight": 135
+        },
+        {
+          "description": "Quantity not specified",
+          "gram_weight": 85
+        },
+        {
+          "description": "1 large/jumbo shrimp",
+          "gram_weight": 15
+        },
+        {
+          "description": "1 prawn",
+          "gram_weight": 20
+        }
+      ],
+      "url": "https://fdc.nal.usda.gov/food-details/2341778/nutrients"
+    },
+    "2341779": {
+      "fdc_id": 2341779,
+      "description": "Shrimp, fried",
+      "nutrients_per_100g": {
+        "protein_g": 12.3,
+        "fat_g": 12.9,
+        "carbs_g": 12.4,
+        "energy_kcal": 218,
+        "fibre_g": 0.5
+      },
+      "portions": [
+        {
+          "description": "1 small/medium shrimp",
+          "gram_weight": 10
+        },
+        {
+          "description": "1 large/jumbo shrimp",
+          "gram_weight": 15
+        },
+        {
+          "description": "1 cup",
+          "gram_weight": 135
+        },
+        {
+          "description": "1 prawn",
+          "gram_weight": 20
+        },
+        {
+          "description": "1 tiny shrimp",
+          "gram_weight": 5
+        },
+        {
+          "description": "Quantity not specified",
+          "gram_weight": 85
+        }
+      ],
+      "url": "https://fdc.nal.usda.gov/food-details/2341779/nutrients"
+    },
+    "2342628": {
+      "fdc_id": 2342628,
+      "description": "Egg, whole, cooked, NS as to cooking method",
+      "nutrients_per_100g": {
+        "protein_g": 11.8,
+        "fat_g": 13.9,
+        "carbs_g": 0.92,
+        "energy_kcal": 176,
+        "fibre_g": 0.0
+      },
+      "portions": [
+        {
+          "description": "1 cup",
+          "gram_weight": 135
+        },
+        {
+          "description": "Quantity not specified",
+          "gram_weight": 50
+        },
+        {
+          "description": "1 egg",
+          "gram_weight": 50
+        }
+      ],
+      "url": "https://fdc.nal.usda.gov/food-details/2342628/nutrients"
+    },
+    "2342629": {
+      "fdc_id": 2342629,
+      "description": "Egg, whole, boiled or poached",
+      "nutrients_per_100g": {
+        "protein_g": 12.4,
+        "fat_g": 9.96,
+        "carbs_g": 0.96,
+        "energy_kcal": 143,
+        "fibre_g": 0.0
+      },
+      "portions": [
+        {
+          "description": "1 cup",
+          "gram_weight": 135
+        },
+        {
+          "description": "1 egg",
+          "gram_weight": 50
+        },
+        {
+          "description": "1 slice",
+          "gram_weight": 5
+        },
+        {
+          "description": "Quantity not specified",
+          "gram_weight": 50
+        }
+      ],
+      "url": "https://fdc.nal.usda.gov/food-details/2342629/nutrients"
+    },
+    "2342630": {
+      "fdc_id": 2342630,
+      "description": "Egg, whole, fried, NS as to fat",
+      "nutrients_per_100g": {
+        "protein_g": 11.6,
+        "fat_g": 15.0,
+        "carbs_g": 0.91,
+        "energy_kcal": 185,
+        "fibre_g": 0.0
+      },
+      "portions": [
+        {
+          "description": "1 cup",
+          "gram_weight": 135
+        },
+        {
+          "description": "1 egg",
+          "gram_weight": 55
+        },
+        {
+          "description": "Quantity not specified",
+          "gram_weight": 55
+        }
+      ],
+      "url": "https://fdc.nal.usda.gov/food-details/2342630/nutrients"
+    },
+    "2342706": {
+      "fdc_id": 2342706,
+      "description": "Egg omelet or scrambled egg, with tomatoes, NS as to fat",
+      "nutrients_per_100g": {
+        "protein_g": 10.3,
+        "fat_g": 13.2,
+        "carbs_g": 1.47,
+        "energy_kcal": 165,
+        "fibre_g": 0.2
+      },
+      "portions": [
+        {
+          "description": "1 cup",
+          "gram_weight": 135
+        },
+        {
+          "description": "1 egg",
+          "gram_weight": 75
+        },
+        {
+          "description": "Quantity not specified",
+          "gram_weight": 150
+        }
+      ],
+      "url": "https://fdc.nal.usda.gov/food-details/2342706/nutrients"
+    },
+    "2343008": {
+      "fdc_id": 2343008,
+      "description": "Walnuts, excluding honey roasted",
+      "nutrients_per_100g": {
+        "protein_g": 15.2,
+        "fat_g": 65.2,
+        "carbs_g": 13.7,
+        "energy_kcal": 654,
+        "fibre_g": 6.7
+      },
+      "portions": [
+        {
+          "description": "1 package",
+          "gram_weight": 50
+        },
+        {
+          "description": "Quantity not specified",
+          "gram_weight": 28
+        },
+        {
+          "description": "1 nut",
+          "gram_weight": 2
+        },
+        {
+          "description": "1 oz",
+          "gram_weight": 28.35
+        },
+        {
+          "description": "1 cup",
+          "gram_weight": 120
+        }
+      ],
+      "url": "https://fdc.nal.usda.gov/food-details/2343008/nutrients"
+    },
+    "2343073": {
+      "fdc_id": 2343073,
+      "description": "Bread, white",
+      "nutrients_per_100g": {
+        "protein_g": 9.43,
+        "fat_g": 3.59,
+        "carbs_g": 49.2,
+        "energy_kcal": 267,
+        "fibre_g": 2.3
+      },
+      "portions": [
+        {
+          "description": "1 slice, crust not eaten",
+          "gram_weight": 13
+        },
+        {
+          "description": "Quantity not specified",
+          "gram_weight": 28
+        },
+        {
+          "description": "1 small or thin/very thin slice",
+          "gram_weight": 24
+        },
+        {
+          "description": "1 medium or regular slice",
+          "gram_weight": 28
+        },
+        {
+          "description": "1 slice, snack-size",
+          "gram_weight": 10
+        },
+        {
+          "description": "1 large or thick slice",
+          "gram_weight": 43
+        },
+        {
+          "description": "1 cup",
+          "gram_weight": 40
+        },
+        {
+          "description": "1 cubic inch",
+          "gram_weight": 2.8
+        }
+      ],
+      "url": "https://fdc.nal.usda.gov/food-details/2343073/nutrients"
+    },
+    "2343189": {
+      "fdc_id": 2343189,
+      "description": "Bread, whole wheat",
+      "nutrients_per_100g": {
+        "protein_g": 12.3,
+        "fat_g": 3.55,
+        "carbs_g": 43.1,
+        "energy_kcal": 254,
+        "fibre_g": 6.0
+      },
+      "portions": [
+        {
+          "description": "1 medium or regular slice",
+          "gram_weight": 36
+        },
+        {
+          "description": "1 large or thick slice",
+          "gram_weight": 43
+        },
+        {
+          "description": "1 slice, crust not eaten",
+          "gram_weight": 16
+        },
+        {
+          "description": "Quantity not specified",
+          "gram_weight": 36
+        },
+        {
+          "description": "1 cubic inch",
+          "gram_weight": 3.2
+        },
+        {
+          "description": "1 slice, snack-size",
+          "gram_weight": 10
+        },
+        {
+          "description": "1 small or thin/very thin slice",
+          "gram_weight": 24
+        }
+      ],
+      "url": "https://fdc.nal.usda.gov/food-details/2343189/nutrients"
+    },
+    "2343235": {
+      "fdc_id": 2343235,
+      "description": "Bread, rye",
+      "nutrients_per_100g": {
+        "protein_g": 8.5,
+        "fat_g": 3.3,
+        "carbs_g": 48.3,
+        "energy_kcal": 259,
+        "fibre_g": 5.8
+      },
+      "portions": [
+        {
+          "description": "1 large or thick slice",
+          "gram_weight": 43
+        },
+        {
+          "description": "1 slice, snack-size",
+          "gram_weight": 10
+        },
+        {
+          "description": "1 slice, crust not eaten",
+          "gram_weight": 15
+        },
+        {
+          "description": "Quantity not specified",
+          "gram_weight": 32
+        },
+        {
+          "description": "1 medium or regular slice",
+          "gram_weight": 32
+        },
+        {
+          "description": "1 small or thin/very thin slice",
+          "gram_weight": 25
+        }
+      ],
+      "url": "https://fdc.nal.usda.gov/food-details/2343235/nutrients"
+    },
+    "2343835": {
+      "fdc_id": 2343835,
+      "description": "Noodles, cooked",
+      "nutrients_per_100g": {
+        "protein_g": 4.51,
+        "fat_g": 2.06,
+        "carbs_g": 25.0,
+        "energy_kcal": 137,
+        "fibre_g": 1.2
+      },
+      "portions": [
+        {
+          "description": "1 oz, dry, yields",
+          "gram_weight": 75
+        },
+        {
+          "description": "1 cup, cooked",
+          "gram_weight": 160
+        },
+        {
+          "description": "Quantity not specified",
+          "gram_weight": 160
+        }
+      ],
+      "url": "https://fdc.nal.usda.gov/food-details/2343835/nutrients"
+    },
+    "2343840": {
+      "fdc_id": 2343840,
+      "description": "Rice noodles, cooked",
+      "nutrients_per_100g": {
+        "protein_g": 1.78,
+        "fat_g": 0.2,
+        "carbs_g": 23.9,
+        "energy_kcal": 107,
+        "fibre_g": 1.0
+      },
+      "portions": [
+        {
+          "description": "Quantity not specified",
+          "gram_weight": 175
+        },
+        {
+          "description": "1 oz, dry, yields",
+          "gram_weight": 100
+        },
+        {
+          "description": "1 cup, cooked",
+          "gram_weight": 175
+        }
+      ],
+      "url": "https://fdc.nal.usda.gov/food-details/2343840/nutrients"
+    },
+    "2343844": {
+      "fdc_id": 2343844,
+      "description": "Cereal, cooked, NFS",
+      "nutrients_per_100g": {
+        "protein_g": 2.21,
+        "fat_g": 1.09,
+        "carbs_g": 11.4,
+        "energy_kcal": 64.0,
+        "fibre_g": 1.7
+      },
+      "portions": [
+        {
+          "description": "1 cup, cooked",
+          "gram_weight": 240
+        },
+        {
+          "description": "Quantity not specified",
+          "gram_weight": 240
+        }
+      ],
+      "url": "https://fdc.nal.usda.gov/food-details/2343844/nutrients"
+    },
+    "2343865": {
+      "fdc_id": 2343865,
+      "description": "Oatmeal, regular or quick, made with water, no added fat",
+      "nutrients_per_100g": {
+        "protein_g": 2.21,
+        "fat_g": 1.09,
+        "carbs_g": 11.4,
+        "energy_kcal": 64.0,
+        "fibre_g": 1.7
+      },
+      "portions": [
+        {
+          "description": "Quantity not specified",
+          "gram_weight": 240
+        },
+        {
+          "description": "1 oz, dry, yields",
+          "gram_weight": 170
+        },
+        {
+          "description": "1 cup, dry, yields",
+          "gram_weight": 485
+        },
+        {
+          "description": "1 cup, cooked",
+          "gram_weight": 240
+        }
+      ],
+      "url": "https://fdc.nal.usda.gov/food-details/2343865/nutrients"
+    },
+    "2343892": {
+      "fdc_id": 2343892,
+      "description": "Rice, white, cooked, no added fat",
+      "nutrients_per_100g": {
+        "protein_g": 2.67,
+        "fat_g": 0.28,
+        "carbs_g": 28.0,
+        "energy_kcal": 129,
+        "fibre_g": 0.4
+      },
+      "portions": [
+        {
+          "description": "1 cup, cooked",
+          "gram_weight": 158
+        },
+        {
+          "description": "Quantity not specified",
+          "gram_weight": 118
+        }
+      ],
+      "url": "https://fdc.nal.usda.gov/food-details/2343892/nutrients"
+    },
+    "2343898": {
+      "fdc_id": 2343898,
+      "description": "Rice, brown, cooked, no added fat",
+      "nutrients_per_100g": {
+        "protein_g": 2.73,
+        "fat_g": 0.96,
+        "carbs_g": 25.4,
+        "energy_kcal": 122,
+        "fibre_g": 1.6
+      },
+      "portions": [
+        {
+          "description": "1 cup, cooked",
+          "gram_weight": 195
+        },
+        {
+          "description": "Quantity not specified",
+          "gram_weight": 147
+        }
+      ],
+      "url": "https://fdc.nal.usda.gov/food-details/2343898/nutrients"
+    },
+    "2343902": {
+      "fdc_id": 2343902,
+      "description": "Congee",
+      "nutrients_per_100g": {
+        "protein_g": 0.68,
+        "fat_g": 0.07,
+        "carbs_g": 7.16,
+        "energy_kcal": 33.0,
+        "fibre_g": 0.1
+      },
+      "portions": [
+        {
+          "description": "Quantity not specified",
+          "gram_weight": 187
+        },
+        {
+          "description": "1 cup",
+          "gram_weight": 249
+        }
+      ],
+      "url": "https://fdc.nal.usda.gov/food-details/2343902/nutrients"
+    },
+    "2344192": {
+      "fdc_id": 2344192,
+      "description": "Wonton, dumpling or pot sticker, steamed",
+      "nutrients_per_100g": {
+        "protein_g": 6.9,
+        "fat_g": 4.6,
+        "carbs_g": 11.1,
+        "energy_kcal": 113,
+        "fibre_g": 1.2
+      },
+      "portions": [
+        {
+          "description": "1 item, any size",
+          "gram_weight": 25
+        },
+        {
+          "description": "1 cup",
+          "gram_weight": 75
+        },
+        {
+          "description": "Quantity not specified",
+          "gram_weight": 75
+        }
+      ],
+      "url": "https://fdc.nal.usda.gov/food-details/2344192/nutrients"
+    },
+    "2344437": {
+      "fdc_id": 2344437,
+      "description": "Rice, fried, NFS",
+      "nutrients_per_100g": {
+        "protein_g": 3.84,
+        "fat_g": 3.19,
+        "carbs_g": 32.5,
+        "energy_kcal": 174,
+        "fibre_g": 1.1
+      },
+      "portions": [
+        {
+          "description": "Quantity not specified",
+          "gram_weight": 198
+        },
+        {
+          "description": "1 cup",
+          "gram_weight": 198
+        }
+      ],
+      "url": "https://fdc.nal.usda.gov/food-details/2344437/nutrients"
+    },
+    "2344659": {
+      "fdc_id": 2344659,
+      "description": "Grapefruit, raw",
+      "nutrients_per_100g": {
+        "protein_g": 0.77,
+        "fat_g": 0.14,
+        "carbs_g": 10.7,
+        "energy_kcal": 42.0,
+        "fibre_g": 1.6
+      },
+      "portions": [
+        {
+          "description": "Quantity not specified",
+          "gram_weight": 154
+        },
+        {
+          "description": "1 cup",
+          "gram_weight": 180
+        },
+        {
+          "description": "1 section/slice",
+          "gram_weight": 25
+        },
+        {
+          "description": "1 fruit",
+          "gram_weight": 308
+        },
+        {
+          "description": "1 half",
+          "gram_weight": 154
+        }
+      ],
+      "url": "https://fdc.nal.usda.gov/food-details/2344659/nutrients"
+    },
+    "2344665": {
+      "fdc_id": 2344665,
+      "description": "Orange, raw",
+      "nutrients_per_100g": {
+        "protein_g": 0.92,
+        "fat_g": 0.14,
+        "carbs_g": 11.8,
+        "energy_kcal": 50.0,
+        "fibre_g": 2.2
+      },
+      "portions": [
+        {
+          "description": "1 cup",
+          "gram_weight": 180
+        },
+        {
+          "description": "1 fruit",
+          "gram_weight": 154
+        },
+        {
+          "description": "Quantity not specified",
+          "gram_weight": 154
+        },
+        {
+          "description": "1 section/slice",
+          "gram_weight": 15
+        }
+      ],
+      "url": "https://fdc.nal.usda.gov/food-details/2344665/nutrients"
+    },
+    "2344711": {
+      "fdc_id": 2344711,
+      "description": "Apple, raw",
+      "nutrients_per_100g": {
+        "protein_g": 0.17,
+        "fat_g": 0.15,
+        "carbs_g": 14.8,
+        "energy_kcal": 61.0,
+        "fibre_g": 2.1
+      },
+      "portions": [
+        {
+          "description": "1 medium",
+          "gram_weight": 200
+        },
+        {
+          "description": "1 slice",
+          "gram_weight": 25
+        },
+        {
+          "description": "1 large",
+          "gram_weight": 242
+        },
+        {
+          "description": "1 extra large",
+          "gram_weight": 295
+        },
+        {
+          "description": "Quantity not specified",
+          "gram_weight": 200
+        },
+        {
+          "description": "1 cup",
+          "gram_weight": 125
+        },
+        {
+          "description": "1 small",
+          "gram_weight": 165
+        },
+        {
+          "description": "1 single serving package",
+          "gram_weight": 34
+        }
+      ],
+      "url": "https://fdc.nal.usda.gov/food-details/2344711/nutrients"
+    },
+    "2344720": {
+      "fdc_id": 2344720,
+      "description": "Banana, raw",
+      "nutrients_per_100g": {
+        "protein_g": 0.74,
+        "fat_g": 0.28,
+        "carbs_g": 22.7,
+        "energy_kcal": 97.0,
+        "fibre_g": 1.7
+      },
+      "portions": [
+        {
+          "description": "1 cup, mashed",
+          "gram_weight": 225
+        },
+        {
+          "description": "1 banana",
+          "gram_weight": 126
+        },
+        {
+          "description": "1 slice",
+          "gram_weight": 6
+        },
+        {
+          "description": "Quantity not specified",
+          "gram_weight": 126
+        },
+        {
+          "description": "1 linear inch",
+          "gram_weight": 15
+        },
+        {
+          "description": "1 cup",
+          "gram_weight": 150
+        }
+      ],
+      "url": "https://fdc.nal.usda.gov/food-details/2344720/nutrients"
+    },
+    "2344734": {
+      "fdc_id": 2344734,
+      "description": "Kiwi fruit, raw",
+      "nutrients_per_100g": {
+        "protein_g": 1.06,
+        "fat_g": 0.44,
+        "carbs_g": 14.0,
+        "energy_kcal": 64.0,
+        "fibre_g": 3.0
+      },
+      "portions": [
+        {
+          "description": "Quantity not specified",
+          "gram_weight": 75
+        },
+        {
+          "description": "1 fruit",
+          "gram_weight": 75
+        },
+        {
+          "description": "1 cup",
+          "gram_weight": 180
+        },
+        {
+          "description": "1 slice",
+          "gram_weight": 7
+        }
+      ],
+      "url": "https://fdc.nal.usda.gov/food-details/2344734/nutrients"
+    },
+    "2344744": {
+      "fdc_id": 2344744,
+      "description": "Peach, raw",
+      "nutrients_per_100g": {
+        "protein_g": 0.91,
+        "fat_g": 0.27,
+        "carbs_g": 10.1,
+        "energy_kcal": 46.0,
+        "fibre_g": 1.5
+      },
+      "portions": [
+        {
+          "description": "1 fruit",
+          "gram_weight": 150
+        },
+        {
+          "description": "1 slice/chunk",
+          "gram_weight": 20
+        },
+        {
+          "description": "1 cup",
+          "gram_weight": 155
+        },
+        {
+          "description": "Quantity not specified",
+          "gram_weight": 150
+        }
+      ],
+      "url": "https://fdc.nal.usda.gov/food-details/2344744/nutrients"
+    },
+    "2344749": {
+      "fdc_id": 2344749,
+      "description": "Pear, raw",
+      "nutrients_per_100g": {
+        "protein_g": 0.37,
+        "fat_g": 0.15,
+        "carbs_g": 15.2,
+        "energy_kcal": 59.0,
+        "fibre_g": 3.1
+      },
+      "portions": [
+        {
+          "description": "Quantity not specified",
+          "gram_weight": 180
+        },
+        {
+          "description": "1 slice/chunk",
+          "gram_weight": 25
+        },
+        {
+          "description": "1 fruit",
+          "gram_weight": 180
+        },
+        {
+          "description": "1 cup",
+          "gram_weight": 125
+        }
+      ],
+      "url": "https://fdc.nal.usda.gov/food-details/2344749/nutrients"
+    },
+    "2344882": {
+      "fdc_id": 2344882,
+      "description": "Potato, boiled, from fresh, peel not eaten, no added fat",
+      "nutrients_per_100g": {
+        "protein_g": 1.95,
+        "fat_g": 0.1,
+        "carbs_g": 21.5,
+        "energy_kcal": 93.0,
+        "fibre_g": 1.5
+      },
+      "portions": [
+        {
+          "description": "Quantity not specified",
+          "gram_weight": 170
+        },
+        {
+          "description": "1 large",
+          "gram_weight": 300
+        },
+        {
+          "description": "1 new potato",
+          "gram_weight": 60
+        },
+        {
+          "description": "1 baby potato",
+          "gram_weight": 60
+        },
+        {
+          "description": "1 small",
+          "gram_weight": 130
+        },
+        {
+          "description": "1 medium",
+          "gram_weight": 170
+        },
+        {
+          "description": "1 cup",
+          "gram_weight": 160
+        }
+      ],
+      "url": "https://fdc.nal.usda.gov/food-details/2344882/nutrients"
+    },
+    "2345068": {
+      "fdc_id": 2345068,
+      "description": "Taro, cooked",
+      "nutrients_per_100g": {
+        "protein_g": 1.57,
+        "fat_g": 2.95,
+        "carbs_g": 27.6,
+        "energy_kcal": 141,
+        "fibre_g": 4.3
+      },
+      "portions": [
+        {
+          "description": "Quantity not specified",
+          "gram_weight": 80
+        },
+        {
+          "description": "1 cup",
+          "gram_weight": 160
+        }
+      ],
+      "url": "https://fdc.nal.usda.gov/food-details/2345068/nutrients"
+    },
+    "2345205": {
+      "fdc_id": 2345205,
+      "description": "Pumpkin, cooked",
+      "nutrients_per_100g": {
+        "protein_g": 1.05,
+        "fat_g": 2.84,
+        "carbs_g": 6.77,
+        "energy_kcal": 52.0,
+        "fibre_g": 0.5
+      },
+      "portions": [
+        {
+          "description": "Quantity not specified",
+          "gram_weight": 115
+        },
+        {
+          "description": "1 cup, mashed",
+          "gram_weight": 250
+        },
+        {
+          "description": "1 cup",
+          "gram_weight": 230
+        }
+      ],
+      "url": "https://fdc.nal.usda.gov/food-details/2345205/nutrients"
+    },
+    "2345212": {
+      "fdc_id": 2345212,
+      "description": "Sweet potato, baked, no added fat",
+      "nutrients_per_100g": {
+        "protein_g": 2.0,
+        "fat_g": 0.15,
+        "carbs_g": 20.6,
+        "energy_kcal": 90.0,
+        "fibre_g": 3.3
+      },
+      "portions": [
+        {
+          "description": "1 oz, raw, yields",
+          "gram_weight": 25
+        },
+        {
+          "description": "1 cup, mashed",
+          "gram_weight": 250
+        },
+        {
+          "description": "1 small",
+          "gram_weight": 80
+        },
+        {
+          "description": "1 medium",
+          "gram_weight": 150
+        },
+        {
+          "description": "Quantity not specified",
+          "gram_weight": 100
+        },
+        {
+          "description": "1 large",
+          "gram_weight": 235
+        }
+      ],
+      "url": "https://fdc.nal.usda.gov/food-details/2345212/nutrients"
+    },
+    "2345410": {
+      "fdc_id": 2345410,
+      "description": "Cabbage, Chinese, cooked, no added fat",
+      "nutrients_per_100g": {
+        "protein_g": 1.56,
+        "fat_g": 0.21,
+        "carbs_g": 2.26,
+        "energy_kcal": 14.0,
+        "fibre_g": 1.0
+      },
+      "portions": [
+        {
+          "description": "1 cup",
+          "gram_weight": 170
+        },
+        {
+          "description": "Quantity not specified",
+          "gram_weight": 85
+        }
+      ],
+      "url": "https://fdc.nal.usda.gov/food-details/2345410/nutrients"
+    },
+    "2345412": {
+      "fdc_id": 2345412,
+      "description": "Cabbage, green, cooked, no added fat",
+      "nutrients_per_100g": {
+        "protein_g": 1.33,
+        "fat_g": 0.1,
+        "carbs_g": 6.02,
+        "energy_kcal": 26.0,
+        "fibre_g": 2.6
+      },
+      "portions": [
+        {
+          "description": "Quantity not specified",
+          "gram_weight": 75
+        },
+        {
+          "description": "1 cup",
+          "gram_weight": 150
+        }
+      ],
+      "url": "https://fdc.nal.usda.gov/food-details/2345412/nutrients"
+    },
+    "2345433": {
+      "fdc_id": 2345433,
+      "description": "Corn, fresh, cooked, no added fat",
+      "nutrients_per_100g": {
+        "protein_g": 3.26,
+        "fat_g": 1.35,
+        "carbs_g": 18.6,
+        "energy_kcal": 86.0,
+        "fibre_g": 2.0
+      },
+      "portions": [
+        {
+          "description": "Quantity not specified",
+          "gram_weight": 83
+        },
+        {
+          "description": "1 cup",
+          "gram_weight": 165
+        },
+        {
+          "description": "1 baby corn",
+          "gram_weight": 8
+        },
+        {
+          "description": "1 mini ear",
+          "gram_weight": 55
+        },
+        {
+          "description": "1 regular ear",
+          "gram_weight": 105
+        }
+      ],
+      "url": "https://fdc.nal.usda.gov/food-details/2345433/nutrients"
+    },
+    "2345452": {
+      "fdc_id": 2345452,
+      "description": "Eggplant, cooked, no added fat",
+      "nutrients_per_100g": {
+        "protein_g": 1.05,
+        "fat_g": 0.19,
+        "carbs_g": 6.3,
+        "energy_kcal": 27.0,
+        "fibre_g": 3.2
+      },
+      "portions": [
+        {
+          "description": "1 slice",
+          "gram_weight": 55
+        },
+        {
+          "description": "Quantity not specified",
+          "gram_weight": 53
+        },
+        {
+          "description": "1 cup",
+          "gram_weight": 95
+        },
+        {
+          "description": "1 whole",
+          "gram_weight": 540
+        }
+      ],
+      "url": "https://fdc.nal.usda.gov/food-details/2345452/nutrients"
+    },
+    "2345472": {
+      "fdc_id": 2345472,
+      "description": "Lettuce, cooked",
+      "nutrients_per_100g": {
+        "protein_g": 1.3,
+        "fat_g": 3.16,
+        "carbs_g": 3.33,
+        "energy_kcal": 43.0,
+        "fibre_g": 1.4
+      },
+      "portions": [
+        {
+          "description": "1 cup",
+          "gram_weight": 86
+        },
+        {
+          "description": "Quantity not specified",
+          "gram_weight": 43
+        }
+      ],
+      "url": "https://fdc.nal.usda.gov/food-details/2345472/nutrients"
+    },
+    "2345503": {
+      "fdc_id": 2345503,
+      "description": "Daikon radish, cooked",
+      "nutrients_per_100g": {
+        "protein_g": 0.67,
+        "fat_g": 2.64,
+        "carbs_g": 3.3,
+        "energy_kcal": 38.0,
+        "fibre_g": 1.5
+      },
+      "portions": [
+        {
+          "description": "1 cup",
+          "gram_weight": 155
+        },
+        {
+          "description": "Quantity not specified",
+          "gram_weight": 78
+        }
+      ],
+      "url": "https://fdc.nal.usda.gov/food-details/2345503/nutrients"
+    },
+    "2345542": {
+      "fdc_id": 2345542,
+      "description": "Classic mixed vegetables, NS as to form, cooked",
+      "nutrients_per_100g": {
+        "protein_g": 2.78,
+        "fat_g": 2.69,
+        "carbs_g": 12.7,
+        "energy_kcal": 86.0,
+        "fibre_g": 4.3
+      },
+      "portions": [
+        {
+          "description": "Quantity not specified",
+          "gram_weight": 93
+        },
+        {
+          "description": "1 cup",
+          "gram_weight": 185
+        }
+      ],
+      "url": "https://fdc.nal.usda.gov/food-details/2345542/nutrients"
+    },
+    "2346365": {
+      "fdc_id": 2346365,
+      "description": "Spinach, cooked, as ingredient",
+      "nutrients_per_100g": {
+        "protein_g": 3.42,
+        "fat_g": 0.71,
+        "carbs_g": 3.11,
+        "energy_kcal": 33.0,
+        "fibre_g": 1.9
+      },
+      "portions": [],
+      "url": "https://fdc.nal.usda.gov/food-details/2346365/nutrients"
+    },
+    "2346366": {
+      "fdc_id": 2346366,
+      "description": "Broccoli, cooked, as ingredient",
+      "nutrients_per_100g": {
+        "protein_g": 2.68,
+        "fat_g": 0.35,
+        "carbs_g": 6.53,
+        "energy_kcal": 41.0,
+        "fibre_g": 2.5
+      },
+      "portions": [],
+      "url": "https://fdc.nal.usda.gov/food-details/2346366/nutrients"
+    },
+    "2346367": {
+      "fdc_id": 2346367,
+      "description": "Carrots, cooked, as ingredient",
+      "nutrients_per_100g": {
+        "protein_g": 0.97,
+        "fat_g": 0.25,
+        "carbs_g": 9.98,
+        "energy_kcal": 43.0,
+        "fibre_g": 2.9
+      },
+      "portions": [],
+      "url": "https://fdc.nal.usda.gov/food-details/2346367/nutrients"
+    },
+    "2346368": {
+      "fdc_id": 2346368,
+      "description": "Tomatoes, cooked, as ingredient",
+      "nutrients_per_100g": {
+        "protein_g": 1.1,
+        "fat_g": 0.25,
+        "carbs_g": 4.86,
+        "energy_kcal": 22.0,
+        "fibre_g": 1.5
+      },
+      "portions": [],
+      "url": "https://fdc.nal.usda.gov/food-details/2346368/nutrients"
+    },
+    "2346370": {
+      "fdc_id": 2346370,
+      "description": "Mushrooms, cooked, as ingredient",
+      "nutrients_per_100g": {
+        "protein_g": 3.62,
+        "fat_g": 0.43,
+        "carbs_g": 5.16,
+        "energy_kcal": 39.0,
+        "fibre_g": 1.2
+      },
+      "portions": [],
+      "url": "https://fdc.nal.usda.gov/food-details/2346370/nutrients"
+    },
+    "2346374": {
+      "fdc_id": 2346374,
+      "description": "Cauliflower, cooked, as ingredient",
+      "nutrients_per_100g": {
+        "protein_g": 2.0,
+        "fat_g": 0.29,
+        "carbs_g": 5.18,
+        "energy_kcal": 26.0,
+        "fibre_g": 2.1
+      },
+      "portions": [],
+      "url": "https://fdc.nal.usda.gov/food-details/2346374/nutrients"
+    },
+    "assumed-grain-mixture": {
+      "description": "Assumed cooked grain mixture: equal-weight brown rice, oatmeal, sweet corn",
+      "nutrients_per_100g": {
+        "carbs_g": 18.466666666666665,
+        "protein_g": 2.733333333333333,
+        "fat_g": 1.1333333333333335,
+        "fibre_g": 1.7666666666666666,
+        "energy_kcal": 90.66666666666667
+      },
+      "ingredients_cooked_weight_fraction": {
+        "2343898": 0.3333333333333333,
+        "2343865": 0.3333333333333333,
+        "2345433": 0.3333333333333333
+      },
+      "portions": [],
+      "url": "https://fdc.nal.usda.gov/download-datasets/"
+    },
+    "project-v2-coarse-grain-steamed-bread": {
+      "description": "Coarse-grain steamed bread",
+      "nutrients_per_100g": {
+        "energy_kcal": 240,
+        "protein_g": 8,
+        "carbs_g": 47,
+        "fat_g": 3,
+        "fibre_g": 4
+      },
+      "portions": [],
+      "url": null,
+      "source_status": "unspecified",
+      "nutrient_basis": "per 100 g edible food",
+      "preparation": "steamed",
+      "provenance": {
+        "source_url": null,
+        "verification_status": "not independently verified",
+        "source_status": "unspecified"
+      }
+    },
+    "project-v2-cucumber-raw": {
+      "description": "Cucumber, raw",
+      "nutrients_per_100g": {
+        "energy_kcal": 15,
+        "protein_g": 0.7,
+        "carbs_g": 3.6,
+        "fat_g": 0.1,
+        "fibre_g": 0.5
+      },
+      "portions": [],
+      "url": null,
+      "source_status": "unspecified",
+      "nutrient_basis": "per 100 g edible food",
+      "preparation": "raw",
+      "provenance": {
+        "source_url": null,
+        "verification_status": "not independently verified",
+        "source_status": "unspecified"
+      }
+    },
+    "project-v2-plain-steamed-bun": {
+      "description": "Plain steamed bun",
+      "nutrients_per_100g": {
+        "energy_kcal": 235,
+        "protein_g": 7,
+        "carbs_g": 46,
+        "fat_g": 1.5,
+        "fibre_g": 1.5
+      },
+      "portions": [],
+      "url": null,
+      "source_status": "unspecified",
+      "nutrient_basis": "per 100 g edible food",
+      "preparation": "steamed",
+      "provenance": {
+        "source_url": null,
+        "verification_status": "not independently verified",
+        "source_status": "unspecified"
+      }
+    },
+    "project-v2-buckwheat-steamed-bun": {
+      "description": "Buckwheat steamed bun",
+      "nutrients_per_100g": {
+        "energy_kcal": 230,
+        "protein_g": 8,
+        "carbs_g": 45,
+        "fat_g": 2,
+        "fibre_g": 3
+      },
+      "portions": [],
+      "url": null,
+      "source_status": "unspecified",
+      "nutrient_basis": "per 100 g edible food",
+      "preparation": "steamed",
+      "provenance": {
+        "source_url": null,
+        "verification_status": "not independently verified",
+        "source_status": "unspecified"
+      }
+    },
+    "project-v2-steamed-pork-bun": {
+      "description": "Steamed pork bun",
+      "nutrients_per_100g": {
+        "energy_kcal": 294,
+        "protein_g": 9.2,
+        "carbs_g": 39,
+        "fat_g": 11.2,
+        "fibre_g": 1
+      },
+      "portions": [],
+      "url": null,
+      "source_status": "unspecified",
+      "nutrient_basis": "per 100 g edible food",
+      "preparation": "steamed",
+      "provenance": {
+        "source_url": null,
+        "verification_status": "not independently verified",
+        "source_status": "unspecified"
+      }
+    },
+    "project-v2-steamed-vegetable-bun": {
+      "description": "Steamed vegetable bun",
+      "nutrients_per_100g": {
+        "energy_kcal": 210,
+        "protein_g": 6,
+        "carbs_g": 36,
+        "fat_g": 5,
+        "fibre_g": 3
+      },
+      "portions": [],
+      "url": null,
+      "source_status": "unspecified",
+      "nutrient_basis": "per 100 g edible food",
+      "preparation": "steamed",
+      "provenance": {
+        "source_url": null,
+        "verification_status": "not independently verified",
+        "source_status": "unspecified"
+      }
+    },
+    "project-v2-hairtail-cooked": {
+      "description": "Hairtail fish, cooked",
+      "nutrients_per_100g": {
+        "energy_kcal": 190,
+        "protein_g": 20,
+        "carbs_g": 0,
+        "fat_g": 12,
+        "fibre_g": 0
+      },
+      "portions": [],
+      "url": null,
+      "source_status": "unspecified",
+      "nutrient_basis": "per 100 g edible food",
+      "preparation": "cooked, method unspecified",
+      "provenance": {
+        "source_url": null,
+        "verification_status": "not independently verified",
+        "source_status": "unspecified"
+      }
+    },
+    "project-v2-plain-steamed-bread": {
+      "description": "Steamed bread, plain",
+      "nutrients_per_100g": {
+        "energy_kcal": 235,
+        "protein_g": 7,
+        "carbs_g": 46,
+        "fat_g": 1.5,
+        "fibre_g": 1.5
+      },
+      "portions": [],
+      "url": null,
+      "source_status": "unspecified",
+      "nutrient_basis": "per 100 g edible food",
+      "preparation": "steamed",
+      "provenance": {
+        "source_url": null,
+        "verification_status": "not independently verified",
+        "source_status": "unspecified"
+      }
+    },
+    "project-v2-buckwheat-noodles-cooked": {
+      "description": "Buckwheat noodles, cooked",
+      "nutrients_per_100g": {
+        "energy_kcal": 99,
+        "protein_g": 5.1,
+        "carbs_g": 21.4,
+        "fat_g": 0.1,
+        "fibre_g": 0
+      },
+      "portions": [],
+      "url": null,
+      "source_status": "unspecified",
+      "nutrient_basis": "per 100 g edible food",
+      "preparation": "cooked",
+      "provenance": {
+        "source_url": null,
+        "verification_status": "not independently verified",
+        "source_status": "unspecified"
+      }
+    },
+    "project-v2-hangzhou-cabbage-raw": {
+      "description": "Hangzhou cabbage, raw",
+      "nutrients_per_100g": {
+        "energy_kcal": 16,
+        "protein_g": 1.2,
+        "carbs_g": 3.2,
+        "fat_g": 0.2,
+        "fibre_g": 1.2
+      },
+      "portions": [],
+      "url": null,
+      "source_status": "unspecified",
+      "nutrient_basis": "per 100 g edible food",
+      "preparation": "raw",
+      "provenance": {
+        "source_url": null,
+        "verification_status": "not independently verified",
+        "source_status": "unspecified"
+      }
+    }
+  },
+  "mappings": {
+    "rice": {
+      "reference": "2343892",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "steamed rice": {
+      "reference": "2343892",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "brown rice": {
+      "reference": "2343898",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "egg": {
+      "reference": "2342628",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "eggs": {
+      "reference": "2342628",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "steamed egg": {
+      "reference": "2342628",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "boiled egg": {
+      "reference": "2342629",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "poached egg": {
+      "reference": "2342629",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "fried egg": {
+      "reference": "2342630",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "milk": {
+      "reference": "2340762",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "yogurt": {
+      "reference": "2340799",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "soybean milk": {
+      "reference": "2340784",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "soymilk": {
+      "reference": "2340784",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "soyben milk": {
+      "reference": "2340784",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "bread": {
+      "reference": "2343073",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "sliced bread": {
+      "reference": "2343073",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "whole wheat bread": {
+      "reference": "2343189",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "rye bread": {
+      "reference": "2343235",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "noodles": {
+      "reference": "2343835",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "rice noodles": {
+      "reference": "2343840",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "cereal": {
+      "reference": "2343844",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "cereal porridge": {
+      "reference": "2343844",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "oats": {
+      "reference": "2343865",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "oats porridge": {
+      "reference": "2343865",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "corn": {
+      "reference": "2345433",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "boiled corn": {
+      "reference": "2345433",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "vegetable": {
+      "reference": "2345542",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "vegetables": {
+      "reference": "2345542",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "vegtable": {
+      "reference": "2345542",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "boiled vegetable": {
+      "reference": "2345542",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "cabbage": {
+      "reference": "2345412",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "boiled cabbage": {
+      "reference": "2345412",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "chinese cabbage": {
+      "reference": "2345410",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "boiled chinese cabbage": {
+      "reference": "2345410",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "spinach": {
+      "reference": "2346365",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "spinage": {
+      "reference": "2346365",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "lettuce": {
+      "reference": "2345472",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "boiled lettuce": {
+      "reference": "2345472",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "carrot": {
+      "reference": "2346367",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "shredded carrot": {
+      "reference": "2346367",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "cauliflower": {
+      "reference": "2346374",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "broccoli": {
+      "reference": "2346366",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "tomato": {
+      "reference": "2346368",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "tomatoes": {
+      "reference": "2346368",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "pumpkin": {
+      "reference": "2345205",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "eggplant": {
+      "reference": "2345452",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "mushroom": {
+      "reference": "2346370",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "mushrooms": {
+      "reference": "2346370",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "radish": {
+      "reference": "2345503",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "shredded radish": {
+      "reference": "2345503",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "boiled radish": {
+      "reference": "2345503",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "potato": {
+      "reference": "2344882",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "shredded potato": {
+      "reference": "2344882",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "sweet potato": {
+      "reference": "2345212",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "taro": {
+      "reference": "2345068",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "taros": {
+      "reference": "2345068",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "steamed taro": {
+      "reference": "2345068",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "chicken": {
+      "reference": "2341335",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "beef": {
+      "reference": "2341227",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "beaf": {
+      "reference": "2341227",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "pork": {
+      "reference": "2341267",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "duck": {
+      "reference": "2341546",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "duck meat": {
+      "reference": "2341546",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "fish": {
+      "reference": "2341643",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "steamed fish": {
+      "reference": "2341643",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "fried fish": {
+      "reference": "2341642",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "shrimp": {
+      "reference": "2341778",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "boiled shrimp": {
+      "reference": "2341778",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "fried shrimp": {
+      "reference": "2341779",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "apple": {
+      "reference": "2344711",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "banana": {
+      "reference": "2344720",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "peach": {
+      "reference": "2344744",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "pear": {
+      "reference": "2344749",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "orange": {
+      "reference": "2344665",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "kiwi fruit": {
+      "reference": "2344734",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "grapefruit": {
+      "reference": "2344659",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "walnut": {
+      "reference": "2343008",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "walnuts": {
+      "reference": "2343008",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "fried rice": {
+      "reference": "2344437",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "steamed pork dumplings": {
+      "reference": "2344192",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "steamed dumpling": {
+      "reference": "2344192",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "dumpling": {
+      "reference": "2344192",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "wonton": {
+      "reference": "2344192",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "rice porridge": {
+      "reference": "2343902",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "congee": {
+      "reference": "2343902",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "scrambled egg with tomato": {
+      "reference": "2342706",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "scrabled egg with tomato": {
+      "reference": "2342706",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "tomato and egg": {
+      "reference": "2342706",
+      "assumed": true,
+      "note": "Generic cooked/as-served reference; food type, recipe and added fat may differ from the patient meal."
+    },
+    "coarse grain": {
+      "reference": "assumed-grain-mixture",
+      "assumed": true,
+      "note": "Explicit project default: equal cooked-weight brown rice, oatmeal and sweet corn; not verified patient ingredients."
+    },
+    "coarse grain steamed bread": {
+      "reference": "project-v2-coarse-grain-steamed-bread",
+      "assumed": true,
+      "note": "Per-100g project default; preparation, ingredients and edible portion may differ. Source unspecified."
+    },
+    "coarse-grain steamed bread": {
+      "reference": "project-v2-coarse-grain-steamed-bread",
+      "assumed": true,
+      "note": "Per-100g project default; preparation, ingredients and edible portion may differ. Source unspecified."
+    },
+    "cucumber": {
+      "reference": "project-v2-cucumber-raw",
+      "assumed": true,
+      "note": "Per-100g project default; preparation, ingredients and edible portion may differ. Source unspecified."
+    },
+    "cucumber, raw": {
+      "reference": "project-v2-cucumber-raw",
+      "assumed": true,
+      "note": "Per-100g project default; preparation, ingredients and edible portion may differ. Source unspecified."
+    },
+    "steamed bun": {
+      "reference": "project-v2-plain-steamed-bun",
+      "assumed": true,
+      "note": "Per-100g project default; preparation, ingredients and edible portion may differ. Source unspecified."
+    },
+    "plain steamed bun": {
+      "reference": "project-v2-plain-steamed-bun",
+      "assumed": true,
+      "note": "Per-100g project default; preparation, ingredients and edible portion may differ. Source unspecified."
+    },
+    "buckwheat bread": {
+      "reference": "project-v2-buckwheat-steamed-bun",
+      "assumed": true,
+      "note": "Per-100g project default; preparation, ingredients and edible portion may differ. Source unspecified."
+    },
+    "buckwheat steamed bun": {
+      "reference": "project-v2-buckwheat-steamed-bun",
+      "assumed": true,
+      "note": "Per-100g project default; preparation, ingredients and edible portion may differ. Source unspecified."
+    },
+    "steamed pork bun": {
+      "reference": "project-v2-steamed-pork-bun",
+      "assumed": true,
+      "note": "Per-100g project default; preparation, ingredients and edible portion may differ. Source unspecified."
+    },
+    "steamed vegetable bun": {
+      "reference": "project-v2-steamed-vegetable-bun",
+      "assumed": true,
+      "note": "Per-100g project default; preparation, ingredients and edible portion may differ. Source unspecified."
+    },
+    "hairtail": {
+      "reference": "project-v2-hairtail-cooked",
+      "assumed": true,
+      "note": "Per-100g project default; preparation, ingredients and edible portion may differ. Source unspecified."
+    },
+    "hairtail fish, cooked": {
+      "reference": "project-v2-hairtail-cooked",
+      "assumed": true,
+      "note": "Per-100g project default; preparation, ingredients and edible portion may differ. Source unspecified."
+    },
+    "steamed bread": {
+      "reference": "project-v2-plain-steamed-bread",
+      "assumed": true,
+      "note": "Per-100g project default; preparation, ingredients and edible portion may differ. Source unspecified."
+    },
+    "steamed bread, plain": {
+      "reference": "project-v2-plain-steamed-bread",
+      "assumed": true,
+      "note": "Per-100g project default; preparation, ingredients and edible portion may differ. Source unspecified."
+    },
+    "buckwheat noodles": {
+      "reference": "project-v2-buckwheat-noodles-cooked",
+      "assumed": true,
+      "note": "Per-100g project default; preparation, ingredients and edible portion may differ. Source unspecified."
+    },
+    "buckwheat noodles, cooked": {
+      "reference": "project-v2-buckwheat-noodles-cooked",
+      "assumed": true,
+      "note": "Per-100g project default; preparation, ingredients and edible portion may differ. Source unspecified."
+    },
+    "hangzhou cabbage": {
+      "reference": "project-v2-hangzhou-cabbage-raw",
+      "assumed": true,
+      "note": "Per-100g project default; preparation, ingredients and edible portion may differ. Source unspecified."
+    },
+    "hangzhou cabbage, raw": {
+      "reference": "project-v2-hangzhou-cabbage-raw",
+      "assumed": true,
+      "note": "Per-100g project default; preparation, ingredients and edible portion may differ. Source unspecified."
+    }
+  },
+  "parent_catalog_id": "779294883dae8325aacc21a988d13149450f25c26f641938d7ab8c31f0f14b0d",
+  "version": "nutrition-catalog-v2"
+}

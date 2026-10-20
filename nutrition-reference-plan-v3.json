@@ -1,0 +1,4539 @@
+{
+  "schema": "nutrition-reference-plan-v3",
+  "status": "research_catalog_with_explicit_estimates_and_unresolved_exceptions",
+  "nutrient_keys": [
+    "energy_kcal",
+    "carbs_g",
+    "protein_g",
+    "fat_g",
+    "fibre_g"
+  ],
+  "food_defaults": {
+    "asparagus": {
+      "reference": "usda:168389",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "baby chinese cabbage": {
+      "reference": "usda:169979",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "bamboo shoot": {
+      "reference": "usda:169210",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "bean sprouts, unspecified": {
+      "reference": "usda:2345288",
+      "match": "generic_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "bitter gourd": {
+      "reference": "usda:168393",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "bottle gourd": {
+      "reference": "usda:169232",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "broccoli": {
+      "reference": "usda:170379",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "cabbage": {
+      "reference": "usda:169975",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "carrot": {
+      "reference": "usda:170393",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "cauliflower": {
+      "reference": "usda:169986",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "celery": {
+      "reference": "usda:169988",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "chayote": {
+      "reference": "usda:170402",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "chinese cabbage": {
+      "reference": "usda:169979",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "coriander": {
+      "reference": "usda:169997",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "corn": {
+      "reference": "usda:2345303",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "cucumber": {
+      "reference": "usda:168409",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "dried vegetable": {
+      "reference": "usda:2345565",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "eggplant": {
+      "reference": "usda:169228",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "garlic": {
+      "reference": "usda:169230",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "ginger": {
+      "reference": "usda:169231",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "green bean": {
+      "reference": "usda:169961",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "green pepper": {
+      "reference": "usda:170427",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "leaf lettuce": {
+      "reference": "usda:169249",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "lotus root": {
+      "reference": "usda:169250",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "mung bean sprouts": {
+      "reference": "usda:169957",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "mushroom, unspecified": {
+      "reference": "usda:2345313",
+      "match": "generic_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "mustard": {
+      "reference": "usda:169256",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "okra": {
+      "reference": "usda:169260",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "onion": {
+      "reference": "usda:170000",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "pepper, unspecified": {
+      "reference": "usda:2345319",
+      "match": "generic_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "pumpkin": {
+      "reference": "usda:168448",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "red pepper": {
+      "reference": "usda:170108",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "scallion": {
+      "reference": "usda:170005",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "spinach": {
+      "reference": "usda:168462",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "sweet pepper": {
+      "reference": "usda:169383",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "sweet potato": {
+      "reference": "usda:168482",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "sweet potato leaves": {
+      "reference": "usda:169303",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "taro": {
+      "reference": "usda:169308",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "towel gourd": {
+      "reference": "usda:168414",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "vegetable, unspecified": {
+      "reference": "usda:2345283",
+      "match": "generic_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "white mushroom": {
+      "reference": "usda:169251",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "zucchini": {
+      "reference": "usda:169291",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "apple": {
+      "reference": "usda:2344711",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "avocado": {
+      "reference": "usda:2344719",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "banana": {
+      "reference": "usda:2344720",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "blueberry": {
+      "reference": "usda:171711",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "cantaloupe": {
+      "reference": "usda:2344722",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "cherry": {
+      "reference": "usda:171719",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "coconut": {
+      "reference": "usda:170169",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "dried fruit": {
+      "reference": "usda:2344690",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "durian": {
+      "reference": "usda:168192",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "grape": {
+      "reference": "usda:2344732",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "grapefruit": {
+      "reference": "usda:2344659",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "kiwi": {
+      "reference": "usda:2344734",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "kumquat": {
+      "reference": "usda:168154",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "lemon": {
+      "reference": "usda:2344662",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "litchi": {
+      "reference": "usda:169086",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "loquat": {
+      "reference": "usda:169908",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "orange": {
+      "reference": "usda:2344665",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "orange peel": {
+      "reference": "usda:169103",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "peach": {
+      "reference": "usda:2344744",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "pear": {
+      "reference": "usda:169118",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "persimmon": {
+      "reference": "usda:169941",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "pineapple": {
+      "reference": "usda:169124",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "plum": {
+      "reference": "usda:169949",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "raisin": {
+      "reference": "usda:2344707",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "strawberry": {
+      "reference": "usda:167762",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "tomato": {
+      "reference": "usda:2345232",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "watermelon": {
+      "reference": "usda:167765",
+      "match": "food_reference",
+      "note": "Food-composition reference; patient cultivar, preparation and portion may differ."
+    },
+    "abalone": {
+      "reference": "usda:2341752",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "black carp": {
+      "reference": "usda:174185",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "crucian carp": {
+      "reference": "usda:174185",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "spotted silver carp": {
+      "reference": "usda:174185",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "clam": {
+      "reference": "usda:171975",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "cod": {
+      "reference": "usda:171956",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "crab": {
+      "reference": "usda:172007",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "crab meat": {
+      "reference": "usda:172007",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "hairy crab": {
+      "reference": "usda:172007",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "swimming crab": {
+      "reference": "usda:172007",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "emperor crab": {
+      "reference": "usda:172007",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "red hairy hermit crab": {
+      "reference": "usda:172007",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "crayfish": {
+      "reference": "usda:174207",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "cuttlefish": {
+      "reference": "usda:172010",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "eel": {
+      "reference": "usda:174194",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "flatfish": {
+      "reference": "usda:174197",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "herring": {
+      "reference": "usda:175117",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "oyster": {
+      "reference": "usda:174250",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "perch": {
+      "reference": "usda:2341690",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "salmon": {
+      "reference": "usda:175168",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "scallop": {
+      "reference": "usda:167742",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "river shrimp": {
+      "reference": "usda:171971",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "shrimp": {
+      "reference": "usda:171971",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "sweet shrimp": {
+      "reference": "usda:171971",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "shellfish": {
+      "reference": "usda:2341751",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "white fish": {
+      "reference": "usda:173694",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "sea fish": {
+      "reference": "usda:173694",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "yellow croaker": {
+      "reference": "usda:2341661",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "basa": {
+      "reference": "cfs:071200F000403",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "black fish": {
+      "reference": "usda:175177",
+      "match": "species_proxy",
+      "note": "Cooked tilapia is a lean-fish species proxy; not a species-matched measurement."
+    },
+    "snakehead": {
+      "reference": "usda:175177",
+      "match": "species_proxy",
+      "note": "Cooked tilapia is a lean-fish species proxy; not a species-matched measurement."
+    },
+    "bream": {
+      "reference": "cfs:071200F001885",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "bombay duck": {
+      "reference": "usda:175177",
+      "match": "species_proxy",
+      "note": "Cooked tilapia is a lean-fish species proxy; not a species-matched measurement."
+    },
+    "river fish": {
+      "reference": "usda:175177",
+      "match": "species_proxy",
+      "note": "Cooked tilapia is a lean-fish species proxy; not a species-matched measurement."
+    },
+    "razor clam": {
+      "reference": "usda:171975",
+      "match": "species_proxy",
+      "note": "Cooked mixed clam species proxy."
+    },
+    "fish, unspecified": {
+      "reference": "usda:2341639",
+      "match": "species_proxy",
+      "note": "USDA unspecified fish default; the recorded species/mix is unknown."
+    },
+    "seafood, unspecified": {
+      "reference": "usda:2341639",
+      "match": "species_proxy",
+      "note": "USDA unspecified fish default; the recorded species/mix is unknown."
+    },
+    "fish tail": {
+      "reference": "usda:174185",
+      "match": "species_proxy",
+      "note": "Edible cooked carp flesh proxy. Tail/belly fat and edible yield may differ."
+    },
+    "fish belly": {
+      "reference": "usda:174185",
+      "match": "species_proxy",
+      "note": "Edible cooked carp flesh proxy. Tail/belly fat and edible yield may differ."
+    },
+    "halibut": {
+      "reference": "usda:2341675",
+      "match": "species_proxy",
+      "note": "General prepared halibut reference; cooking-specific oil is handled separately."
+    },
+    "bullfrog": {
+      "reference": "usda:2341745",
+      "match": "species_proxy",
+      "note": "Prepared frog-leg reference; edible portion only."
+    },
+    "fish ball": {
+      "reference": "cfs:10400200595",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "sea cucumber": {
+      "reference": "cfs:0513001290030",
+      "match": "generic_reference",
+      "note": "Rehydrated sea cucumber, not dried mass; fibre needs a separately declared composition assumption."
+    },
+    "beef tendon": {
+      "reference": "cfs:0506030823060",
+      "match": "food_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "jellyfish": {
+      "reference": "cfs:0513001290040",
+      "match": "food_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "jellyfish head": {
+      "reference": "cfs:0513001290050",
+      "match": "food_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "hairtail": {
+      "reference": "recipe:hairtail_cooked",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "loach": {
+      "reference": "recipe:loach_cooked",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "cinnamon fish": {
+      "reference": "recipe:mandarin_fish_cooked",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "squid": {
+      "reference": "cfs:10400200085",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "snail": {
+      "reference": "recipe:snail_cooked",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "shrimp meatball": {
+      "reference": "recipe:shrimp_ball",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "pomfret": {
+      "reference": "recipe:pomfret_cooked",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "beef": {
+      "reference": "usda:2341227",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "beef brisket": {
+      "reference": "usda:168665",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "beef jerky": {
+      "reference": "usda:2341265",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "beef patty": {
+      "reference": "usda:169447",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "beef tongue": {
+      "reference": "usda:170598",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "chicken": {
+      "reference": "usda:171051",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "spring chicken": {
+      "reference": "usda:171051",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "three yellow chicken": {
+      "reference": "usda:171051",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "chicken breast": {
+      "reference": "usda:171477",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "chicken fillet": {
+      "reference": "usda:171477",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "chicken cutlet": {
+      "reference": "usda:2341495",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "chicken feet": {
+      "reference": "usda:171119",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "chicken gizzard": {
+      "reference": "usda:171457",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "chicken leg": {
+      "reference": "usda:172380",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "chicken nugget": {
+      "reference": "usda:2341498",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "chicken wing": {
+      "reference": "usda:173631",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "cow tail": {
+      "reference": "usda:2341248",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "duck": {
+      "reference": "usda:2341546",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "duck breast": {
+      "reference": "usda:2341546",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "duck head": {
+      "reference": "usda:2341546",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "duck leg": {
+      "reference": "usda:2341546",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "duck neck": {
+      "reference": "usda:2341546",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "duck wing": {
+      "reference": "usda:2341546",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "duck egg": {
+      "reference": "usda:2342651",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "egg": {
+      "reference": "usda:173424",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "egg white": {
+      "reference": "usda:2342644",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "egg yolk": {
+      "reference": "usda:2342648",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "goose": {
+      "reference": "usda:172414",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "goose egg": {
+      "reference": "usda:2342652",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "ham": {
+      "reference": "usda:168110",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "luncheon meat": {
+      "reference": "usda:174571",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "pig ear": {
+      "reference": "usda:167858",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "pig feet": {
+      "reference": "usda:168290",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "pig liver": {
+      "reference": "usda:167863",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "pig stomach": {
+      "reference": "usda:168323",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "pigeon": {
+      "reference": "usda:169905",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "pork": {
+      "reference": "usda:2341267",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "minced pork": {
+      "reference": "usda:167903",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "pork chop": {
+      "reference": "usda:167838",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "pork rib": {
+      "reference": "usda:167854",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "pork patty": {
+      "reference": "usda:167903",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "quail egg": {
+      "reference": "usda:2342653",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "tenderloin": {
+      "reference": "usda:168250",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "streaky pork": {
+      "reference": "usda:2341307",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "lamb chop": {
+      "reference": "usda:2341312",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "lamb spine": {
+      "reference": "usda:2341312",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "duck feet": {
+      "reference": "usda:171119",
+      "match": "species_proxy",
+      "note": "Boiled chicken feet proxy for edible skin/tendon; species and yield differ."
+    },
+    "goose feet": {
+      "reference": "usda:171119",
+      "match": "species_proxy",
+      "note": "Boiled chicken feet proxy for edible skin/tendon; species and yield differ."
+    },
+    "duck gizzard": {
+      "reference": "usda:171457",
+      "match": "species_proxy",
+      "note": "Cooked chicken gizzard proxy."
+    },
+    "goose egg white": {
+      "reference": "usda:2342644",
+      "match": "species_proxy",
+      "note": "Cooked hen egg-white proxy."
+    },
+    "pigeon egg": {
+      "reference": "usda:2342653",
+      "match": "species_proxy",
+      "note": "Small cooked quail-egg proxy; not a measured pigeon egg."
+    },
+    "meat, unspecified": {
+      "reference": "usda:167903",
+      "match": "generic_reference",
+      "note": "Unspecified meat assigned cooked pork default; original identity remains unspecified."
+    },
+    "minced meat, unspecified": {
+      "reference": "usda:167903",
+      "match": "generic_reference",
+      "note": "Unspecified meat assigned cooked pork default; original identity remains unspecified."
+    },
+    "mutton": {
+      "reference": "usda:2341312",
+      "match": "species_proxy",
+      "note": "Cooked lamb reference; mature sheep composition can differ."
+    },
+    "filet steak": {
+      "reference": "usda:174702",
+      "match": "generic_reference",
+      "note": "Cooked beef lean steak reference; cut/fat uncertainty retained."
+    },
+    "steak": {
+      "reference": "usda:174702",
+      "match": "generic_reference",
+      "note": "Cooked beef lean steak reference; cut/fat uncertainty retained."
+    },
+    "duck blood": {
+      "reference": "cfs:0507060922070",
+      "match": "generic_reference",
+      "note": "Duck blood composition reference; gel water dilution not recorded."
+    },
+    "beef meatball": {
+      "reference": "cfs:10400200839",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "chicken meatball": {
+      "reference": "recipe:chicken_meatball",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "meatball, unspecified": {
+      "reference": "recipe:pork_meatball",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "pork meatball": {
+      "reference": "recipe:pork_meatball",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "goose liver": {
+      "reference": "recipe:goose_liver_cooked",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "pig lung": {
+      "reference": "recipe:pork_lung_cooked",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "pig skin": {
+      "reference": "recipe:pork_skin_cooked",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "rice": {
+      "reference": "usda:169757",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "black rice": {
+      "reference": "usda:169704",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "red rice": {
+      "reference": "usda:169704",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "buckwheat": {
+      "reference": "usda:170686",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "cereal, unspecified": {
+      "reference": "usda:2343844",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "chickpea": {
+      "reference": "usda:173757",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "green soybean": {
+      "reference": "usda:169283",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "kidney bean": {
+      "reference": "usda:173792",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "bean, unspecified": {
+      "reference": "usda:173792",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "dried bean": {
+      "reference": "usda:173792",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "millet": {
+      "reference": "usda:168871",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "mung bean": {
+      "reference": "usda:2342864",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "noodles, unspecified": {
+      "reference": "usda:2343835",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "oats": {
+      "reference": "usda:173905",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "pasta": {
+      "reference": "usda:2343841",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "spaghetti": {
+      "reference": "usda:2343841",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "quinoa": {
+      "reference": "usda:168917",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "red bean": {
+      "reference": "usda:173728",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "rice noodles": {
+      "reference": "usda:168914",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "soybean": {
+      "reference": "usda:174299",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "broad bean": {
+      "reference": "usda:2342842",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "broad sweet bean": {
+      "reference": "usda:2342842",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "cowpea": {
+      "reference": "usda:175251",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "bean pod": {
+      "reference": "usda:170011",
+      "match": "generic_reference",
+      "note": "Cooked edible-podded pea reference; vague pod/bean identity."
+    },
+    "sweet bean": {
+      "reference": "usda:170011",
+      "match": "generic_reference",
+      "note": "Cooked edible-podded pea reference; vague pod/bean identity."
+    },
+    "coarse grain mixture, unspecified": {
+      "reference": "recipe:mixed_grain_cooked",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "corn noodles": {
+      "reference": "recipe:corn_noodles_cooked",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "sago": {
+      "reference": "recipe:sago_cooked",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "sorghum": {
+      "reference": "recipe:sorghum_cooked",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "coix seed": {
+      "reference": "recipe:coix_cooked",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "buckwheat noodles": {
+      "reference": "recipe:buckwheat_noodles_cooked",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "vermicelli": {
+      "reference": "recipe:bean_vermicelli_cooked",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "almond": {
+      "reference": "usda:170567",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "cashew nut": {
+      "reference": "usda:170162",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "chia seed": {
+      "reference": "usda:170554",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "pine nut": {
+      "reference": "usda:170591",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "walnut": {
+      "reference": "usda:170187",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "walnut powder": {
+      "reference": "usda:170187",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "black sesame": {
+      "reference": "usda:170150",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "sesame": {
+      "reference": "usda:170150",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "peanut": {
+      "reference": "usda:172434",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "nuts, unspecified": {
+      "reference": "usda:2342982",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "pumpkin seed": {
+      "reference": "usda:170556",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "chinese chestnut": {
+      "reference": "usda:170574",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "ginkgo nut": {
+      "reference": "usda:170176",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "lotus seed": {
+      "reference": "recipe:lotus_seed_rehydrated",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "cherry tomato": {
+      "reference": "usda:2345232",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "yellow peach": {
+      "reference": "usda:2344744",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "chinese wolfberry": {
+      "reference": "usda:173032",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "dekopon": {
+      "reference": "usda:2344665",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "melon, unspecified": {
+      "reference": "usda:2344722",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "golden melon": {
+      "reference": "usda:2344722",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "potato": {
+      "reference": "usda:170026",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "purple sweet potato": {
+      "reference": "usda:168482",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "king oyster mushroom": {
+      "reference": "usda:168580",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "shimeji mushroom": {
+      "reference": "usda:168580",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "beech mushroom": {
+      "reference": "usda:168580",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "tea tree mushroom": {
+      "reference": "usda:168580",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "guangdong cabbage": {
+      "reference": "usda:169979",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "hangzhou cabbage": {
+      "reference": "usda:169979",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "leek": {
+      "reference": "usda:169994",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "leek sprouts": {
+      "reference": "usda:169994",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "snow pea": {
+      "reference": "usda:170010",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "water spinach": {
+      "reference": "usda:169301",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "wax gourd": {
+      "reference": "usda:170069",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "amaranth": {
+      "reference": "cfs:0503020453190",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "crown daisy": {
+      "reference": "cfs:0503020453210",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "lily": {
+      "reference": "cfs:0503050454090",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "garlic shoots": {
+      "reference": "cfs:0503050441060",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "water celery": {
+      "reference": "cfs:10030200285",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "pea seedling": {
+      "reference": "cfs:10030200290",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "medicago polymorpha": {
+      "reference": "cfs:0503020480710",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "lettuce": {
+      "reference": "cfs:0503020453240",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "needle mushroom": {
+      "reference": "cfs:0503070510080",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "water bamboo": {
+      "reference": "cfs:0503010460070",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "yam": {
+      "reference": "cfs:0503010471040",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "black fungus": {
+      "reference": "cfs:0503070510140",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "fungus, unspecified": {
+      "reference": "cfs:0503070510140",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "pitaya": {
+      "reference": "cfs:10040000301",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "wax apple": {
+      "reference": "external:philfct-wax-apple",
+      "match": "food_reference",
+      "note": "Syzygium samarangense; whole-fruit edible percentage is 80%, but diary grams are assumed edible."
+    },
+    "day lily": {
+      "reference": "recipe:daylily_rehydrated",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "white fungus": {
+      "reference": "recipe:white_fungus_rehydrated",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "apple cider vinegar": {
+      "reference": "usda:173469",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "beer": {
+      "reference": "usda:2346192",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "cheese": {
+      "reference": "usda:2341112",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "coconut juice": {
+      "reference": "usda:2343047",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "coffee": {
+      "reference": "usda:2345935",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "sugar-free coffee": {
+      "reference": "usda:2345935",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "fermented milk": {
+      "reference": "usda:2340772",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "green tea": {
+      "reference": "usda:2346060",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "latte": {
+      "reference": "usda:2345946",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "liquor": {
+      "reference": "usda:2346280",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "ginseng wine": {
+      "reference": "usda:2346280",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "milk": {
+      "reference": "usda:2340762",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "orange juice": {
+      "reference": "usda:2344681",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "red wine": {
+      "reference": "usda:2346263",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "wine, unspecified": {
+      "reference": "usda:2346263",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "rice wine": {
+      "reference": "usda:2346266",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "yellow rice wine": {
+      "reference": "usda:2346266",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "skimmed milk": {
+      "reference": "usda:171269",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "sour cream": {
+      "reference": "usda:171257",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "sugar-free yogurt": {
+      "reference": "usda:171284",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "yogurt": {
+      "reference": "usda:171284",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "sugar-free milk tea": {
+      "reference": "usda:2346076",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "water": {
+      "reference": "usda:2346283",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "white wine": {
+      "reference": "usda:2346264",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "corn juice": {
+      "reference": "recipe:corn_drink",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "fruit and vegetable pulp": {
+      "reference": "recipe:fruit_veg_pulp",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "ginger juice": {
+      "reference": "recipe:ginger_drink",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "matcha latte": {
+      "reference": "recipe:matcha_latte",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "milk tea": {
+      "reference": "recipe:milk_tea",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "lemon tea": {
+      "reference": "recipe:lemon_tea",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "plum juice": {
+      "reference": "recipe:plum_drink",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "beijing sauce": {
+      "reference": "usda:2342916",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "black pepper": {
+      "reference": "usda:170931",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "bone broth, unspecified": {
+      "reference": "usda:2342570",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "broth, unspecified": {
+      "reference": "usda:2342570",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "butter": {
+      "reference": "usda:173410",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "chili sauce": {
+      "reference": "usda:2345248",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "curry sauce": {
+      "reference": "usda:2345735",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "ketchup": {
+      "reference": "usda:2345246",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "nutritional powder": {
+      "reference": "usda:2346318",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "meal replacement powder": {
+      "reference": "usda:2346318",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "oil-immersed tuna": {
+      "reference": "usda:173708",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "oyster sauce": {
+      "reference": "usda:2342625",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "peanut butter": {
+      "reference": "usda:2343014",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "protein powder": {
+      "reference": "usda:173180",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "whey protein": {
+      "reference": "usda:173180",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "salt": {
+      "reference": "usda:173468",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "sesame paste": {
+      "reference": "usda:170191",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "soy flour": {
+      "reference": "usda:174275",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "soy sauce": {
+      "reference": "usda:2342917",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "starch": {
+      "reference": "usda:169698",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "sugar": {
+      "reference": "usda:169655",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "syrup": {
+      "reference": "usda:167743",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "vinegar": {
+      "reference": "usda:172237",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "brown sauce": {
+      "reference": "recipe:brown_sauce",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "olive vegetable": {
+      "reference": "recipe:olive_vegetable",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "bean curd roll": {
+      "reference": "cfs:0502000315040",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "tofu skin": {
+      "reference": "cfs:0502000315090",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "tofu skin knot": {
+      "reference": "cfs:0502000315090",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "dried bean curd": {
+      "reference": "cfs:0502000315100",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "smoked bean curd": {
+      "reference": "cfs:0502000315180",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "oil tofu": {
+      "reference": "cfs:0502000315060",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "fermented bean curd": {
+      "reference": "cfs:0520002040030",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "steamed bun with unspecified filling": {
+      "reference": "cfs:10400200117",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "bean cake": {
+      "reference": "usda:2342884",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "bean paste": {
+      "reference": "usda:2345869",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "biscuit": {
+      "reference": "usda:2343452",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "sweet biscuit": {
+      "reference": "usda:2343452",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "bread": {
+      "reference": "usda:174924",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "salted bread": {
+      "reference": "usda:174924",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "cake": {
+      "reference": "usda:2343375",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "candy": {
+      "reference": "usda:2345920",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "chocolate": {
+      "reference": "usda:167587",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "coarse grain bread": {
+      "reference": "usda:168013",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "coarse grain pancake": {
+      "reference": "usda:2343792",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "corn tortilla": {
+      "reference": "usda:2343303",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "croissant": {
+      "reference": "usda:174987",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "deep-fried dough stick": {
+      "reference": "usda:2343133",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "fried dough twist": {
+      "reference": "usda:2343133",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "dumpling": {
+      "reference": "usda:2344192",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "wonton": {
+      "reference": "usda:2344192",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "spring roll": {
+      "reference": "usda:2344186",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "egg yolk and bean paste crispy": {
+      "reference": "usda:2343532",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "hamburger": {
+      "reference": "usda:2342365",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "ice cream": {
+      "reference": "usda:167575",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "nut biscuit": {
+      "reference": "usda:2343454",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "oat stick": {
+      "reference": "usda:2343583",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "onion ring": {
+      "reference": "usda:2345582",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "pancake": {
+      "reference": "usda:2343777",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "pastry": {
+      "reference": "usda:2343536",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "puff pastry": {
+      "reference": "usda:2343536",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "pretzel": {
+      "reference": "usda:169064",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "puff": {
+      "reference": "usda:2343513",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "pumpkin pie": {
+      "reference": "usda:2343493",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "rye bread": {
+      "reference": "usda:172684",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "salted biscuit": {
+      "reference": "usda:172746",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "soda biscuit": {
+      "reference": "usda:172746",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "sandwich": {
+      "reference": "usda:2342325",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "sponge cake": {
+      "reference": "usda:172706",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "sushi": {
+      "reference": "usda:2344444",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "sweet bread": {
+      "reference": "usda:2343146",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "swiss roll cake": {
+      "reference": "usda:2343358",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "toast": {
+      "reference": "usda:174925",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "wafer bar": {
+      "reference": "usda:167992",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "whole wheat bread": {
+      "reference": "usda:2343189",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "bacon": {
+      "reference": "usda:2341293",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "pea": {
+      "reference": "usda:170420",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "soybean sprouts": {
+      "reference": "usda:169284",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "oil": {
+      "reference": "usda:171411",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "tea": {
+      "reference": "usda:2346058",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "coke": {
+      "reference": "usda:174852",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "tofu": {
+      "reference": "usda:172476",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "natto": {
+      "reference": "usda:172443",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "plain steamed bun": {
+      "reference": "cfs:0501070114040",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "bun": {
+      "reference": "cfs:0501070114040",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "steamed twisted roll": {
+      "reference": "cfs:0501070114010",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "hawthorn cake": {
+      "reference": "cfs:0526001830090",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "pork floss": {
+      "reference": "cfs:0526000813140",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "rice cake": {
+      "reference": "cfs:0501101410220",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "sticky rice cake": {
+      "reference": "cfs:0501101410220",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "sugar-free sticky rice cake": {
+      "reference": "cfs:0501101410220",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "rice roll": {
+      "reference": "cfs:10400200832",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "vermicelli roll": {
+      "reference": "cfs:10400200832",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "ham sausage": {
+      "reference": "cfs:0506060814090",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "red sausage": {
+      "reference": "cfs:0506060814150",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "sausage": {
+      "reference": "cfs:10060000025",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "soybean milk": {
+      "reference": "cfs:0516000314010",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "gluten": {
+      "reference": "cfs:0501130115010",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "oil gluten": {
+      "reference": "cfs:0501130115020",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "red date": {
+      "reference": "cfs:0504000623020",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "melon seed": {
+      "reference": "cfs:0505000720150",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "watermelon seeds": {
+      "reference": "cfs:0505000720150",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "water chestnut": {
+      "reference": "cfs:0503010460080",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "fish head": {
+      "reference": "cfs:10400200084",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "shepherd's purse": {
+      "reference": "cfs:0503020453230",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "radish": {
+      "reference": "cfs:0503010411010",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "preserved vegetable": {
+      "reference": "cfs:0503062050350",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "chinese sauerkraut": {
+      "reference": "cfs:0503062050350",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "preserved egg": {
+      "reference": "cfs:0509001122010",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "salted egg": {
+      "reference": "cfs:0509001122020",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "egg tart": {
+      "reference": "cfs:10011000121",
+      "match": "generic_reference",
+      "note": "Composition reference; actual cultivar, cut, preparation and portion may differ."
+    },
+    "black rice cake": {
+      "reference": "recipe:black_rice_cake",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "buckwheat bread": {
+      "reference": "recipe:buckwheat_bread",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "buckwheat steamed bun": {
+      "reference": "recipe:buckwheat_bun",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "cheese bun": {
+      "reference": "recipe:cheese_bun",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "chinese chive pocket": {
+      "reference": "recipe:chive_pocket",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "coarse grain cake": {
+      "reference": "recipe:multigrain_cake",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "coarse grain steamed bun": {
+      "reference": "recipe:multigrain_bun",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "mixed-grain wotou": {
+      "reference": "recipe:multigrain_bun",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "corn bread": {
+      "reference": "recipe:corn_bun",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "corn bun": {
+      "reference": "recipe:corn_bun",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "corn cake": {
+      "reference": "recipe:corn_cake",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "dough": {
+      "reference": "recipe:cooked_dough",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "egg custard": {
+      "reference": "recipe:savory_egg_custard",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "egg dumpling": {
+      "reference": "recipe:egg_dumpling",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "egg pancake": {
+      "reference": "recipe:egg_pancake",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "fermented rice cake": {
+      "reference": "recipe:fermented_rice_cake",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "instant noodles": {
+      "reference": "recipe:instant_noodles_cooked",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "instant spicy steampot": {
+      "reference": "recipe:generic_hotpot",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "meat roll": {
+      "reference": "recipe:meat_roll",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "mooncake": {
+      "reference": "recipe:mooncake",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "mung bean cake": {
+      "reference": "recipe:mung_bean_cake",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "pizza": {
+      "reference": "recipe:pizza",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "pork omelette": {
+      "reference": "recipe:pork_omelette",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "porridge": {
+      "reference": "recipe:rice_porridge",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "pumpkin cake": {
+      "reference": "recipe:pumpkin_cake",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "rice crust": {
+      "reference": "recipe:rice_crust",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "rice dumpling": {
+      "reference": "recipe:rice_dumpling",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "rye flour cake": {
+      "reference": "recipe:rye_cake",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "scallion pancake": {
+      "reference": "recipe:scallion_pancake",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "sticky rice ball": {
+      "reference": "recipe:sweet_rice_ball",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "sweet dumpling": {
+      "reference": "recipe:sweet_rice_ball",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "sugar-free cake": {
+      "reference": "recipe:no_added_sugar_cake",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "sugar-free pork floss": {
+      "reference": "recipe:no_added_sugar_pork_floss",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "bean curd stick": {
+      "reference": "recipe:tofu_stick_rehydrated",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "chiba tofu": {
+      "reference": "recipe:chiba_tofu",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "kelp": {
+      "reference": "recipe:kelp_rehydrated",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "kelp knot": {
+      "reference": "recipe:kelp_rehydrated",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "laver": {
+      "reference": "recipe:seaweed_rehydrated",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "seaweed": {
+      "reference": "recipe:seaweed_rehydrated",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "tofu pudding": {
+      "reference": "recipe:tofu_pudding",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "salted egg yolk": {
+      "reference": "recipe:salted_egg_yolk",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "sheet jelly": {
+      "reference": "recipe:starch_jelly",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "stinky tofu": {
+      "reference": "recipe:stinky_tofu",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "dried bamboo shoot": {
+      "reference": "recipe:bamboo_rehydrated",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "dried cabbage": {
+      "reference": "recipe:cabbage_rehydrated",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "dried radish": {
+      "reference": "recipe:radish_rehydrated",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "matsutake": {
+      "reference": "recipe:matsutake_rehydrated",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "fruit, unspecified": {
+      "reference": "recipe:mixed_fruit",
+      "match": "recipe_estimate",
+      "note": "Standard reference recipe; ingredients and final edible mass are assumptions, not measured patient intake."
+    },
+    "mangosteen": {
+      "reference": "external:philfct-mangosteen",
+      "match": "food_reference",
+      "note": "Not canned fruit or whole fruit including rind."
+    },
+    "konjac": {
+      "reference": "external:mext-konjac",
+      "match": "generic_reference",
+      "note": "Total carbohydrate 3.3 g; available carbohydrate 0.3 g; prepared hydrated konjac, not powder."
+    },
+    "camel milk powder": {
+      "reference": "external:eastbart-camel-powder",
+      "match": "brand_proxy",
+      "note": "Unknown patient brand. kcal derived from kJ/4.184. Fibre assumed absent for pure milk, not measured or stated on this label; non-macro marketing claims not used."
+    },
+    "long bean": {
+      "reference": "cfs:0502000421170",
+      "match": "food_reference",
+      "note": "Chinese food identity checked against CFS description; edible basis."
+    },
+    "shrimp skin": {
+      "reference": "cfs:0513001221150",
+      "match": "food_reference",
+      "note": "Chinese food identity checked against CFS description; edible basis."
+    },
+    "pig bone": {
+      "reference": "usda:2342570",
+      "match": "recipe_proxy",
+      "note": "Bone in soup is represented by broth, not edible grams of bone. Recipe must separately account for edible meat when named."
+    },
+    "sword bean": {
+      "reference": "usda:169961",
+      "match": "species_proxy",
+      "note": "Tender green-bean pod proxy; not dry mature sword-bean seed. Exact cultivar unknown."
+    },
+    "black truffle": {
+      "reference": "external:crea-black-truffle",
+      "match": "reference_with_derivations",
+      "note": "CREA Centro di ricerca Alimenti e Nutrizione, December 2019. Source available carbohydrate 0.7 + total fibre 8.4 = total carbohydrate 9.1. Source energy 48 kcal retained; older guides give 31 kcal using a different energy convention."
+    },
+    "glucose": {
+      "reference": "external:now-dextrose-powder",
+      "match": "reference_with_derivations",
+      "note": "Manufacturer 20 g serving: 70 kcal and 18 g carbohydrate; scaled by five. Protein/fat/fibre absent by pure-carbohydrate composition assumption, not separately measured on label. Diary glucose grams assumed powder, not glucose solution."
+    },
+    "pepino fruit": {
+      "reference": "external:vega-galvez-2011-pepino",
+      "match": "reference_with_derivations",
+      "note": "Vega-Galvez et al., Changes of quality characteristics of pepino fruit during convective drying, Table 1. Divide dry-basis quantities by 1+11.78 to obtain fresh basis. Total carbohydrate by difference. Crude fibre is only a lower-bound proxy for total dietary fibre. Energy derived with 4 kcal/g protein and non-fibre carbs, 9 fat, 2 fibre; not measured energy."
+    },
+    "crab cream": {
+      "reference": "usda:172007",
+      "match": "species_and_cut_proxy",
+      "note": "Chinese 膏蟹 indicates roe-bearing crab. Cooked edible crab meat proxy; proportion of roe/shell unknown."
+    },
+    "poria cocos": {
+      "reference": "recipe:poria_cocos_rehydrated",
+      "match": "low_confidence_recipe_proxy",
+      "note": "Rehydrated Poria estimate; dry composition comes from a patent table and 5-fold water uptake is assumed."
+    },
+    "chinese forest frog": {
+      "reference": "recipe:hasma_rehydrated",
+      "match": "research_and_yield_estimate",
+      "note": "Hasma oviduct tissue, not frog meat. Dry research composition diluted by assumed 20-fold rehydration."
+    },
+    "peach gum": {
+      "reference": "external:cookidoo-peach-gum-dessert",
+      "match": "reference_with_derivations",
+      "note": "Published five-portion dessert nutrition scaled to assumed final yield 1660 g. Yield assumptions: listed water 1500 g, longan 40 g, peach gum 50 g, sugar 60 g; twenty pitted dates assumed 100 g and tablespoon goji 10 g; 100 g evaporation, pandan removed. Source does not define carbohydrate convention; reported carbohydrate used without adding fibre. Generic sweet dessert may differ substantially from patient plain gum; not a pure-ingredient reference."
+    },
+    "shark's fin": {
+      "reference": "recipe:shark_fin_rehydrated",
+      "match": "rehydration_and_species_proxy",
+      "note": "Dry reference diluted by explicitly assumed five-fold final water uptake. Species, soaking yield and cooking losses unknown; prepared ingredient estimate, not a measured cooked reference."
+    },
+    "fish maw": {
+      "reference": "recipe:fish_maw_rehydrated",
+      "match": "rehydration_and_species_proxy",
+      "note": "Dry reference diluted by explicitly assumed five-fold final water uptake. Species, soaking yield and cooking losses unknown; prepared ingredient estimate, not a measured cooked reference."
+    }
+  },
+  "preparation_overrides": {},
+  "dish_overrides": {},
+  "recipe_templates": {},
+  "source_notes": [
+    "USDA FNDDS 2019-2020 and SR Legacy 2018 downloaded from FoodData Central. IDs are explicit selections, not automatic fuzzy matches.",
+    "CFS Chinese composition entries may report insoluble fibre; preserve fibre definition rather than assert equivalence to total dietary fibre.",
+    "CFS NIIS describes personal non-commercial/reference use. Retain attribution; do not treat its contents as USDA public-domain data.",
+    "CFS source definitions: https://www.cfs.gov.hk/english/nutrient/searchmenu.php",
+    "Recipes with unspecified amounts use declared project assumptions. Source inspiration does not verify those assumed proportions."
+  ],
+  "assumptions": [
+    "Per-100g edible portion. Unknown vegetable/fruit preparation uses raw reference per project instruction.",
+    "Cooked staple and animal-food defaults; finished products use product-as-consumed references.",
+    "Recipe proportions estimate unrecorded composition, not measured patient ingredients.",
+    "Reference means a food-composition estimate, never a measured patient meal.",
+    "Species proxies and generic product defaults remain labelled; no claim of exact patient nutrient values.",
+    "Recipe ingredient proportions and cooked/rehydrated yield must be recorded explicitly.",
+    "USDA total carbohydrate is the target basis. CFS available carbohydrate is converted by adding documented dietary fibre, with provenance.",
+    "CFC2002 fibre is insoluble fibre: retained as a labelled lower-bound proxy, not falsely described as measured total fibre.",
+    "No missing source nutrient is silently zero-filled; any substitution requires a separate declared reference or assumption."
+  ],
+  "external_references": {
+    "philfct-wax-apple": {
+      "description": "Java apple / wax apple, raw edible portion; Philippine FCT E026",
+      "source_url": "https://i.fnri.dost.gov.ph/fct/library/report/3608",
+      "source_id": "E026; PhilFCT release 1 December 2019",
+      "nutrients_per_100g": {
+        "energy_kcal": 34,
+        "protein_g": 0.4,
+        "carbs_g": 7.8,
+        "fat_g": 0.1,
+        "fibre_g": 1.3
+      },
+      "basis": "100 g edible portion",
+      "status": "food_reference",
+      "note": "Syzygium samarangense; whole-fruit edible percentage is 80%, but diary grams are assumed edible."
+    },
+    "ulife-seafood-soup": {
+      "description": "Buddha jumps over the wall; ULIFE FTQ04 prepared seafood soup",
+      "source_url": "https://www.ulifefoods.com/chinese-seafood-soup-frozen-buddha-jumps-over-the-wall",
+      "source_id": "FTQ04 manufacturer webpage",
+      "nutrients_per_100g": {
+        "energy_kcal": 150,
+        "protein_g": 15,
+        "carbs_g": 5,
+        "fat_g": 8,
+        "fibre_g": 0
+      },
+      "basis": "100 g prepared soup",
+      "status": "brand_recipe_proxy",
+      "note": "Manufacturer generic profile, not laboratory certificate or patient recipe. Product uses artificial shark fin; whole-dish proxy only, not a reference for individual shark fin/fish maw."
+    },
+    "philfct-mangosteen": {
+      "description": "Mangosteen, raw edible pulp; Philippine FCT E058",
+      "source_url": "https://i.fnri.dost.gov.ph/fct/library/report/3640",
+      "source_id": "E058; PhilFCT release 1 December 2019",
+      "nutrients_per_100g": {
+        "energy_kcal": 84,
+        "protein_g": 0.7,
+        "carbs_g": 18.6,
+        "fat_g": 0.8,
+        "fibre_g": 1.8
+      },
+      "basis": "100 g edible portion",
+      "status": "food_reference",
+      "note": "Not canned fruit or whole fruit including rind."
+    },
+    "mext-konjac": {
+      "description": "Konjac block made from corm; MEXT 02004",
+      "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=2_02004_7",
+      "source_id": "02004; 2023 supplement",
+      "nutrients_per_100g": {
+        "energy_kcal": 8,
+        "protein_g": 0.1,
+        "carbs_g": 3.3,
+        "fat_g": 0.1,
+        "fibre_g": 3
+      },
+      "basis": "100 g edible portion",
+      "status": "generic_reference",
+      "note": "Total carbohydrate 3.3 g; available carbohydrate 0.3 g; prepared hydrated konjac, not powder."
+    },
+    "eastbart-camel-powder": {
+      "description": "EASTBART pure camel milk powder, manufacturer reference",
+      "source_url": "https://www.ybtcamelmilk.com/pure-camel-milk-powder/100-pure-camel-milk-powder.html",
+      "source_id": "Pure Camel Milk Powder 300 g",
+      "reported_values": {
+        "energy_kj": 2147,
+        "protein_g": 25,
+        "carbs_g": 36,
+        "fat_g": 30,
+        "fibre_g": null
+      },
+      "nutrients_per_100g": {
+        "energy_kcal": 513.1453154875717,
+        "protein_g": 25,
+        "carbs_g": 36,
+        "fat_g": 30,
+        "fibre_g": 0
+      },
+      "basis": "100 g dry powder",
+      "status": "brand_proxy",
+      "note": "Unknown patient brand. kcal derived from kJ/4.184. Fibre assumed absent for pure milk, not measured or stated on this label; non-macro marketing claims not used."
+    },
+    "crea-black-truffle": {
+      "description": "Black truffle, Tuber melanosporum; CREA 006200",
+      "nutrients_per_100g": {
+        "energy_kcal": 48,
+        "protein_g": 6,
+        "carbs_g": 9.1,
+        "fat_g": 0.5,
+        "fibre_g": 8.4
+      },
+      "source_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/006200",
+      "source_id": "crea-black-truffle",
+      "basis": "per 100 g edible reference food",
+      "status": "reference_with_derivations",
+      "note": "CREA Centro di ricerca Alimenti e Nutrizione, December 2019. Source available carbohydrate 0.7 + total fibre 8.4 = total carbohydrate 9.1. Source energy 48 kcal retained; older guides give 31 kcal using a different energy convention.",
+      "quality_flags": [
+        "total_carbohydrate_derived_as_available_plus_fibre"
+      ],
+      "reported_values": {
+        "available_carbs_g": 0.7,
+        "fibre_g": 8.4,
+        "energy_kcal": 48
+      }
+    },
+    "now-dextrose-powder": {
+      "description": "NOW pure dextrose powder; brand proxy",
+      "nutrients_per_100g": {
+        "energy_kcal": 350,
+        "protein_g": 0,
+        "carbs_g": 90,
+        "fat_g": 0,
+        "fibre_g": 0
+      },
+      "source_url": "https://www.nowfoods.com/products/sports-nutrition/dextrose-powder",
+      "source_id": "now-dextrose-powder",
+      "basis": "per 100 g edible reference food",
+      "status": "reference_with_derivations",
+      "note": "Manufacturer 20 g serving: 70 kcal and 18 g carbohydrate; scaled by five. Protein/fat/fibre absent by pure-carbohydrate composition assumption, not separately measured on label. Diary glucose grams assumed powder, not glucose solution.",
+      "quality_flags": [
+        "label_rounding_scaled_to_100g",
+        "pure_carbohydrate_zero_protein_fat_fibre_assumption",
+        "glucose_form_assumed_powder"
+      ],
+      "reported_values": {
+        "serving_g": 20,
+        "energy_kcal": 70,
+        "carbs_g": 18
+      }
+    },
+    "vega-galvez-2011-pepino": {
+      "description": "Fresh pepino (Solanum muricatum); research-derived wet basis",
+      "nutrients_per_100g": {
+        "energy_kcal": 29.357589984350543,
+        "protein_g": 0.1971830985915493,
+        "carbs_g": 7.028951486697966,
+        "fat_g": 0.2136150234741784,
+        "fibre_g": 0.7347417840375587
+      },
+      "source_url": "https://ri.conicet.gov.ar/bitstream/handle/11336/245123/CONICET_Digital_Nro.cd1b0b46-a061-4ca0-93c8-c019c5e3f885_B.pdf?isAllowed=y&sequence=2",
+      "source_id": "vega-galvez-2011-pepino",
+      "basis": "per 100 g edible reference food",
+      "status": "reference_with_derivations",
+      "note": "Vega-Galvez et al., Changes of quality characteristics of pepino fruit during convective drying, Table 1. Divide dry-basis quantities by 1+11.78 to obtain fresh basis. Total carbohydrate by difference. Crude fibre is only a lower-bound proxy for total dietary fibre. Energy derived with 4 kcal/g protein and non-fibre carbs, 9 fat, 2 fibre; not measured energy.",
+      "quality_flags": [
+        "carbohydrate_by_difference",
+        "fibre_is_crude_not_total_dietary",
+        "energy_calculated",
+        "research_sample_not_population_average"
+      ],
+      "reported_values": {
+        "water_g_per_g_dry": 11.78,
+        "protein_g_per_100g_dry": 2.52,
+        "fat_g_per_100g_dry": 2.73,
+        "crude_fibre_g_per_100g_dry": 9.39,
+        "ash_g_per_100g_dry": 4.92
+      }
+    },
+    "patent-poria-dry": {
+      "description": "Poria cocos dry ingredient; composition table in CN101731360B",
+      "nutrients_per_100g": {
+        "energy_kcal": 16,
+        "protein_g": 1.2,
+        "carbs_g": 82.6,
+        "fat_g": 0.5,
+        "fibre_g": 80.9
+      },
+      "source_url": "https://patents.google.com/patent/CN101731360B/en",
+      "source_id": "patent-poria-dry",
+      "basis": "per 100 g edible reference food",
+      "status": "reference_with_derivations",
+      "note": "Table 1 of food-formulation patent, not a laboratory certificate or independent food-composition release. Total carbohydrate includes 80.9 g reported fibre. Source 16 kcal excludes fibre energy (historical convention); retained as reported. Health claims in patent not used.",
+      "quality_flags": [
+        "low_confidence_patent_composition",
+        "fibre_method_unspecified",
+        "source_energy_excludes_fibre_energy"
+      ],
+      "reported_values": {}
+    },
+    "zhang-2017-hasma-dry": {
+      "description": "Dried Oviductus ranae (hasma), research-derived profile",
+      "nutrients_per_100g": {
+        "energy_kcal": 364.83,
+        "protein_g": 56.87,
+        "carbs_g": 23.29,
+        "fat_g": 4.91,
+        "fibre_g": 0
+      },
+      "source_url": "https://www.sciencedirect.com/science/article/abs/pii/S0378874117302180",
+      "source_id": "zhang-2017-hasma-dry",
+      "basis": "per 100 g edible reference food",
+      "status": "reference_with_derivations",
+      "note": "Zhang et al. 2017 chemical-composition section: protein 56.87%, fat 4.91%, moisture 9.39%, ash 5.54%. Carbohydrate by difference 23.29%; energy derived with 4/4/9. Fibre zero is an animal-tissue assumption. Publisher search excerpt available; full-page access returned 403. Refers to oviduct tissue 雪蛤, not frog meat.",
+      "quality_flags": [
+        "carbohydrate_by_difference",
+        "energy_calculated",
+        "fibre_composition_assumption",
+        "full_article_access_limited"
+      ],
+      "reported_values": {
+        "protein_g": 56.87,
+        "fat_g": 4.91,
+        "water_g": 9.39,
+        "ash_g": 5.54
+      }
+    },
+    "cookidoo-peach-gum-dessert": {
+      "description": "Prepared red-date/longan/peach-gum dessert; Cookidoo recipe proxy",
+      "nutrients_per_100g": {
+        "energy_kcal": 49.69879518072289,
+        "protein_g": 0.30120481927710846,
+        "carbs_g": 12.650602409638553,
+        "fat_g": 0.0,
+        "fibre_g": 3.0120481927710845
+      },
+      "source_url": "https://cookidoo.co.uk/recipes/recipe/en-GB/r729758",
+      "source_id": "cookidoo-peach-gum-dessert",
+      "basis": "per 100 g edible reference food",
+      "status": "reference_with_derivations",
+      "note": "Published five-portion dessert nutrition scaled to assumed final yield 1660 g. Yield assumptions: listed water 1500 g, longan 40 g, peach gum 50 g, sugar 60 g; twenty pitted dates assumed 100 g and tablespoon goji 10 g; 100 g evaporation, pandan removed. Source does not define carbohydrate convention; reported carbohydrate used without adding fibre. Generic sweet dessert may differ substantially from patient plain gum; not a pure-ingredient reference.",
+      "quality_flags": [
+        "whole_dessert_proxy_not_pure_gum",
+        "cooked_yield_assumed",
+        "carbohydrate_definition_unspecified",
+        "source_label_rounding"
+      ],
+      "reported_values": {
+        "portions": 5,
+        "energy_kcal_per_portion": 165,
+        "protein_g_per_portion": 1,
+        "carbs_g_per_portion": 42,
+        "fat_g_per_portion": 0,
+        "fibre_g_per_portion": 10,
+        "assumed_final_yield_g": 1660
+      }
+    },
+    "mext-dried-shark-fin": {
+      "description": "Dried shark fin; MEXT 10169, 2023 supplement",
+      "nutrients_per_100g": {
+        "energy_kcal": 344,
+        "protein_g": 83.9,
+        "carbs_g": 0,
+        "fat_g": 1.6,
+        "fibre_g": 0
+      },
+      "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10169_7",
+      "source_id": "mext-dried-shark-fin",
+      "basis": "per 100 g edible reference food",
+      "status": "reference_with_derivations",
+      "note": "Official dried reference: 344 kcal, protein 83.9 g, fat 1.6 g; total carbohydrate Tr and fibre (0). Operational carbohydrate zero is a trace lower bound, not measured absence. Uses total carbohydrate column, not available carbohydrate by difference based on amino-acid protein.",
+      "quality_flags": [
+        "carbs_trace_lower_bound_not_exact_zero",
+        "source_fibre_estimated_zero"
+      ],
+      "reported_values": {
+        "energy_kcal": 344,
+        "protein_g": 83.9,
+        "fat_g": 1.6,
+        "carbs_g": "Tr",
+        "fibre_g": "(0)"
+      }
+    },
+    "family-club-cod-maw-dry": {
+      "description": "Dried cod fish maw; Family Club product label reproduced by seller",
+      "nutrients_per_100g": {
+        "energy_kcal": 318,
+        "protein_g": 78.2,
+        "carbs_g": 0,
+        "fat_g": 1,
+        "fibre_g": 0
+      },
+      "source_url": "https://www.yohohongkong.com/en-us/product/158831-New-Zealand-COD-Maw-600g-bag-5g-Made-in-New-Zealand-Parallel-import-goods",
+      "source_id": "family-club-cod-maw-dry",
+      "basis": "per 100 g edible reference food",
+      "status": "reference_with_derivations",
+      "note": "Seller-listed product nutrition per 100 g: energy 318 kcal, protein 78.2 g, fat 1 g, total carbohydrate 0 g. Fibre not listed: zero animal-tissue assumption. Dry product requires soaking; not the composition of 100 g cooked maw. Unknown patient species and brand; label rounding retained. Marketing health claims ignored.",
+      "quality_flags": [
+        "seller_transcribed_label",
+        "species_and_brand_proxy",
+        "fibre_composition_assumption",
+        "source_label_rounding"
+      ],
+      "reported_values": {
+        "energy_kcal": 318,
+        "protein_g": 78.2,
+        "fat_g": 1,
+        "carbs_g": 0,
+        "fibre_g": "not reported"
+      }
+    }
+  },
+  "recipes": {
+    "hairtail_cooked": {
+      "description": "hairtail cooked",
+      "ingredients": [
+        {
+          "reference": "cfs:0512001212030",
+          "grams": 100
+        }
+      ],
+      "final_edible_yield_g": 80.0,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Raw edible reference converted with assumed cooked yield 0.8. Macronutrients fully retained; cooking losses/added oil not measured.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "loach_cooked": {
+      "description": "loach cooked",
+      "ingredients": [
+        {
+          "reference": "cfs:0512001211140",
+          "grams": 100
+        }
+      ],
+      "final_edible_yield_g": 80.0,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Raw edible reference converted with assumed cooked yield 0.8. Macronutrients fully retained; cooking losses/added oil not measured.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "mandarin_fish_cooked": {
+      "description": "mandarin fish cooked",
+      "ingredients": [
+        {
+          "reference": "cfs:0512001211290",
+          "grams": 100
+        }
+      ],
+      "final_edible_yield_g": 80.0,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Raw edible reference converted with assumed cooked yield 0.8. Macronutrients fully retained; cooking losses/added oil not measured.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "pomfret_cooked": {
+      "description": "pomfret cooked",
+      "ingredients": [
+        {
+          "reference": "cfs:0512001212330",
+          "grams": 100
+        }
+      ],
+      "final_edible_yield_g": 80.0,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Raw edible reference converted with assumed cooked yield 0.8. Macronutrients fully retained; cooking losses/added oil not measured.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "snail_cooked": {
+      "description": "snail cooked",
+      "ingredients": [
+        {
+          "reference": "usda:167744",
+          "grams": 100
+        }
+      ],
+      "final_edible_yield_g": 80.0,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Raw edible reference converted with assumed cooked yield 0.8. Macronutrients fully retained; cooking losses/added oil not measured.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "goose_liver_cooked": {
+      "description": "goose liver cooked",
+      "ingredients": [
+        {
+          "reference": "usda:172415",
+          "grams": 100
+        }
+      ],
+      "final_edible_yield_g": 80.0,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Raw edible reference converted with assumed cooked yield 0.8. Macronutrients fully retained; cooking losses/added oil not measured.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "pork_skin_cooked": {
+      "description": "pork skin cooked",
+      "ingredients": [
+        {
+          "reference": "cfs:0506060811180",
+          "grams": 100
+        }
+      ],
+      "final_edible_yield_g": 80.0,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Raw edible reference converted with assumed cooked yield 0.8. Macronutrients fully retained; cooking losses/added oil not measured.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "pork_lung_cooked": {
+      "description": "pork lung cooked",
+      "ingredients": [
+        {
+          "reference": "usda:168271",
+          "grams": 100
+        }
+      ],
+      "final_edible_yield_g": 100,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Direct USDA cooked pork lung reference.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "squid_cooked": {
+      "description": "squid cooked",
+      "ingredients": [
+        {
+          "reference": "cfs:10400200085",
+          "grams": 100
+        }
+      ],
+      "final_edible_yield_g": 100,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Steamed squid with garlic reference, including its seasonings.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "pork_meatball": {
+      "description": "pork meatball",
+      "ingredients": [
+        {
+          "reference": "usda:167903",
+          "grams": 75
+        },
+        {
+          "reference": "usda:169698",
+          "grams": 8
+        },
+        {
+          "reference": "usda:2346283",
+          "grams": 10
+        },
+        {
+          "reference": "usda:173424",
+          "grams": 5
+        },
+        {
+          "reference": "usda:2342917",
+          "grams": 2
+        }
+      ],
+      "final_edible_yield_g": 100,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Generic ingredient shares by edible weight; all retained. Actual recipe and final water content are unknown.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "beef_meatball": {
+      "description": "beef meatball",
+      "ingredients": [
+        {
+          "reference": "usda:2341259",
+          "grams": 75
+        },
+        {
+          "reference": "usda:169698",
+          "grams": 8
+        },
+        {
+          "reference": "usda:2346283",
+          "grams": 10
+        },
+        {
+          "reference": "usda:173424",
+          "grams": 5
+        },
+        {
+          "reference": "usda:2342917",
+          "grams": 2
+        }
+      ],
+      "final_edible_yield_g": 100,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Generic ingredient shares by edible weight; all retained. Actual recipe and final water content are unknown.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "chicken_meatball": {
+      "description": "chicken meatball",
+      "ingredients": [
+        {
+          "reference": "usda:171477",
+          "grams": 75
+        },
+        {
+          "reference": "usda:169698",
+          "grams": 8
+        },
+        {
+          "reference": "usda:2346283",
+          "grams": 10
+        },
+        {
+          "reference": "usda:173424",
+          "grams": 5
+        },
+        {
+          "reference": "usda:2342917",
+          "grams": 2
+        }
+      ],
+      "final_edible_yield_g": 100,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Generic ingredient shares by edible weight; all retained. Actual recipe and final water content are unknown.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "shrimp_ball": {
+      "description": "shrimp ball",
+      "ingredients": [
+        {
+          "reference": "usda:171971",
+          "grams": 75
+        },
+        {
+          "reference": "usda:169698",
+          "grams": 8
+        },
+        {
+          "reference": "usda:2346283",
+          "grams": 10
+        },
+        {
+          "reference": "usda:173424",
+          "grams": 5
+        },
+        {
+          "reference": "usda:2342917",
+          "grams": 2
+        }
+      ],
+      "final_edible_yield_g": 100,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Generic ingredient shares by edible weight; all retained. Actual recipe and final water content are unknown.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "lotus_seed_rehydrated": {
+      "description": "lotus seed rehydrated",
+      "ingredients": [
+        {
+          "reference": "cfs:0505000720090",
+          "grams": 100
+        },
+        {
+          "reference": "usda:2346283",
+          "grams": 150.0
+        }
+      ],
+      "final_edible_yield_g": 250.0,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Assumed rehydration factor 2.5 g edible food per g reference ingredient; no nutrient losses. ",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "daylily_rehydrated": {
+      "description": "daylily rehydrated",
+      "ingredients": [
+        {
+          "reference": "cfs:0503020454120",
+          "grams": 100
+        },
+        {
+          "reference": "usda:2346283",
+          "grams": 400
+        }
+      ],
+      "final_edible_yield_g": 500,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Assumed rehydration factor 5 g edible food per g reference ingredient; no nutrient losses. ",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "white_fungus_rehydrated": {
+      "description": "white fungus rehydrated",
+      "ingredients": [
+        {
+          "reference": "cfs:0503070510240",
+          "grams": 100
+        },
+        {
+          "reference": "usda:2346283",
+          "grams": 900
+        }
+      ],
+      "final_edible_yield_g": 1000,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Assumed rehydration factor 10 g edible food per g reference ingredient; no nutrient losses. ",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "tofu_stick_rehydrated": {
+      "description": "tofu stick rehydrated",
+      "ingredients": [
+        {
+          "reference": "cfs:0502000315070",
+          "grams": 100
+        },
+        {
+          "reference": "usda:2346283",
+          "grams": 200
+        }
+      ],
+      "final_edible_yield_g": 300,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Assumed rehydration factor 3 g edible food per g reference ingredient; no nutrient losses. ",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "bamboo_rehydrated": {
+      "description": "bamboo rehydrated",
+      "ingredients": [
+        {
+          "reference": "cfs:0503020454020",
+          "grams": 100
+        },
+        {
+          "reference": "usda:2346283",
+          "grams": 400
+        }
+      ],
+      "final_edible_yield_g": 500,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Assumed rehydration factor 5 g edible food per g reference ingredient; no nutrient losses. ",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "cabbage_rehydrated": {
+      "description": "cabbage rehydrated",
+      "ingredients": [
+        {
+          "reference": "cfs:0503062050150",
+          "grams": 100
+        },
+        {
+          "reference": "usda:2346283",
+          "grams": 300
+        }
+      ],
+      "final_edible_yield_g": 400,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Assumed rehydration factor 4 g edible food per g reference ingredient; no nutrient losses. ",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "radish_rehydrated": {
+      "description": "radish rehydrated",
+      "ingredients": [
+        {
+          "reference": "cfs:0503062050180",
+          "grams": 100
+        },
+        {
+          "reference": "usda:2346283",
+          "grams": 100
+        }
+      ],
+      "final_edible_yield_g": 200,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Assumed rehydration factor 2 g edible food per g reference ingredient; no nutrient losses. ",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "matsutake_rehydrated": {
+      "description": "matsutake rehydrated",
+      "ingredients": [
+        {
+          "reference": "cfs:0503070510180",
+          "grams": 100
+        },
+        {
+          "reference": "usda:2346283",
+          "grams": 400
+        }
+      ],
+      "final_edible_yield_g": 500,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Assumed rehydration factor 5 g edible food per g reference ingredient; no nutrient losses. ",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "sorghum_cooked": {
+      "description": "sorghum cooked",
+      "ingredients": [
+        {
+          "reference": "usda:169716",
+          "grams": 100
+        },
+        {
+          "reference": "usda:2346283",
+          "grams": 200
+        }
+      ],
+      "final_edible_yield_g": 300,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Assumed rehydration factor 3 g edible food per g reference ingredient; no nutrient losses. ",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "sago_cooked": {
+      "description": "sago cooked",
+      "ingredients": [
+        {
+          "reference": "usda:169717",
+          "grams": 100
+        },
+        {
+          "reference": "usda:2346283",
+          "grams": 200
+        }
+      ],
+      "final_edible_yield_g": 300,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Assumed rehydration factor 3 g edible food per g reference ingredient; no nutrient losses. ",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "bean_vermicelli_cooked": {
+      "description": "bean vermicelli cooked",
+      "ingredients": [
+        {
+          "reference": "usda:174258",
+          "grams": 100
+        },
+        {
+          "reference": "usda:2346283",
+          "grams": 200
+        }
+      ],
+      "final_edible_yield_g": 300,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Assumed rehydration factor 3 g edible food per g reference ingredient; no nutrient losses. ",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "kelp_rehydrated": {
+      "description": "kelp rehydrated",
+      "ingredients": [
+        {
+          "reference": "usda:168457",
+          "grams": 100
+        }
+      ],
+      "final_edible_yield_g": 100,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Hydrated/raw kelp composition proxy for prepared kelp. Not dried seaweed.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "seaweed_rehydrated": {
+      "description": "seaweed rehydrated",
+      "ingredients": [
+        {
+          "reference": "usda:168458",
+          "grams": 100
+        }
+      ],
+      "final_edible_yield_g": 100,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Hydrated laver reference for soup ingredient; product species/water vary.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "mixed_grain_cooked": {
+      "description": "mixed grain cooked",
+      "ingredients": [
+        {
+          "reference": "usda:169704",
+          "grams": 40
+        },
+        {
+          "reference": "usda:168871",
+          "grams": 30
+        },
+        {
+          "reference": "usda:173905",
+          "grams": 30
+        }
+      ],
+      "final_edible_yield_g": 100,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Explicit default: 40% cooked brown rice, 30% cooked millet, 30% cooked oats; no claim that this is a universal mixture.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "coix_cooked": {
+      "description": "coix cooked",
+      "ingredients": [
+        {
+          "reference": "usda:170285",
+          "grams": 100
+        }
+      ],
+      "final_edible_yield_g": 100,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Cooked pearl barley composition proxy for cooked coix; botanically different, high uncertainty.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "corn_noodles_cooked": {
+      "description": "corn noodles cooked",
+      "ingredients": [
+        {
+          "reference": "usda:2343841",
+          "grams": 70
+        },
+        {
+          "reference": "usda:171655",
+          "grams": 30
+        }
+      ],
+      "final_edible_yield_g": 100,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Prepared corn/wheat noodle proxy from 70% cooked pasta and 30% cooked corn grits; product formula unknown.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "buckwheat_noodles_cooked": {
+      "description": "buckwheat noodles cooked",
+      "ingredients": [
+        {
+          "reference": "usda:168907",
+          "grams": 100
+        }
+      ],
+      "final_edible_yield_g": 100,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "USDA cooked soba values; missing fibre supplied by a separately recorded cooked-pasta fibre proxy.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "rice_porridge": {
+      "description": "rice porridge",
+      "ingredients": [
+        {
+          "reference": "usda:169757",
+          "grams": 30
+        },
+        {
+          "reference": "usda:2346283",
+          "grams": 70
+        }
+      ],
+      "final_edible_yield_g": 100,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Thin congee default: 30% cooked rice, 70% added water. This dilution is assumed, not diary evidence.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "mixed_fruit": {
+      "description": "mixed fruit",
+      "ingredients": [
+        {
+          "reference": "usda:2344711",
+          "grams": 40
+        },
+        {
+          "reference": "usda:2344720",
+          "grams": 30
+        },
+        {
+          "reference": "usda:2344665",
+          "grams": 30
+        }
+      ],
+      "final_edible_yield_g": 100,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Generic ingredient shares by edible weight; all retained. Actual recipe and final water content are unknown.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "fruit_veg_pulp": {
+      "description": "fruit veg pulp",
+      "ingredients": [
+        {
+          "reference": "usda:2344711",
+          "grams": 40
+        },
+        {
+          "reference": "usda:2345232",
+          "grams": 30
+        },
+        {
+          "reference": "usda:170393",
+          "grams": 30
+        }
+      ],
+      "final_edible_yield_g": 100,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Generic ingredient shares by edible weight; all retained. Actual recipe and final water content are unknown.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "corn_drink": {
+      "description": "corn drink",
+      "ingredients": [
+        {
+          "reference": "usda:2345303",
+          "grams": 20
+        },
+        {
+          "reference": "usda:2340762",
+          "grams": 20
+        },
+        {
+          "reference": "usda:2346283",
+          "grams": 55
+        },
+        {
+          "reference": "usda:169655",
+          "grams": 5
+        }
+      ],
+      "final_edible_yield_g": 100,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Generic ingredient shares by edible weight; all retained. Actual recipe and final water content are unknown.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "ginger_drink": {
+      "description": "ginger drink",
+      "ingredients": [
+        {
+          "reference": "usda:169231",
+          "grams": 10
+        },
+        {
+          "reference": "usda:2346283",
+          "grams": 90
+        }
+      ],
+      "final_edible_yield_g": 100,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Unsweetened diluted ginger juice default; dilution not recorded.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "matcha_latte": {
+      "description": "matcha latte",
+      "ingredients": [
+        {
+          "reference": "usda:2340762",
+          "grams": 85
+        },
+        {
+          "reference": "usda:2346060",
+          "grams": 10
+        },
+        {
+          "reference": "usda:169655",
+          "grams": 5
+        }
+      ],
+      "final_edible_yield_g": 100,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Milk and sweetened green-tea drink proxy; matcha powder dose unavailable.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "milk_tea": {
+      "description": "milk tea",
+      "ingredients": [
+        {
+          "reference": "usda:2340762",
+          "grams": 40
+        },
+        {
+          "reference": "usda:2346058",
+          "grams": 55
+        },
+        {
+          "reference": "usda:169655",
+          "grams": 5
+        }
+      ],
+      "final_edible_yield_g": 100,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Generic ingredient shares by edible weight; all retained. Actual recipe and final water content are unknown.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "lemon_tea": {
+      "description": "lemon tea",
+      "ingredients": [
+        {
+          "reference": "usda:2346058",
+          "grams": 90
+        },
+        {
+          "reference": "usda:2344662",
+          "grams": 5
+        },
+        {
+          "reference": "usda:169655",
+          "grams": 5
+        }
+      ],
+      "final_edible_yield_g": 100,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Generic ingredient shares by edible weight; all retained. Actual recipe and final water content are unknown.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "plum_drink": {
+      "description": "plum drink",
+      "ingredients": [
+        {
+          "reference": "usda:169949",
+          "grams": 20
+        },
+        {
+          "reference": "usda:2346283",
+          "grams": 75
+        },
+        {
+          "reference": "usda:169655",
+          "grams": 5
+        }
+      ],
+      "final_edible_yield_g": 100,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Generic sweetened plum drink estimate; not asserted to be the patient brand or traditional sour-plum recipe.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "brown_sauce": {
+      "description": "brown sauce",
+      "ingredients": [
+        {
+          "reference": "usda:2342917",
+          "grams": 20
+        },
+        {
+          "reference": "usda:2346283",
+          "grams": 60
+        },
+        {
+          "reference": "usda:169698",
+          "grams": 5
+        },
+        {
+          "reference": "usda:169655",
+          "grams": 5
+        },
+        {
+          "reference": "usda:171411",
+          "grams": 10
+        }
+      ],
+      "final_edible_yield_g": 100,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Generic ingredient shares by edible weight; all retained. Actual recipe and final water content are unknown.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "olive_vegetable": {
+      "description": "olive vegetable",
+      "ingredients": [
+        {
+          "reference": "cfs:0503062050350",
+          "grams": 60
+        },
+        {
+          "reference": "usda:2345616",
+          "grams": 20
+        },
+        {
+          "reference": "usda:171411",
+          "grams": 20
+        }
+      ],
+      "final_edible_yield_g": 100,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Preserved mustard/olive/oil condiment recipe assumption; not plain olives.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "chiba_tofu": {
+      "description": "chiba tofu",
+      "ingredients": [
+        {
+          "reference": "usda:172476",
+          "grams": 70
+        },
+        {
+          "reference": "usda:169698",
+          "grams": 15
+        },
+        {
+          "reference": "usda:171411",
+          "grams": 8
+        },
+        {
+          "reference": "usda:2346283",
+          "grams": 7
+        }
+      ],
+      "final_edible_yield_g": 100,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Commercial starch/soy tofu-style product approximation; brand recipe unknown.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "tofu_pudding": {
+      "description": "tofu pudding",
+      "ingredients": [
+        {
+          "reference": "usda:172476",
+          "grams": 50
+        },
+        {
+          "reference": "usda:2346283",
+          "grams": 50
+        }
+      ],
+      "final_edible_yield_g": 100,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Soft unsweetened tofu pudding default; sauce/sugar only added when separately recorded.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "salted_egg_yolk": {
+      "description": "salted egg yolk",
+      "ingredients": [
+        {
+          "reference": "usda:2342648",
+          "grams": 100
+        }
+      ],
+      "final_edible_yield_g": 100,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Cooked egg-yolk macro proxy; salting changes sodium (not modelled).",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "starch_jelly": {
+      "description": "starch jelly",
+      "ingredients": [
+        {
+          "reference": "usda:169698",
+          "grams": 10
+        },
+        {
+          "reference": "usda:2346283",
+          "grams": 90
+        }
+      ],
+      "final_edible_yield_g": 100,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Generic ingredient shares by edible weight; all retained. Actual recipe and final water content are unknown.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "stinky_tofu": {
+      "description": "stinky tofu",
+      "ingredients": [
+        {
+          "reference": "usda:172476",
+          "grams": 100
+        }
+      ],
+      "final_edible_yield_g": 100,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Unfried fermented tofu macro proxy; use fried preparation separately if recorded.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "multigrain_bun": {
+      "description": "multigrain bun",
+      "ingredients": [
+        {
+          "reference": "usda:169761",
+          "grams": 400
+        },
+        {
+          "reference": "usda:168893",
+          "grams": 185
+        },
+        {
+          "reference": "usda:2340762",
+          "grams": 412
+        },
+        {
+          "reference": "usda:169655",
+          "grams": 12
+        },
+        {
+          "reference": "usda:2345532",
+          "grams": 3
+        }
+      ],
+      "final_edible_yield_g": 1012,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Published whole-wheat mantou recipe used as generic mixed-grain bun. Whole-wheat flour midpoint 185 g; 400 mL milk assumed 412 g; final mass 1012 g (no net water change). Actual grains/yeast and yield vary.",
+      "recipe_inspiration_urls": [
+        "https://thewoksoflife.com/whole-wheat-mantou/"
+      ],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "buckwheat_bun": {
+      "description": "buckwheat bun",
+      "ingredients": [
+        {
+          "reference": "usda:169761",
+          "grams": 40
+        },
+        {
+          "reference": "usda:170687",
+          "grams": 20
+        },
+        {
+          "reference": "usda:2346283",
+          "grams": 39
+        },
+        {
+          "reference": "usda:169655",
+          "grams": 1
+        }
+      ],
+      "final_edible_yield_g": 100,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Adapted steamed-bun recipe: one third of flour is buckwheat; 60 g flour and 39 g retained water per 100 g. Recipe/yield assumption, not measured buckwheat bun.",
+      "recipe_inspiration_urls": [
+        "https://thewoksoflife.com/whole-wheat-mantou/"
+      ],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "corn_bun": {
+      "description": "corn bun",
+      "ingredients": [
+        {
+          "reference": "usda:169761",
+          "grams": 30
+        },
+        {
+          "reference": "usda:169748",
+          "grams": 30
+        },
+        {
+          "reference": "usda:2346283",
+          "grams": 39
+        },
+        {
+          "reference": "usda:169655",
+          "grams": 1
+        }
+      ],
+      "final_edible_yield_g": 100,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Generic ingredient shares by edible weight; all retained. Actual recipe and final water content are unknown.",
+      "recipe_inspiration_urls": [
+        "https://thewoksoflife.com/whole-wheat-mantou/"
+      ],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "buckwheat_bread": {
+      "description": "buckwheat bread",
+      "ingredients": [
+        {
+          "reference": "usda:174924",
+          "grams": 70
+        },
+        {
+          "reference": "recipe:buckwheat_bun",
+          "grams": 30
+        }
+      ],
+      "final_edible_yield_g": 100,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Baked buckwheat/wheat bread composition proxy, distinct from steamed buckwheat bun; blend is assumed.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "cheese_bun": {
+      "description": "cheese bun",
+      "ingredients": [
+        {
+          "reference": "usda:174924",
+          "grams": 80
+        },
+        {
+          "reference": "usda:2341112",
+          "grams": 20
+        }
+      ],
+      "final_edible_yield_g": 100,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Generic ingredient shares by edible weight; all retained. Actual recipe and final water content are unknown.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "multigrain_cake": {
+      "description": "multigrain cake",
+      "ingredients": [
+        {
+          "reference": "recipe:multigrain_bun",
+          "grams": 75
+        },
+        {
+          "reference": "usda:173424",
+          "grams": 10
+        },
+        {
+          "reference": "usda:169655",
+          "grams": 10
+        },
+        {
+          "reference": "usda:171411",
+          "grams": 5
+        }
+      ],
+      "final_edible_yield_g": 100,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Generic ingredient shares by edible weight; all retained. Actual recipe and final water content are unknown.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "corn_cake": {
+      "description": "corn cake",
+      "ingredients": [
+        {
+          "reference": "recipe:corn_bun",
+          "grams": 80
+        },
+        {
+          "reference": "usda:169655",
+          "grams": 10
+        },
+        {
+          "reference": "usda:171411",
+          "grams": 10
+        }
+      ],
+      "final_edible_yield_g": 100,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Generic ingredient shares by edible weight; all retained. Actual recipe and final water content are unknown.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "cooked_dough": {
+      "description": "cooked dough",
+      "ingredients": [
+        {
+          "reference": "cfs:0501070114040",
+          "grams": 100
+        }
+      ],
+      "final_edible_yield_g": 100,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Diary dough interpreted as edible cooked wheat dough, not raw flour.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "savory_egg_custard": {
+      "description": "savory egg custard",
+      "ingredients": [
+        {
+          "reference": "usda:173424",
+          "grams": 40
+        },
+        {
+          "reference": "usda:2346283",
+          "grams": 60
+        }
+      ],
+      "final_edible_yield_g": 100,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Unsweetened steamed egg custard, egg:water 2:3 by weight.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "egg_dumpling": {
+      "description": "egg dumpling",
+      "ingredients": [
+        {
+          "reference": "usda:173424",
+          "grams": 50
+        },
+        {
+          "reference": "usda:167903",
+          "grams": 40
+        },
+        {
+          "reference": "usda:2346283",
+          "grams": 7
+        },
+        {
+          "reference": "usda:2342917",
+          "grams": 3
+        }
+      ],
+      "final_edible_yield_g": 100,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Generic ingredient shares by edible weight; all retained. Actual recipe and final water content are unknown.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "egg_pancake": {
+      "description": "egg pancake",
+      "ingredients": [
+        {
+          "reference": "recipe:cooked_dough",
+          "grams": 55
+        },
+        {
+          "reference": "usda:173424",
+          "grams": 35
+        },
+        {
+          "reference": "usda:171411",
+          "grams": 5
+        },
+        {
+          "reference": "usda:2346283",
+          "grams": 5
+        }
+      ],
+      "final_edible_yield_g": 100,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Generic ingredient shares by edible weight; all retained. Actual recipe and final water content are unknown.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "fermented_rice_cake": {
+      "description": "fermented rice cake",
+      "ingredients": [
+        {
+          "reference": "cfs:0501101410220",
+          "grams": 85
+        },
+        {
+          "reference": "usda:169655",
+          "grams": 15
+        }
+      ],
+      "final_edible_yield_g": 100,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Rice-cake and added-sugar proxy; fermentation and water changes unknown.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "instant_noodles_cooked": {
+      "description": "instant noodles cooked",
+      "ingredients": [
+        {
+          "reference": "usda:2343835",
+          "grams": 85
+        },
+        {
+          "reference": "usda:171411",
+          "grams": 8
+        },
+        {
+          "reference": "usda:2342917",
+          "grams": 2
+        },
+        {
+          "reference": "usda:2346283",
+          "grams": 5
+        }
+      ],
+      "final_edible_yield_g": 100,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Cooked noodle/oil/seasoning default; not dry packet weight.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "meat_roll": {
+      "description": "meat roll",
+      "ingredients": [
+        {
+          "reference": "usda:167903",
+          "grams": 55
+        },
+        {
+          "reference": "cfs:0502000315090",
+          "grams": 30
+        },
+        {
+          "reference": "usda:169979",
+          "grams": 10
+        },
+        {
+          "reference": "usda:2342917",
+          "grams": 3
+        },
+        {
+          "reference": "usda:171411",
+          "grams": 2
+        }
+      ],
+      "final_edible_yield_g": 100,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Generic ingredient shares by edible weight; all retained. Actual recipe and final water content are unknown.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "mooncake": {
+      "description": "mooncake",
+      "ingredients": [
+        {
+          "reference": "usda:2343531",
+          "grams": 100
+        }
+      ],
+      "final_edible_yield_g": 100,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "USDA bean/lotus paste baked Chinese pastry proxy; filling unknown.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "mung_bean_cake": {
+      "description": "mung bean cake",
+      "ingredients": [
+        {
+          "reference": "usda:2342864",
+          "grams": 45
+        },
+        {
+          "reference": "usda:169655",
+          "grams": 30
+        },
+        {
+          "reference": "usda:171411",
+          "grams": 15
+        },
+        {
+          "reference": "usda:169761",
+          "grams": 10
+        }
+      ],
+      "final_edible_yield_g": 100,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Generic sweet mung-bean confection; final mass and sugar/oil shares are assumed.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "pizza": {
+      "description": "pizza",
+      "ingredients": [
+        {
+          "reference": "usda:2344098",
+          "grams": 100
+        }
+      ],
+      "final_edible_yield_g": 100,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "USDA prepared restaurant cheese-pizza default; toppings unknown.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "pork_omelette": {
+      "description": "pork omelette",
+      "ingredients": [
+        {
+          "reference": "usda:173424",
+          "grams": 65
+        },
+        {
+          "reference": "usda:167903",
+          "grams": 25
+        },
+        {
+          "reference": "usda:171411",
+          "grams": 5
+        },
+        {
+          "reference": "usda:170000",
+          "grams": 5
+        }
+      ],
+      "final_edible_yield_g": 100,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Generic ingredient shares by edible weight; all retained. Actual recipe and final water content are unknown.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "pumpkin_cake": {
+      "description": "pumpkin cake",
+      "ingredients": [
+        {
+          "reference": "usda:168449",
+          "grams": 35
+        },
+        {
+          "reference": "usda:169714",
+          "grams": 35
+        },
+        {
+          "reference": "usda:169655",
+          "grams": 15
+        },
+        {
+          "reference": "usda:171411",
+          "grams": 10
+        },
+        {
+          "reference": "usda:2346283",
+          "grams": 5
+        }
+      ],
+      "final_edible_yield_g": 100,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Generic ingredient shares by edible weight; all retained. Actual recipe and final water content are unknown.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "rice_crust": {
+      "description": "rice crust",
+      "ingredients": [
+        {
+          "reference": "usda:169757",
+          "grams": 100
+        },
+        {
+          "reference": "usda:171411",
+          "grams": 5
+        }
+      ],
+      "final_edible_yield_g": 65,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Cooked rice dried/crisped with 5 g retained oil; 65 g final yield assumed.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "rice_dumpling": {
+      "description": "rice dumpling",
+      "ingredients": [
+        {
+          "reference": "usda:169711",
+          "grams": 75
+        },
+        {
+          "reference": "usda:167903",
+          "grams": 15
+        },
+        {
+          "reference": "usda:173728",
+          "grams": 10
+        }
+      ],
+      "final_edible_yield_g": 100,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Generic savoury glutinous rice dumpling with pork/bean filling; leaves excluded.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "rye_cake": {
+      "description": "rye cake",
+      "ingredients": [
+        {
+          "reference": "usda:172684",
+          "grams": 70
+        },
+        {
+          "reference": "usda:173424",
+          "grams": 15
+        },
+        {
+          "reference": "usda:169655",
+          "grams": 10
+        },
+        {
+          "reference": "usda:171411",
+          "grams": 5
+        }
+      ],
+      "final_edible_yield_g": 100,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Generic ingredient shares by edible weight; all retained. Actual recipe and final water content are unknown.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "black_rice_cake": {
+      "description": "black rice cake",
+      "ingredients": [
+        {
+          "reference": "usda:169704",
+          "grams": 65
+        },
+        {
+          "reference": "usda:169714",
+          "grams": 20
+        },
+        {
+          "reference": "usda:169655",
+          "grams": 10
+        },
+        {
+          "reference": "usda:2346283",
+          "grams": 5
+        }
+      ],
+      "final_edible_yield_g": 100,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Generic ingredient shares by edible weight; all retained. Actual recipe and final water content are unknown.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "scallion_pancake": {
+      "description": "scallion pancake",
+      "ingredients": [
+        {
+          "reference": "recipe:cooked_dough",
+          "grams": 80
+        },
+        {
+          "reference": "usda:170005",
+          "grams": 10
+        },
+        {
+          "reference": "usda:171411",
+          "grams": 10
+        }
+      ],
+      "final_edible_yield_g": 100,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Generic ingredient shares by edible weight; all retained. Actual recipe and final water content are unknown.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "chive_pocket": {
+      "description": "chive pocket",
+      "ingredients": [
+        {
+          "reference": "recipe:cooked_dough",
+          "grams": 45
+        },
+        {
+          "reference": "usda:169994",
+          "grams": 25
+        },
+        {
+          "reference": "usda:173424",
+          "grams": 25
+        },
+        {
+          "reference": "usda:171411",
+          "grams": 5
+        }
+      ],
+      "final_edible_yield_g": 100,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Generic ingredient shares by edible weight; all retained. Actual recipe and final water content are unknown.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "sweet_rice_ball": {
+      "description": "sweet rice ball",
+      "ingredients": [
+        {
+          "reference": "usda:169711",
+          "grams": 65
+        },
+        {
+          "reference": "usda:2345869",
+          "grams": 25
+        },
+        {
+          "reference": "usda:169655",
+          "grams": 10
+        }
+      ],
+      "final_edible_yield_g": 100,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Generic ingredient shares by edible weight; all retained. Actual recipe and final water content are unknown.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "no_added_sugar_cake": {
+      "description": "no added sugar cake",
+      "ingredients": [
+        {
+          "reference": "usda:169761",
+          "grams": 35
+        },
+        {
+          "reference": "usda:173424",
+          "grams": 30
+        },
+        {
+          "reference": "usda:2340762",
+          "grams": 25
+        },
+        {
+          "reference": "usda:171411",
+          "grams": 10
+        }
+      ],
+      "final_edible_yield_g": 90,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "No added sugar recipe proxy; flour and milk still supply carbohydrates. Non-nutritive sweetener omitted; baking mass loss assumed 10%.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "no_added_sugar_pork_floss": {
+      "description": "no added sugar pork floss",
+      "ingredients": [
+        {
+          "reference": "usda:168250",
+          "grams": 100
+        },
+        {
+          "reference": "usda:2342917",
+          "grams": 5
+        },
+        {
+          "reference": "usda:171411",
+          "grams": 3
+        }
+      ],
+      "final_edible_yield_g": 45,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Lean cooked pork dehydrated to 45 g with soy/oil and no sugar; estimated yield, not brand nutrition.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "generic_hotpot": {
+      "description": "generic hotpot",
+      "ingredients": [
+        {
+          "reference": "usda:2342570",
+          "grams": 40
+        },
+        {
+          "reference": "usda:169979",
+          "grams": 20
+        },
+        {
+          "reference": "usda:172476",
+          "grams": 15
+        },
+        {
+          "reference": "usda:171971",
+          "grams": 10
+        },
+        {
+          "reference": "usda:167903",
+          "grams": 10
+        },
+        {
+          "reference": "usda:171411",
+          "grams": 5
+        }
+      ],
+      "final_edible_yield_g": 100,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Explicit generic hotpot with broth, vegetables, tofu, shrimp and pork. Actual dish contents unknown; high uncertainty.",
+      "recipe_inspiration_urls": [],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "borscht_shanghai": {
+      "description": "borscht shanghai",
+      "ingredients": [
+        {
+          "reference": "usda:2341248",
+          "grams": 500
+        },
+        {
+          "reference": "usda:170000",
+          "grams": 300
+        },
+        {
+          "reference": "usda:169230",
+          "grams": 18
+        },
+        {
+          "reference": "usda:2345232",
+          "grams": 340
+        },
+        {
+          "reference": "usda:170459",
+          "grams": 32
+        },
+        {
+          "reference": "usda:2346283",
+          "grams": 2400
+        },
+        {
+          "reference": "usda:170393",
+          "grams": 340
+        },
+        {
+          "reference": "usda:169975",
+          "grams": 340
+        },
+        {
+          "reference": "usda:170440",
+          "grams": 450
+        },
+        {
+          "reference": "usda:171411",
+          "grams": 28
+        }
+      ],
+      "final_edible_yield_g": 4300,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Shanghai tomato/cabbage/potato/oxtail soup inspired by cited recipe. Oxtail edible cooked meat 500 g, onions 300 g, garlic 18 g; final cooked edible soup 4300 g assumed. Bone and bay leaves excluded. Patient recipe unknown.",
+      "recipe_inspiration_urls": [
+        "https://thewoksoflife.com/red-vegetable-soup-shanghai-luo-song-tang/"
+      ],
+      "nutrient_method": "Sum ingredient reference nutrients times ingredient grams/100; divide by assumed final edible yield, multiply by 100.",
+      "micronutrient_retention_model": false
+    },
+    "poria_cocos_rehydrated": {
+      "description": "poria cocos rehydrated",
+      "ingredients": [
+        {
+          "reference": "external:patent-poria-dry",
+          "grams": 100
+        },
+        {
+          "reference": "usda:2346283",
+          "grams": 400
+        }
+      ],
+      "final_edible_yield_g": 500,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Assumed rehydration factor 5 g served per g dry reference. All macros retained. Actual soaking water and whether solids were eaten are not recorded.",
+      "recipe_inspiration_urls": [],
+      "micronutrient_retention_model": false
+    },
+    "hasma_rehydrated": {
+      "description": "hasma rehydrated",
+      "ingredients": [
+        {
+          "reference": "external:zhang-2017-hasma-dry",
+          "grams": 100
+        },
+        {
+          "reference": "usda:2346283",
+          "grams": 1900
+        }
+      ],
+      "final_edible_yield_g": 2000,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Assumed rehydration factor 20 g served per g dry reference. All macros retained. Actual soaking water and whether solids were eaten are not recorded.",
+      "recipe_inspiration_urls": [],
+      "micronutrient_retention_model": false
+    },
+    "shark_fin_rehydrated": {
+      "description": "shark fin rehydrated",
+      "ingredients": [
+        {
+          "reference": "external:mext-dried-shark-fin",
+          "grams": 100
+        },
+        {
+          "reference": "usda:2346283",
+          "grams": 400
+        }
+      ],
+      "final_edible_yield_g": 500,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Assumed rehydration factor 5 g served per g dry reference. All macros retained. Actual soaking water and whether solids were eaten are not recorded.",
+      "recipe_inspiration_urls": [],
+      "micronutrient_retention_model": false
+    },
+    "fish_maw_rehydrated": {
+      "description": "fish maw rehydrated",
+      "ingredients": [
+        {
+          "reference": "external:family-club-cod-maw-dry",
+          "grams": 100
+        },
+        {
+          "reference": "usda:2346283",
+          "grams": 400
+        }
+      ],
+      "final_edible_yield_g": 500,
+      "status": "recipe_estimate",
+      "yield_status": "project_assumption",
+      "assumptions": "Assumed rehydration factor 5 g served per g dry reference. All macros retained. Actual soaking water and whether solids were eaten are not recorded.",
+      "recipe_inspiration_urls": [],
+      "micronutrient_retention_model": false
+    }
+  },
+  "unresolved_reference_notes": {
+    "egg roll": "Standalone 蛋卷 ambiguous between crisp wafer biscuit and savoury egg wrap; specific mixed dishes handled separately.",
+    "dendrobium candidum": "25 mL diary entry does not specify infusion strength. Species/extract studies do not establish nutrients of this drink.",
+    "fish intestines": "鱼肠 may denote viscera or fish-sausage product. Species, product and preparation not resolved.",
+    "notoginseng powder": "Manufacturer Benseng root-powder specification leaves nutrient fields as question marks; no defensible complete profile or dose in the mixed meal."
+  }
+}

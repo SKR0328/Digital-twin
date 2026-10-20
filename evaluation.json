@@ -1,0 +1,431 @@
+{
+  "version": "tuned-20261020T073241Z-982161-seed2026",
+  "horizon_minutes": 60,
+  "feature_schema": "cgm13-nutrition-v3",
+  "seed": 2026,
+  "evaluation_scope": "internal_robustness",
+  "nutrition_catalog_id": "352c8a26aecc7e9331b5b6e086cb6ff5ff9f109fb2c6123bbcc681c2697e00e5",
+  "split_patients": {
+    "train": [
+      "2016",
+      "2017",
+      "2097",
+      "2010",
+      "2091",
+      "2031",
+      "2012",
+      "2064",
+      "2084",
+      "2055",
+      "2046",
+      "2076",
+      "2075",
+      "2019",
+      "2088",
+      "2044",
+      "2025",
+      "2051",
+      "2070",
+      "2035",
+      "2073",
+      "2047",
+      "2048",
+      "2029",
+      "2074",
+      "2085",
+      "2014",
+      "2015",
+      "2002",
+      "2003",
+      "2033",
+      "2072",
+      "2009",
+      "2022",
+      "2057",
+      "2008",
+      "2060",
+      "2052",
+      "2018",
+      "2069",
+      "2005",
+      "2039",
+      "2032",
+      "2043",
+      "2058",
+      "2038",
+      "2030",
+      "2037",
+      "2082",
+      "2067",
+      "2007",
+      "2068",
+      "2080",
+      "2077",
+      "2028",
+      "2089",
+      "2006",
+      "2062",
+      "2041",
+      "2081"
+    ],
+    "calibration": [
+      "2087",
+      "2061",
+      "2083",
+      "2045",
+      "2059",
+      "2001",
+      "2094",
+      "2011",
+      "2098",
+      "2096"
+    ],
+    "validation": [
+      "2056",
+      "2065",
+      "2021",
+      "2090",
+      "2099",
+      "2086",
+      "2054",
+      "2027",
+      "2066",
+      "2020"
+    ],
+    "test": [
+      "2036",
+      "2053",
+      "2000",
+      "2024",
+      "2050",
+      "2049",
+      "2013",
+      "2034",
+      "2079",
+      "2078",
+      "2023",
+      "2093",
+      "2092",
+      "2040",
+      "2071",
+      "2026",
+      "2095",
+      "2063",
+      "2004",
+      "2042"
+    ]
+  },
+  "counts": {
+    "train": 53651,
+    "calibration": 10709,
+    "validation": 7246,
+    "test": 16379
+  },
+  "validation": {
+    "nutrition_combined": {
+      "event_recall": 0.8857142857142857,
+      "false_alerts_per_patient_day": 0.9645333065407415,
+      "median_lead_minutes": 30.0,
+      "event_count": 140,
+      "caught_events": 124,
+      "alerts": 224,
+      "false_alerts": 100,
+      "monitored_days": 103.67708333333333,
+      "threshold": 0.32,
+      "windows": 7246,
+      "positive_windows": 528,
+      "brier": 0.045689211062652696,
+      "average_precision": 0.5627977515378104,
+      "roc_auc": 0.9274506752550813,
+      "calibration_bins": [
+        {
+          "mean_probability": 0.01403497911914382,
+          "observed_frequency": 0.0211802748585287,
+          "count": 6185
+        },
+        {
+          "mean_probability": 0.142347982244206,
+          "observed_frequency": 0.1988472622478386,
+          "count": 347
+        },
+        {
+          "mean_probability": 0.24921666400623005,
+          "observed_frequency": 0.25118483412322273,
+          "count": 211
+        },
+        {
+          "mean_probability": 0.34951086907036816,
+          "observed_frequency": 0.4,
+          "count": 150
+        },
+        {
+          "mean_probability": 0.450445535259272,
+          "observed_frequency": 0.4596774193548387,
+          "count": 124
+        },
+        {
+          "mean_probability": 0.5472963464601474,
+          "observed_frequency": 0.5876288659793815,
+          "count": 97
+        },
+        {
+          "mean_probability": 0.6531592354223673,
+          "observed_frequency": 0.6190476190476191,
+          "count": 63
+        },
+        {
+          "mean_probability": 0.7437038965034859,
+          "observed_frequency": 0.8571428571428571,
+          "count": 49
+        },
+        {
+          "mean_probability": 0.8336676873240133,
+          "observed_frequency": 1.0,
+          "count": 20
+        }
+      ],
+      "patient_bootstrap_95ci": {
+        "event_recall": [
+          0.8325980392156863,
+          0.9137519417872618
+        ],
+        "false_alerts_per_patient_day": [
+          0.5952047532358413,
+          1.4178014789753057
+        ]
+      },
+      "mean_lead_minutes": 28.18548387096774,
+      "caught_warned_30m_fraction": 0.5080645161290323
+    }
+  },
+  "test": {
+    "nutrition_combined": {
+      "event_recall": 0.826530612244898,
+      "false_alerts_per_patient_day": 1.390709603875748,
+      "median_lead_minutes": 30.0,
+      "event_count": 294,
+      "caught_events": 243,
+      "alerts": 548,
+      "false_alerts": 305,
+      "monitored_days": 219.3125,
+      "threshold": 0.32,
+      "windows": 16379,
+      "positive_windows": 1104,
+      "brier": 0.04718286892563039,
+      "average_precision": 0.45547064076637606,
+      "roc_auc": 0.9070546917621386,
+      "calibration_bins": [
+        {
+          "mean_probability": 0.016324092387048815,
+          "observed_frequency": 0.022631655302480777,
+          "count": 13786
+        },
+        {
+          "mean_probability": 0.1441558661190644,
+          "observed_frequency": 0.15755627009646303,
+          "count": 933
+        },
+        {
+          "mean_probability": 0.24425041269810507,
+          "observed_frequency": 0.23678646934460887,
+          "count": 473
+        },
+        {
+          "mean_probability": 0.3464106889643267,
+          "observed_frequency": 0.2878787878787879,
+          "count": 330
+        },
+        {
+          "mean_probability": 0.448071279400497,
+          "observed_frequency": 0.37542662116040953,
+          "count": 293
+        },
+        {
+          "mean_probability": 0.5488484318851509,
+          "observed_frequency": 0.4698275862068966,
+          "count": 232
+        },
+        {
+          "mean_probability": 0.6490086730451842,
+          "observed_frequency": 0.6140350877192983,
+          "count": 171
+        },
+        {
+          "mean_probability": 0.7475216845118906,
+          "observed_frequency": 0.6697247706422018,
+          "count": 109
+        },
+        {
+          "mean_probability": 0.8360984069628885,
+          "observed_frequency": 0.78,
+          "count": 50
+        },
+        {
+          "mean_probability": 0.9066089212471666,
+          "observed_frequency": 1.0,
+          "count": 2
+        }
+      ],
+      "patient_bootstrap_95ci": {
+        "event_recall": [
+          0.7708560010043521,
+          0.8732763532763532
+        ],
+        "false_alerts_per_patient_day": [
+          1.1342820532684992,
+          1.6864123842680883
+        ]
+      },
+      "mean_lead_minutes": 27.77777777777778,
+      "caught_warned_30m_fraction": 0.5185185185185185
+    }
+  },
+  "selected_model": "nutrition_combined",
+  "personalization_enabled": false,
+  "threshold": 0.32,
+  "selected_validation": {
+    "event_recall": 0.8857142857142857,
+    "false_alerts_per_patient_day": 0.9645333065407415,
+    "median_lead_minutes": 30.0,
+    "event_count": 140,
+    "caught_events": 124,
+    "alerts": 224,
+    "false_alerts": 100,
+    "monitored_days": 103.67708333333333,
+    "threshold": 0.32,
+    "windows": 7246,
+    "positive_windows": 528,
+    "brier": 0.045689211062652696,
+    "average_precision": 0.5627977515378104,
+    "roc_auc": 0.9274506752550813,
+    "calibration_bins": [
+      {
+        "mean_probability": 0.01403497911914382,
+        "observed_frequency": 0.0211802748585287,
+        "count": 6185
+      },
+      {
+        "mean_probability": 0.142347982244206,
+        "observed_frequency": 0.1988472622478386,
+        "count": 347
+      },
+      {
+        "mean_probability": 0.24921666400623005,
+        "observed_frequency": 0.25118483412322273,
+        "count": 211
+      },
+      {
+        "mean_probability": 0.34951086907036816,
+        "observed_frequency": 0.4,
+        "count": 150
+      },
+      {
+        "mean_probability": 0.450445535259272,
+        "observed_frequency": 0.4596774193548387,
+        "count": 124
+      },
+      {
+        "mean_probability": 0.5472963464601474,
+        "observed_frequency": 0.5876288659793815,
+        "count": 97
+      },
+      {
+        "mean_probability": 0.6531592354223673,
+        "observed_frequency": 0.6190476190476191,
+        "count": 63
+      },
+      {
+        "mean_probability": 0.7437038965034859,
+        "observed_frequency": 0.8571428571428571,
+        "count": 49
+      },
+      {
+        "mean_probability": 0.8336676873240133,
+        "observed_frequency": 1.0,
+        "count": 20
+      }
+    ],
+    "patient_bootstrap_95ci": {
+      "event_recall": [
+        0.8325980392156863,
+        0.9137519417872618
+      ],
+      "false_alerts_per_patient_day": [
+        0.5952047532358413,
+        1.4178014789753057
+      ]
+    },
+    "mean_lead_minutes": 28.18548387096774,
+    "caught_warned_30m_fraction": 0.5080645161290323
+  },
+  "proposed_targets": {
+    "event_recall": 0.7,
+    "false_alerts_per_patient_day": 1.0,
+    "median_lead_minutes": 30.0
+  },
+  "validation_targets_met": true,
+  "protocol": {
+    "split": "60/10/10/20 patients; all visits grouped; seed 2026",
+    "calibration": "Sigmoid calibration on separate patients, equal patient total weight",
+    "threshold": "Highest validation event recall at <=1 false alert per monitored patient-day; 75-minute cooldown for 60-minute horizon",
+    "personalization": "Disabled for this tuned release; benefit has not been established for these weights.",
+    "denominator": "Events with eligible fully labelled windows; days sum observed inter-reading intervals capped at 15 minutes; coverage reported separately",
+    "bootstrap": "500 patient-cluster resamples, percentile 95% intervals; no individual-window independence assumption",
+    "tuning": "Highest unweighted mean of three fold patient-weighted average precision scores; tie-break lower patient-weighted raw Brier error, then candidate order"
+  },
+  "environment": {
+    "python": "3.12.14",
+    "sklearn": "1.9.1",
+    "numpy": "2.5.3"
+  },
+  "limitations": [
+    "Research replay, not prospective clinical validation",
+    "Chinese cohort; no Indian external validation",
+    "Age and disease duration availability assumed at enrollment",
+    "Meal and medication availability assumed at source-row time; administration/documentation time not independently verified",
+    "Unrecorded meals or medicines are unknown, not absent",
+    "Food mass is not carbohydrate content; medication entry features are not a pharmacological model",
+    "Undated clinical summary fields displayed only",
+    "No causal treatment model or medication recommendations",
+    "Full noise/missingness robustness and clinical review remain outstanding",
+    "Short recordings limit personalization; test outcomes may update state only after they mature",
+    "Previously inspected cohort: internal robustness evidence, not fresh external validation.",
+    "80.60% is the mean across three independently tuned runs, not this model's event recall.",
+    "The seed-2026 model has 82.65% evaluation recall and 1.39 false alerts/day; it misses the proposed <=1/day target."
+  ],
+  "coverage": {
+    "eligible_labelled_windows": 87985,
+    "source_readings": 112462,
+    "note": "Suppression while above threshold, warm-up, gaps and incomplete future labels reduce coverage."
+  },
+  "nutrition_assumptions": [
+    "Per-100g edible portion. Unknown vegetable/fruit preparation uses raw reference per project instruction.",
+    "Cooked staple and animal-food defaults; finished products use product-as-consumed references.",
+    "Recipe proportions estimate unrecorded composition, not measured patient ingredients.",
+    "Reference means a food-composition estimate, never a measured patient meal.",
+    "Species proxies and generic product defaults remain labelled; no claim of exact patient nutrient values.",
+    "Recipe ingredient proportions and cooked/rehydrated yield must be recorded explicitly.",
+    "USDA total carbohydrate is the target basis. CFS available carbohydrate is converted by adding documented dietary fibre, with provenance.",
+    "CFC2002 fibre is insoluble fibre: retained as a labelled lower-bound proxy, not falsely described as measured total fibre.",
+    "No missing source nutrient is silently zero-filled; any substitution requires a separate declared reference or assumption.",
+    "USDA FNDDS 2019-2020 and SR Legacy 2018 downloaded from FoodData Central. IDs are explicit selections, not automatic fuzzy matches.",
+    "CFS Chinese composition entries may report insoluble fibre; preserve fibre definition rather than assert equivalence to total dietary fibre.",
+    "CFS NIIS describes personal non-commercial/reference use. Retain attribution; do not treat its contents as USDA public-domain data.",
+    "CFS source definitions: https://www.cfs.gov.hk/english/nutrient/searchmenu.php",
+    "Recipes with unspecified amounts use declared project assumptions. Source inspiration does not verify those assumed proportions."
+  ],
+  "nutrition_source": {
+    "dataset": "USDA SR Legacy/FNDDS, Hong Kong CFS NIIS, PhilFCT, MEXT and attributed recipes",
+    "reference_plan_sha256": "98333072d6ed0ab2e6737b7ecc12eaacd367ab2f769528e5ce8fb839d306f0c7",
+    "inventory_sha256": "8d6ef8ffdecd3e9f3cab44cb6aff68bcc3266188eabe6600b44c7900e7a74618"
+  },
+  "selected_settings": {
+    "name": "shorter",
+    "learning_rate": 0.05,
+    "max_iter": 140,
+    "max_leaf_nodes": 15,
+    "min_samples_leaf": 80,
+    "l2_regularization": 10
+  },
+  "experiment_id": "20261020T073241Z-982161"
+}

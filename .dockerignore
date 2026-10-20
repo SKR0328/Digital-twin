@@ -1,0 +1,13 @@
+.venv
+frontend/node_modules
+frontend/dist
+data
+artifacts
+logs
+.git
+**/__pycache__
+.env
+.env.*
+!.env.example
+*.zip
+release
