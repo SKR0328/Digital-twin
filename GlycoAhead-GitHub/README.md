@@ -13,7 +13,7 @@
 
 - [Architecture diagram (PDF)](docs/submission/GlycoAhead-Architecture.pdf) — runtime design, training/inference paths, database relationships and chronology safeguards.
 - [Project presentation (PDF)](docs/submission/GlycoAhead-Presentation.pdf) — 15 slides covering the problem, dataset, healthcare use case, technical design, models, measured results and future scope.
-- **15–20 minute demonstration video:**[ https://www.youtube.com/watch?v=0glDS7WuIog](url)
+- **15–20 minute demonstration video:[https://youtu.be/jXX4gfbNdbg](url)
 - [Submission checklist](docs/SUBMISSION_CHECKLIST.md).
 - [Open-source code license: MIT](LICENSE).
 - [Dataset and nutrition attribution](DATA_SOURCES.md).
